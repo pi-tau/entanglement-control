@@ -1,0 +1,3497 @@
+##############################
+Training parameters:
+    Number of trajectories:         1024
+    Maximum number of steps:        40
+    Minimum system entropy (epsi):  0.001
+    Number of iterations:           20001
+    Learning rate:                  0.0001
+    Learning rate decay:            1.0
+    Final learning rate:            0.0001
+    Weight regularization:          0.0
+    Entropy regularization:         0.01
+    Grad clipping threshold:        10.0
+    Neural network dropout:         0.0
+##############################
+
+Using device: cuda
+
+Using optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    initial_lr: 0.0001
+    lr: 0.0001
+    weight_decay: 0.0
+)
+
+Iteration (0/20001) took 2.588 seconds.
+    Mean return:              -29.8525
+    Mean episode entropy:     -118.3600
+    Mean final entropy:       0.0244
+    Median final entropy:     0.0023
+    Max final entropy:        0.6756
+    95 percentile entropy:    0.11764
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           2.9810
+    Policy pseudo loss:       -0.02797
+    Policy Total grad norm:   1.68927
+    Solved trajectories:      100 / 1024
+    Avg steps to disentangle: 37.090
+    Median steps to disent.:  38.0
+    
+Iteration 0
+Testing agent accuracy for 40 steps...
+Testing took 6.366 seconds.
+    Solved states:            0 / 10240 = 0.000%
+    Min entropy:              0.01989
+    Mean final entropy:       0.5707
+    95 percentile entropy:    0.64484
+    Max entropy:              0.69310
+    Mean return:              -40.0000
+    Avg steps to disentangle: 40.000
+    Median steps to disent.:  40.0
+    
+Iteration (100/20001) took 3.253 seconds.
+    Mean return:              -29.0283
+    Mean episode entropy:     -107.9868
+    Mean final entropy:       0.0225
+    Median final entropy:     0.0022
+    Max final entropy:        0.6806
+    95 percentile entropy:    0.09971
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           2.7213
+    Policy pseudo loss:       0.05212
+    Policy Total grad norm:   1.63877
+    Solved trajectories:      108 / 1024
+    Avg steps to disentangle: 36.972
+    Median steps to disent.:  38.0
+    
+Iteration (200/20001) took 3.273 seconds.
+    Mean return:              -27.0273
+    Mean episode entropy:     -100.1485
+    Mean final entropy:       0.0182
+    Median final entropy:     0.0022
+    Max final entropy:        0.6794
+    95 percentile entropy:    0.07614
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           2.5275
+    Policy pseudo loss:       -0.18893
+    Policy Total grad norm:   1.82246
+    Solved trajectories:      127 / 1024
+    Avg steps to disentangle: 37.197
+    Median steps to disent.:  38.0
+    
+Iteration (300/20001) took 3.257 seconds.
+    Mean return:              -27.3252
+    Mean episode entropy:     -90.8246
+    Mean final entropy:       0.0185
+    Median final entropy:     0.0021
+    Max final entropy:        0.6790
+    95 percentile entropy:    0.07095
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           2.2947
+    Policy pseudo loss:       -0.16912
+    Policy Total grad norm:   2.07608
+    Solved trajectories:      124 / 1024
+    Avg steps to disentangle: 37.145
+    Median steps to disent.:  37.5
+    
+Iteration (400/20001) took 3.322 seconds.
+    Mean return:              -25.6787
+    Mean episode entropy:     -84.8461
+    Mean final entropy:       0.0139
+    Median final entropy:     0.0019
+    Max final entropy:        0.6804
+    95 percentile entropy:    0.05307
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           2.1479
+    Policy pseudo loss:       0.12178
+    Policy Total grad norm:   3.45615
+    Solved trajectories:      141 / 1024
+    Avg steps to disentangle: 36.993
+    Median steps to disent.:  38.0
+    
+Iteration (500/20001) took 3.060 seconds.
+    Mean return:              -24.1445
+    Mean episode entropy:     -84.2479
+    Mean final entropy:       0.0146
+    Median final entropy:     0.0015
+    Max final entropy:        0.6763
+    95 percentile entropy:    0.03941
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           2.1291
+    Policy pseudo loss:       -0.34307
+    Policy Total grad norm:   3.10128
+    Solved trajectories:      156 / 1024
+    Avg steps to disentangle: 36.923
+    Median steps to disent.:  38.0
+    
+Iteration (600/20001) took 3.171 seconds.
+    Mean return:              -23.1270
+    Mean episode entropy:     -76.3674
+    Mean final entropy:       0.0125
+    Median final entropy:     0.0017
+    Max final entropy:        0.6740
+    95 percentile entropy:    0.03938
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.9265
+    Policy pseudo loss:       -0.02386
+    Policy Total grad norm:   4.12100
+    Solved trajectories:      166 / 1024
+    Avg steps to disentangle: 36.916
+    Median steps to disent.:  38.0
+    
+Iteration (700/20001) took 2.856 seconds.
+    Mean return:              -23.4219
+    Mean episode entropy:     -76.6597
+    Mean final entropy:       0.0272
+    Median final entropy:     0.0016
+    Max final entropy:        0.6846
+    95 percentile entropy:    0.11855
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.9412
+    Policy pseudo loss:       0.06189
+    Policy Total grad norm:   4.99023
+    Solved trajectories:      163 / 1024
+    Avg steps to disentangle: 36.853
+    Median steps to disent.:  38.0
+    
+Iteration (800/20001) took 3.365 seconds.
+    Mean return:              -20.1318
+    Mean episode entropy:     -73.9390
+    Mean final entropy:       0.0148
+    Median final entropy:     0.0015
+    Max final entropy:        0.6782
+    95 percentile entropy:    0.03709
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.8757
+    Policy pseudo loss:       0.02517
+    Policy Total grad norm:   4.51066
+    Solved trajectories:      193 / 1024
+    Avg steps to disentangle: 36.632
+    Median steps to disent.:  37.0
+    
+Iteration (900/20001) took 3.218 seconds.
+    Mean return:              -15.1650
+    Mean episode entropy:     -71.4883
+    Mean final entropy:       0.0168
+    Median final entropy:     0.0011
+    Max final entropy:        0.6681
+    95 percentile entropy:    0.05008
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.8158
+    Policy pseudo loss:       -0.30079
+    Policy Total grad norm:   3.14727
+    Solved trajectories:      244 / 1024
+    Avg steps to disentangle: 36.775
+    Median steps to disent.:  37.5
+    
+Iteration (1000/20001) took 3.694 seconds.
+    Mean return:              -16.3145
+    Mean episode entropy:     -69.9978
+    Mean final entropy:       0.0183
+    Median final entropy:     0.0011
+    Max final entropy:        0.6885
+    95 percentile entropy:    0.04921
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.7944
+    Policy pseudo loss:       0.05623
+    Policy Total grad norm:   5.96367
+    Solved trajectories:      230 / 1024
+    Avg steps to disentangle: 36.439
+    Median steps to disent.:  37.0
+    
+Iteration 1000
+Testing agent accuracy for 40 steps...
+Testing took 8.325 seconds.
+    Solved states:            0 / 10240 = 0.000%
+    Min entropy:              0.00006
+    Mean final entropy:       0.5281
+    95 percentile entropy:    0.63869
+    Max entropy:              0.69309
+    Mean return:              -40.0000
+    Avg steps to disentangle: 40.000
+    Median steps to disent.:  40.0
+    
+Iteration (1100/20001) took 2.867 seconds.
+    Mean return:              -14.0801
+    Mean episode entropy:     -68.2771
+    Mean final entropy:       0.0214
+    Median final entropy:     0.0010
+    Max final entropy:        0.6816
+    95 percentile entropy:    0.06001
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.7437
+    Policy pseudo loss:       0.04788
+    Policy Total grad norm:   5.30677
+    Solved trajectories:      253 / 1024
+    Avg steps to disentangle: 36.490
+    Median steps to disent.:  37.0
+    
+Iteration (1200/20001) took 2.921 seconds.
+    Mean return:              -13.0049
+    Mean episode entropy:     -67.2997
+    Mean final entropy:       0.0293
+    Median final entropy:     0.0009
+    Max final entropy:        0.6841
+    95 percentile entropy:    0.26626
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.7311
+    Policy pseudo loss:       0.01864
+    Policy Total grad norm:   5.45314
+    Solved trajectories:      264 / 1024
+    Avg steps to disentangle: 36.292
+    Median steps to disent.:  37.0
+    
+Iteration (1300/20001) took 3.029 seconds.
+    Mean return:              -9.7871
+    Mean episode entropy:     -64.8307
+    Mean final entropy:       0.0187
+    Median final entropy:     0.0009
+    Max final entropy:        0.6850
+    95 percentile entropy:    0.02650
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.6714
+    Policy pseudo loss:       0.01039
+    Policy Total grad norm:   5.22550
+    Solved trajectories:      295 / 1024
+    Avg steps to disentangle: 36.471
+    Median steps to disent.:  37.0
+    
+Iteration (1400/20001) took 3.210 seconds.
+    Mean return:              -11.0254
+    Mean episode entropy:     -64.4773
+    Mean final entropy:       0.0226
+    Median final entropy:     0.0008
+    Max final entropy:        0.6883
+    95 percentile entropy:    0.05046
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.6580
+    Policy pseudo loss:       -0.12523
+    Policy Total grad norm:   5.53630
+    Solved trajectories:      283 / 1024
+    Avg steps to disentangle: 36.159
+    Median steps to disent.:  37.0
+    
+Iteration (1500/20001) took 2.819 seconds.
+    Mean return:              -8.5732
+    Mean episode entropy:     -62.1159
+    Mean final entropy:       0.0130
+    Median final entropy:     0.0008
+    Max final entropy:        0.6634
+    95 percentile entropy:    0.02129
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5999
+    Policy pseudo loss:       -0.31934
+    Policy Total grad norm:   6.08265
+    Solved trajectories:      306 / 1024
+    Avg steps to disentangle: 36.176
+    Median steps to disent.:  37.0
+    
+Iteration (1600/20001) took 3.306 seconds.
+    Mean return:              -6.1748
+    Mean episode entropy:     -61.2686
+    Mean final entropy:       0.0197
+    Median final entropy:     0.0007
+    Max final entropy:        0.6891
+    95 percentile entropy:    0.04508
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5928
+    Policy pseudo loss:       0.22388
+    Policy Total grad norm:   6.93902
+    Solved trajectories:      326 / 1024
+    Avg steps to disentangle: 36.006
+    Median steps to disent.:  37.0
+    
+Iteration (1700/20001) took 3.316 seconds.
+    Mean return:              -6.5684
+    Mean episode entropy:     -61.7910
+    Mean final entropy:       0.0138
+    Median final entropy:     0.0007
+    Max final entropy:        0.6591
+    95 percentile entropy:    0.02586
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5993
+    Policy pseudo loss:       0.12005
+    Policy Total grad norm:   5.63551
+    Solved trajectories:      326 / 1024
+    Avg steps to disentangle: 35.988
+    Median steps to disent.:  36.5
+    
+Iteration (1800/20001) took 3.195 seconds.
+    Mean return:              -1.5488
+    Mean episode entropy:     -60.9630
+    Mean final entropy:       0.0165
+    Median final entropy:     0.0006
+    Max final entropy:        0.6764
+    95 percentile entropy:    0.02794
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5885
+    Policy pseudo loss:       0.07057
+    Policy Total grad norm:   7.02244
+    Solved trajectories:      372 / 1024
+    Avg steps to disentangle: 36.261
+    Median steps to disent.:  37.0
+    
+Iteration (1900/20001) took 3.269 seconds.
+    Mean return:              -1.5400
+    Mean episode entropy:     -58.7759
+    Mean final entropy:       0.0173
+    Median final entropy:     0.0006
+    Max final entropy:        0.6799
+    95 percentile entropy:    0.03488
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5343
+    Policy pseudo loss:       0.39454
+    Policy Total grad norm:   5.19773
+    Solved trajectories:      373 / 1024
+    Avg steps to disentangle: 35.957
+    Median steps to disent.:  36.0
+    
+Iteration (2000/20001) took 3.520 seconds.
+    Mean return:              -0.7783
+    Mean episode entropy:     -58.2030
+    Mean final entropy:       0.0111
+    Median final entropy:     0.0006
+    Max final entropy:        0.6588
+    95 percentile entropy:    0.01889
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5296
+    Policy pseudo loss:       0.19318
+    Policy Total grad norm:   9.60182
+    Solved trajectories:      381 / 1024
+    Avg steps to disentangle: 35.850
+    Median steps to disent.:  36.0
+    
+Iteration 2000
+Testing agent accuracy for 40 steps...
+Testing took 8.173 seconds.
+    Solved states:            5 / 10240 = 0.049%
+    Min entropy:              0.00004
+    Mean final entropy:       0.4762
+    95 percentile entropy:    0.63694
+    Max entropy:              0.69311
+    Mean return:              -39.9434
+    Avg steps to disentangle: 39.993
+    Median steps to disent.:  40.0
+    
+Iteration (2100/20001) took 2.567 seconds.
+    Mean return:              1.3682
+    Mean episode entropy:     -58.4272
+    Mean final entropy:       0.0126
+    Median final entropy:     0.0005
+    Max final entropy:        0.6771
+    95 percentile entropy:    0.01336
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.5353
+    Policy pseudo loss:       -0.21301
+    Policy Total grad norm:   5.78330
+    Solved trajectories:      402 / 1024
+    Avg steps to disentangle: 35.876
+    Median steps to disent.:  36.0
+    
+Iteration (2200/20001) took 2.622 seconds.
+    Mean return:              1.9619
+    Mean episode entropy:     -56.5423
+    Mean final entropy:       0.0089
+    Median final entropy:     0.0006
+    Max final entropy:        0.6394
+    95 percentile entropy:    0.01273
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4986
+    Policy pseudo loss:       0.21071
+    Policy Total grad norm:   7.03716
+    Solved trajectories:      408 / 1024
+    Avg steps to disentangle: 35.684
+    Median steps to disent.:  37.0
+    
+Iteration (2300/20001) took 2.600 seconds.
+    Mean return:              3.3047
+    Mean episode entropy:     -55.7469
+    Mean final entropy:       0.0140
+    Median final entropy:     0.0005
+    Max final entropy:        0.6896
+    95 percentile entropy:    0.02193
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4677
+    Policy pseudo loss:       0.44846
+    Policy Total grad norm:   8.40587
+    Solved trajectories:      422 / 1024
+    Avg steps to disentangle: 35.919
+    Median steps to disent.:  37.0
+    
+Iteration (2400/20001) took 3.248 seconds.
+    Mean return:              1.7607
+    Mean episode entropy:     -56.0210
+    Mean final entropy:       0.0103
+    Median final entropy:     0.0006
+    Max final entropy:        0.6708
+    95 percentile entropy:    0.01360
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4724
+    Policy pseudo loss:       -0.00562
+    Policy Total grad norm:   9.28199
+    Solved trajectories:      405 / 1024
+    Avg steps to disentangle: 35.662
+    Median steps to disent.:  36.0
+    
+Iteration (2500/20001) took 2.944 seconds.
+    Mean return:              6.2441
+    Mean episode entropy:     -55.3193
+    Mean final entropy:       0.0164
+    Median final entropy:     0.0005
+    Max final entropy:        0.6799
+    95 percentile entropy:    0.02808
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4689
+    Policy pseudo loss:       0.77629
+    Policy Total grad norm:   9.35720
+    Solved trajectories:      448 / 1024
+    Avg steps to disentangle: 35.752
+    Median steps to disent.:  37.0
+    
+Iteration (2600/20001) took 2.925 seconds.
+    Mean return:              4.9189
+    Mean episode entropy:     -55.5662
+    Mean final entropy:       0.0092
+    Median final entropy:     0.0005
+    Max final entropy:        0.6509
+    95 percentile entropy:    0.01287
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4648
+    Policy pseudo loss:       -0.34818
+    Policy Total grad norm:   7.38724
+    Solved trajectories:      435 / 1024
+    Avg steps to disentangle: 35.733
+    Median steps to disent.:  36.0
+    
+Iteration (2700/20001) took 2.946 seconds.
+    Mean return:              7.2432
+    Mean episode entropy:     -53.2406
+    Mean final entropy:       0.0113
+    Median final entropy:     0.0005
+    Max final entropy:        0.6896
+    95 percentile entropy:    0.01757
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4240
+    Policy pseudo loss:       0.50059
+    Policy Total grad norm:   10.14932
+    Solved trajectories:      458 / 1024
+    Avg steps to disentangle: 35.594
+    Median steps to disent.:  36.0
+    
+Iteration (2800/20001) took 3.553 seconds.
+    Mean return:              8.1143
+    Mean episode entropy:     -53.4810
+    Mean final entropy:       0.0087
+    Median final entropy:     0.0005
+    Max final entropy:        0.6684
+    95 percentile entropy:    0.01459
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4380
+    Policy pseudo loss:       0.10997
+    Policy Total grad norm:   8.47283
+    Solved trajectories:      466 / 1024
+    Avg steps to disentangle: 35.500
+    Median steps to disent.:  36.0
+    
+Iteration (2900/20001) took 2.718 seconds.
+    Mean return:              7.8105
+    Mean episode entropy:     -53.0591
+    Mean final entropy:       0.0068
+    Median final entropy:     0.0005
+    Max final entropy:        0.5959
+    95 percentile entropy:    0.00817
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4135
+    Policy pseudo loss:       0.21079
+    Policy Total grad norm:   5.78023
+    Solved trajectories:      462 / 1024
+    Avg steps to disentangle: 35.688
+    Median steps to disent.:  36.0
+    
+Iteration (3000/20001) took 2.612 seconds.
+    Mean return:              13.2959
+    Mean episode entropy:     -52.6729
+    Mean final entropy:       0.0075
+    Median final entropy:     0.0004
+    Max final entropy:        0.6883
+    95 percentile entropy:    0.00906
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4213
+    Policy pseudo loss:       -0.19475
+    Policy Total grad norm:   11.29616
+    Solved trajectories:      517 / 1024
+    Avg steps to disentangle: 35.439
+    Median steps to disent.:  36.0
+    
+Iteration 3000
+Testing agent accuracy for 40 steps...
+Testing took 8.109 seconds.
+    Solved states:            39 / 10240 = 0.381%
+    Min entropy:              0.00000
+    Mean final entropy:       0.4255
+    95 percentile entropy:    0.63333
+    Max entropy:              0.69304
+    Mean return:              -39.5619
+    Avg steps to disentangle: 39.956
+    Median steps to disent.:  40.0
+    
+Iteration (3100/20001) took 3.212 seconds.
+    Mean return:              12.8799
+    Mean episode entropy:     -52.8806
+    Mean final entropy:       0.0089
+    Median final entropy:     0.0004
+    Max final entropy:        0.6729
+    95 percentile entropy:    0.00927
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.4247
+    Policy pseudo loss:       0.10940
+    Policy Total grad norm:   7.11497
+    Solved trajectories:      509 / 1024
+    Avg steps to disentangle: 35.415
+    Median steps to disent.:  36.0
+    
+Iteration (3200/20001) took 3.440 seconds.
+    Mean return:              16.9531
+    Mean episode entropy:     -51.1677
+    Mean final entropy:       0.0048
+    Median final entropy:     0.0004
+    Max final entropy:        0.6524
+    95 percentile entropy:    0.00674
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3933
+    Policy pseudo loss:       0.16251
+    Policy Total grad norm:   8.68171
+    Solved trajectories:      551 / 1024
+    Avg steps to disentangle: 35.156
+    Median steps to disent.:  36.0
+    
+Iteration (3300/20001) took 3.224 seconds.
+    Mean return:              16.3340
+    Mean episode entropy:     -50.5231
+    Mean final entropy:       0.0052
+    Median final entropy:     0.0004
+    Max final entropy:        0.6704
+    95 percentile entropy:    0.00530
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3779
+    Policy pseudo loss:       0.07016
+    Policy Total grad norm:   8.21008
+    Solved trajectories:      542 / 1024
+    Avg steps to disentangle: 34.941
+    Median steps to disent.:  36.0
+    
+Iteration (3400/20001) took 4.105 seconds.
+    Mean return:              19.1016
+    Mean episode entropy:     -50.2094
+    Mean final entropy:       0.0031
+    Median final entropy:     0.0004
+    Max final entropy:        0.5488
+    95 percentile entropy:    0.00476
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3715
+    Policy pseudo loss:       -0.49987
+    Policy Total grad norm:   8.85113
+    Solved trajectories:      569 / 1024
+    Avg steps to disentangle: 35.170
+    Median steps to disent.:  36.0
+    
+Iteration (3500/20001) took 3.226 seconds.
+    Mean return:              16.4727
+    Mean episode entropy:     -50.6968
+    Mean final entropy:       0.0059
+    Median final entropy:     0.0003
+    Max final entropy:        0.6624
+    95 percentile entropy:    0.00627
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3893
+    Policy pseudo loss:       -0.00897
+    Policy Total grad norm:   8.81258
+    Solved trajectories:      546 / 1024
+    Avg steps to disentangle: 35.275
+    Median steps to disent.:  36.0
+    
+Iteration (3600/20001) took 3.375 seconds.
+    Mean return:              24.1025
+    Mean episode entropy:     -48.0653
+    Mean final entropy:       0.0063
+    Median final entropy:     0.0003
+    Max final entropy:        0.6573
+    95 percentile entropy:    0.00516
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3346
+    Policy pseudo loss:       0.59213
+    Policy Total grad norm:   7.06805
+    Solved trajectories:      619 / 1024
+    Avg steps to disentangle: 35.120
+    Median steps to disent.:  36.0
+    
+Iteration (3700/20001) took 3.044 seconds.
+    Mean return:              21.6631
+    Mean episode entropy:     -48.1437
+    Mean final entropy:       0.0040
+    Median final entropy:     0.0003
+    Max final entropy:        0.6337
+    95 percentile entropy:    0.00504
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3220
+    Policy pseudo loss:       0.19794
+    Policy Total grad norm:   8.81625
+    Solved trajectories:      595 / 1024
+    Avg steps to disentangle: 35.224
+    Median steps to disent.:  36.0
+    
+Iteration (3800/20001) took 3.333 seconds.
+    Mean return:              22.4629
+    Mean episode entropy:     -47.7947
+    Mean final entropy:       0.0054
+    Median final entropy:     0.0003
+    Max final entropy:        0.6866
+    95 percentile entropy:    0.00449
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3054
+    Policy pseudo loss:       0.24242
+    Policy Total grad norm:   11.53847
+    Solved trajectories:      603 / 1024
+    Avg steps to disentangle: 35.262
+    Median steps to disent.:  36.0
+    
+Iteration (3900/20001) took 3.206 seconds.
+    Mean return:              21.6123
+    Mean episode entropy:     -46.3892
+    Mean final entropy:       0.0045
+    Median final entropy:     0.0004
+    Max final entropy:        0.6792
+    95 percentile entropy:    0.00388
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2730
+    Policy pseudo loss:       0.18193
+    Policy Total grad norm:   16.97789
+    Solved trajectories:      593 / 1024
+    Avg steps to disentangle: 34.948
+    Median steps to disent.:  35.0
+    
+Iteration (4000/20001) took 3.188 seconds.
+    Mean return:              27.8545
+    Mean episode entropy:     -46.8385
+    Mean final entropy:       0.0050
+    Median final entropy:     0.0003
+    Max final entropy:        0.6811
+    95 percentile entropy:    0.00335
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.3047
+    Policy pseudo loss:       -0.25477
+    Policy Total grad norm:   11.72774
+    Solved trajectories:      653 / 1024
+    Avg steps to disentangle: 35.064
+    Median steps to disent.:  36.0
+    
+Iteration 4000
+Testing agent accuracy for 40 steps...
+Testing took 8.321 seconds.
+    Solved states:            151 / 10240 = 1.475%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.3877
+    95 percentile entropy:    0.63049
+    Max entropy:              0.69308
+    Mean return:              -38.3275
+    Avg steps to disentangle: 39.827
+    Median steps to disent.:  40.0
+    
+Iteration (4100/20001) took 3.103 seconds.
+    Mean return:              28.4102
+    Mean episode entropy:     -45.8413
+    Mean final entropy:       0.0021
+    Median final entropy:     0.0003
+    Max final entropy:        0.5033
+    95 percentile entropy:    0.00346
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2833
+    Policy pseudo loss:       -0.21918
+    Policy Total grad norm:   8.21530
+    Solved trajectories:      656 / 1024
+    Avg steps to disentangle: 34.529
+    Median steps to disent.:  35.0
+    
+Iteration (4200/20001) took 3.364 seconds.
+    Mean return:              27.2412
+    Mean episode entropy:     -45.0206
+    Mean final entropy:       0.0035
+    Median final entropy:     0.0003
+    Max final entropy:        0.6090
+    95 percentile entropy:    0.00367
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2657
+    Policy pseudo loss:       -0.36633
+    Policy Total grad norm:   8.07382
+    Solved trajectories:      641 / 1024
+    Avg steps to disentangle: 34.376
+    Median steps to disent.:  35.0
+    
+Iteration (4300/20001) took 3.109 seconds.
+    Mean return:              31.5244
+    Mean episode entropy:     -45.2151
+    Mean final entropy:       0.0029
+    Median final entropy:     0.0003
+    Max final entropy:        0.6863
+    95 percentile entropy:    0.00292
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2744
+    Policy pseudo loss:       -0.21518
+    Policy Total grad norm:   9.65807
+    Solved trajectories:      690 / 1024
+    Avg steps to disentangle: 34.854
+    Median steps to disent.:  35.0
+    
+Iteration (4400/20001) took 2.808 seconds.
+    Mean return:              33.8467
+    Mean episode entropy:     -43.4764
+    Mean final entropy:       0.0021
+    Median final entropy:     0.0002
+    Max final entropy:        0.5111
+    95 percentile entropy:    0.00302
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2409
+    Policy pseudo loss:       -0.18292
+    Policy Total grad norm:   8.01747
+    Solved trajectories:      710 / 1024
+    Avg steps to disentangle: 34.494
+    Median steps to disent.:  35.0
+    
+Iteration (4500/20001) took 3.243 seconds.
+    Mean return:              36.3789
+    Mean episode entropy:     -43.4217
+    Mean final entropy:       0.0020
+    Median final entropy:     0.0002
+    Max final entropy:        0.5419
+    95 percentile entropy:    0.00295
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2511
+    Policy pseudo loss:       -0.23393
+    Policy Total grad norm:   10.07795
+    Solved trajectories:      732 / 1024
+    Avg steps to disentangle: 34.567
+    Median steps to disent.:  35.0
+    
+Iteration (4600/20001) took 3.473 seconds.
+    Mean return:              36.2139
+    Mean episode entropy:     -41.7188
+    Mean final entropy:       0.0030
+    Median final entropy:     0.0003
+    Max final entropy:        0.6088
+    95 percentile entropy:    0.00223
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2040
+    Policy pseudo loss:       -0.29251
+    Policy Total grad norm:   10.53118
+    Solved trajectories:      729 / 1024
+    Avg steps to disentangle: 34.222
+    Median steps to disent.:  35.0
+    
+Iteration (4700/20001) took 3.325 seconds.
+    Mean return:              38.1328
+    Mean episode entropy:     -41.3230
+    Mean final entropy:       0.0033
+    Median final entropy:     0.0002
+    Max final entropy:        0.6791
+    95 percentile entropy:    0.00247
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2078
+    Policy pseudo loss:       0.04327
+    Policy Total grad norm:   8.26388
+    Solved trajectories:      748 / 1024
+    Avg steps to disentangle: 34.172
+    Median steps to disent.:  34.0
+    
+Iteration (4800/20001) took 2.945 seconds.
+    Mean return:              42.5693
+    Mean episode entropy:     -41.3585
+    Mean final entropy:       0.0012
+    Median final entropy:     0.0002
+    Max final entropy:        0.4214
+    95 percentile entropy:    0.00184
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2156
+    Policy pseudo loss:       -0.75974
+    Policy Total grad norm:   8.62917
+    Solved trajectories:      785 / 1024
+    Avg steps to disentangle: 34.068
+    Median steps to disent.:  34.0
+    
+Iteration (4900/20001) took 3.150 seconds.
+    Mean return:              43.1240
+    Mean episode entropy:     -40.8855
+    Mean final entropy:       0.0013
+    Median final entropy:     0.0002
+    Max final entropy:        0.5285
+    95 percentile entropy:    0.00182
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.2004
+    Policy pseudo loss:       -0.33649
+    Policy Total grad norm:   7.15143
+    Solved trajectories:      793 / 1024
+    Avg steps to disentangle: 34.172
+    Median steps to disent.:  35.0
+    
+Iteration (5000/20001) took 3.112 seconds.
+    Mean return:              45.9463
+    Mean episode entropy:     -39.4537
+    Mean final entropy:       0.0019
+    Median final entropy:     0.0002
+    Max final entropy:        0.6832
+    95 percentile entropy:    0.00176
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1722
+    Policy pseudo loss:       -0.04629
+    Policy Total grad norm:   11.39778
+    Solved trajectories:      819 / 1024
+    Avg steps to disentangle: 34.034
+    Median steps to disent.:  34.0
+    
+Iteration 5000
+Testing agent accuracy for 40 steps...
+Testing took 8.326 seconds.
+    Solved states:            610 / 10240 = 5.957%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.2847
+    95 percentile entropy:    0.62611
+    Max entropy:              0.69304
+    Mean return:              -33.2381
+    Avg steps to disentangle: 39.274
+    Median steps to disent.:  40.0
+    
+Iteration (5100/20001) took 3.196 seconds.
+    Mean return:              45.4863
+    Mean episode entropy:     -39.5849
+    Mean final entropy:       0.0022
+    Median final entropy:     0.0002
+    Max final entropy:        0.6435
+    95 percentile entropy:    0.00182
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1899
+    Policy pseudo loss:       -0.28084
+    Policy Total grad norm:   8.95262
+    Solved trajectories:      815 / 1024
+    Avg steps to disentangle: 33.963
+    Median steps to disent.:  34.0
+    
+Iteration (5200/20001) took 3.086 seconds.
+    Mean return:              48.4150
+    Mean episode entropy:     -37.5181
+    Mean final entropy:       0.0028
+    Median final entropy:     0.0002
+    Max final entropy:        0.6839
+    95 percentile entropy:    0.00156
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1354
+    Policy pseudo loss:       -0.51426
+    Policy Total grad norm:   8.91422
+    Solved trajectories:      839 / 1024
+    Avg steps to disentangle: 33.330
+    Median steps to disent.:  33.0
+    
+Iteration (5300/20001) took 2.685 seconds.
+    Mean return:              48.5410
+    Mean episode entropy:     -37.9833
+    Mean final entropy:       0.0019
+    Median final entropy:     0.0002
+    Max final entropy:        0.6699
+    95 percentile entropy:    0.00142
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1640
+    Policy pseudo loss:       -0.06625
+    Policy Total grad norm:   11.34467
+    Solved trajectories:      840 / 1024
+    Avg steps to disentangle: 33.427
+    Median steps to disent.:  34.0
+    
+Iteration (5400/20001) took 4.028 seconds.
+    Mean return:              50.8418
+    Mean episode entropy:     -37.3949
+    Mean final entropy:       0.0019
+    Median final entropy:     0.0002
+    Max final entropy:        0.6804
+    95 percentile entropy:    0.00154
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1528
+    Policy pseudo loss:       -0.07457
+    Policy Total grad norm:   11.47863
+    Solved trajectories:      863 / 1024
+    Avg steps to disentangle: 33.445
+    Median steps to disent.:  34.0
+    
+Iteration (5500/20001) took 3.174 seconds.
+    Mean return:              50.9131
+    Mean episode entropy:     -37.6235
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0001
+    Max final entropy:        0.1834
+    95 percentile entropy:    0.00144
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1695
+    Policy pseudo loss:       -0.27409
+    Policy Total grad norm:   13.43130
+    Solved trajectories:      865 / 1024
+    Avg steps to disentangle: 33.376
+    Median steps to disent.:  34.0
+    
+Iteration (5600/20001) took 3.702 seconds.
+    Mean return:              54.0684
+    Mean episode entropy:     -37.2365
+    Mean final entropy:       0.0012
+    Median final entropy:     0.0001
+    Max final entropy:        0.4954
+    95 percentile entropy:    0.00112
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1478
+    Policy pseudo loss:       -0.49351
+    Policy Total grad norm:   10.14507
+    Solved trajectories:      892 / 1024
+    Avg steps to disentangle: 33.354
+    Median steps to disent.:  33.0
+    
+Iteration (5700/20001) took 3.143 seconds.
+    Mean return:              53.8506
+    Mean episode entropy:     -35.4493
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0001
+    Max final entropy:        0.4336
+    95 percentile entropy:    0.00116
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1119
+    Policy pseudo loss:       -0.37980
+    Policy Total grad norm:   9.34307
+    Solved trajectories:      889 / 1024
+    Avg steps to disentangle: 33.011
+    Median steps to disent.:  33.0
+    
+Iteration (5800/20001) took 3.402 seconds.
+    Mean return:              54.8984
+    Mean episode entropy:     -35.6882
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0001
+    Max final entropy:        0.5791
+    95 percentile entropy:    0.00111
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1214
+    Policy pseudo loss:       -0.51654
+    Policy Total grad norm:   10.28919
+    Solved trajectories:      896 / 1024
+    Avg steps to disentangle: 33.003
+    Median steps to disent.:  33.0
+    
+Iteration (5900/20001) took 3.043 seconds.
+    Mean return:              56.6172
+    Mean episode entropy:     -34.4616
+    Mean final entropy:       0.0015
+    Median final entropy:     0.0001
+    Max final entropy:        0.5899
+    95 percentile entropy:    0.00104
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1102
+    Policy pseudo loss:       -0.64263
+    Policy Total grad norm:   8.96740
+    Solved trajectories:      912 / 1024
+    Avg steps to disentangle: 32.740
+    Median steps to disent.:  33.0
+    
+Iteration (6000/20001) took 4.012 seconds.
+    Mean return:              58.2100
+    Mean episode entropy:     -33.1884
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0001
+    Max final entropy:        0.0554
+    95 percentile entropy:    0.00092
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0779
+    Policy pseudo loss:       -0.56518
+    Policy Total grad norm:   9.88049
+    Solved trajectories:      922 / 1024
+    Avg steps to disentangle: 32.363
+    Median steps to disent.:  32.0
+    
+Iteration 6000
+Testing agent accuracy for 40 steps...
+Testing took 8.317 seconds.
+    Solved states:            1744 / 10240 = 17.031%
+    Min entropy:              0.00000
+    Mean final entropy:       0.1550
+    95 percentile entropy:    0.61688
+    Max entropy:              0.69285
+    Mean return:              -20.6278
+    Avg steps to disentangle: 37.898
+    Median steps to disent.:  40.0
+    
+Iteration (6100/20001) took 2.624 seconds.
+    Mean return:              58.6904
+    Mean episode entropy:     -33.4189
+    Mean final entropy:       0.0018
+    Median final entropy:     0.0001
+    Max final entropy:        0.6773
+    95 percentile entropy:    0.00094
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0879
+    Policy pseudo loss:       -0.05846
+    Policy Total grad norm:   7.77210
+    Solved trajectories:      926 / 1024
+    Avg steps to disentangle: 32.410
+    Median steps to disent.:  32.0
+    
+Iteration (6200/20001) took 2.959 seconds.
+    Mean return:              62.5322
+    Mean episode entropy:     -32.3587
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0001
+    Max final entropy:        0.1003
+    95 percentile entropy:    0.00075
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0857
+    Policy pseudo loss:       -0.40979
+    Policy Total grad norm:   6.30364
+    Solved trajectories:      960 / 1024
+    Avg steps to disentangle: 32.053
+    Median steps to disent.:  32.0
+    
+Iteration (6300/20001) took 3.096 seconds.
+    Mean return:              59.2949
+    Mean episode entropy:     -33.8778
+    Mean final entropy:       0.0014
+    Median final entropy:     0.0001
+    Max final entropy:        0.6640
+    95 percentile entropy:    0.00092
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.1043
+    Policy pseudo loss:       -0.49510
+    Policy Total grad norm:   8.99810
+    Solved trajectories:      934 / 1024
+    Avg steps to disentangle: 32.245
+    Median steps to disent.:  32.0
+    
+Iteration (6400/20001) took 3.168 seconds.
+    Mean return:              60.0869
+    Mean episode entropy:     -32.5716
+    Mean final entropy:       0.0013
+    Median final entropy:     0.0001
+    Max final entropy:        0.6877
+    95 percentile entropy:    0.00085
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0875
+    Policy pseudo loss:       -0.43930
+    Policy Total grad norm:   6.66189
+    Solved trajectories:      939 / 1024
+    Avg steps to disentangle: 32.178
+    Median steps to disent.:  32.0
+    
+Iteration (6500/20001) took 2.940 seconds.
+    Mean return:              62.2451
+    Mean episode entropy:     -31.8434
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0001
+    Max final entropy:        0.4241
+    95 percentile entropy:    0.00072
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0566
+    Policy pseudo loss:       -0.14487
+    Policy Total grad norm:   8.07151
+    Solved trajectories:      961 / 1024
+    Avg steps to disentangle: 32.157
+    Median steps to disent.:  32.0
+    
+Iteration (6600/20001) took 3.311 seconds.
+    Mean return:              61.9785
+    Mean episode entropy:     -31.6244
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.2233
+    95 percentile entropy:    0.00075
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0459
+    Policy pseudo loss:       -0.54081
+    Policy Total grad norm:   9.10549
+    Solved trajectories:      953 / 1024
+    Avg steps to disentangle: 31.848
+    Median steps to disent.:  32.0
+    
+Iteration (6700/20001) took 2.821 seconds.
+    Mean return:              63.3916
+    Mean episode entropy:     -31.0611
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.1795
+    95 percentile entropy:    0.00066
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0492
+    Policy pseudo loss:       -0.28042
+    Policy Total grad norm:   8.10621
+    Solved trajectories:      969 / 1024
+    Avg steps to disentangle: 31.948
+    Median steps to disent.:  32.0
+    
+Iteration (6800/20001) took 3.191 seconds.
+    Mean return:              63.5312
+    Mean episode entropy:     -31.1740
+    Mean final entropy:       0.0018
+    Median final entropy:     0.0001
+    Max final entropy:        0.6812
+    95 percentile entropy:    0.00069
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0634
+    Policy pseudo loss:       -0.12375
+    Policy Total grad norm:   6.32174
+    Solved trajectories:      968 / 1024
+    Avg steps to disentangle: 31.688
+    Median steps to disent.:  32.0
+    
+Iteration (6900/20001) took 3.213 seconds.
+    Mean return:              63.1982
+    Mean episode entropy:     -30.8249
+    Mean final entropy:       0.0014
+    Median final entropy:     0.0001
+    Max final entropy:        0.6854
+    95 percentile entropy:    0.00074
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0511
+    Policy pseudo loss:       -0.12728
+    Policy Total grad norm:   9.83119
+    Solved trajectories:      965 / 1024
+    Avg steps to disentangle: 31.806
+    Median steps to disent.:  31.0
+    
+Iteration (7000/20001) took 3.005 seconds.
+    Mean return:              65.9697
+    Mean episode entropy:     -30.1333
+    Mean final entropy:       0.0005
+    Median final entropy:     0.0001
+    Max final entropy:        0.5113
+    95 percentile entropy:    0.00060
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0488
+    Policy pseudo loss:       -0.06335
+    Policy Total grad norm:   5.33573
+    Solved trajectories:      989 / 1024
+    Avg steps to disentangle: 31.382
+    Median steps to disent.:  31.0
+    
+Iteration 7000
+Testing agent accuracy for 40 steps...
+Testing took 8.414 seconds.
+    Solved states:            4194 / 10240 = 40.957%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0949
+    95 percentile entropy:    0.59844
+    Max entropy:              0.69301
+    Mean return:              6.7660
+    Avg steps to disentangle: 34.758
+    Median steps to disent.:  40.0
+    
+Iteration (7100/20001) took 3.192 seconds.
+    Mean return:              65.5156
+    Mean episode entropy:     -30.7722
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.4470
+    95 percentile entropy:    0.00057
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0876
+    Policy pseudo loss:       -0.29080
+    Policy Total grad norm:   6.77858
+    Solved trajectories:      983 / 1024
+    Avg steps to disentangle: 31.289
+    Median steps to disent.:  31.0
+    
+Iteration (7200/20001) took 2.930 seconds.
+    Mean return:              64.7031
+    Mean episode entropy:     -27.5465
+    Mean final entropy:       0.0015
+    Median final entropy:     0.0001
+    Max final entropy:        0.6861
+    95 percentile entropy:    0.00067
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9897
+    Policy pseudo loss:       -0.16889
+    Policy Total grad norm:   7.24000
+    Solved trajectories:      973 / 1024
+    Avg steps to disentangle: 31.120
+    Median steps to disent.:  31.0
+    
+Iteration (7300/20001) took 3.137 seconds.
+    Mean return:              68.0146
+    Mean episode entropy:     -28.2082
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0001
+    Max final entropy:        0.0031
+    95 percentile entropy:    0.00051
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0060
+    Policy pseudo loss:       -0.23115
+    Policy Total grad norm:   5.24886
+    Solved trajectories:      1001 / 1024
+    Avg steps to disentangle: 30.908
+    Median steps to disent.:  31.0
+    
+Iteration (7400/20001) took 3.124 seconds.
+    Mean return:              66.7920
+    Mean episode entropy:     -28.6896
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0001
+    Max final entropy:        0.6819
+    95 percentile entropy:    0.00056
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0126
+    Policy pseudo loss:       -0.24516
+    Policy Total grad norm:   5.63692
+    Solved trajectories:      990 / 1024
+    Avg steps to disentangle: 31.255
+    Median steps to disent.:  31.0
+    
+Iteration (7500/20001) took 2.785 seconds.
+    Mean return:              63.8340
+    Mean episode entropy:     -29.5433
+    Mean final entropy:       0.0011
+    Median final entropy:     0.0001
+    Max final entropy:        0.6796
+    95 percentile entropy:    0.00068
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0397
+    Policy pseudo loss:       0.14769
+    Policy Total grad norm:   6.84847
+    Solved trajectories:      966 / 1024
+    Avg steps to disentangle: 31.141
+    Median steps to disent.:  31.0
+    
+Iteration (7600/20001) took 3.130 seconds.
+    Mean return:              68.2939
+    Mean episode entropy:     -27.7057
+    Mean final entropy:       0.0010
+    Median final entropy:     0.0001
+    Max final entropy:        0.6882
+    95 percentile entropy:    0.00054
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9904
+    Policy pseudo loss:       0.04614
+    Policy Total grad norm:   5.52948
+    Solved trajectories:      1003 / 1024
+    Avg steps to disentangle: 30.741
+    Median steps to disent.:  30.0
+    
+Iteration (7700/20001) took 3.221 seconds.
+    Mean return:              68.5947
+    Mean episode entropy:     -28.0911
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0022
+    95 percentile entropy:    0.00046
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0251
+    Policy pseudo loss:       -0.09936
+    Policy Total grad norm:   4.68095
+    Solved trajectories:      1005 / 1024
+    Avg steps to disentangle: 30.654
+    Median steps to disent.:  30.0
+    
+Iteration (7800/20001) took 3.752 seconds.
+    Mean return:              68.4736
+    Mean episode entropy:     -28.5663
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.4268
+    95 percentile entropy:    0.00047
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0677
+    Policy pseudo loss:       -0.25511
+    Policy Total grad norm:   6.10821
+    Solved trajectories:      1001 / 1024
+    Avg steps to disentangle: 30.538
+    Median steps to disent.:  30.0
+    
+Iteration (7900/20001) took 2.981 seconds.
+    Mean return:              68.0508
+    Mean episode entropy:     -27.7779
+    Mean final entropy:       0.0015
+    Median final entropy:     0.0001
+    Max final entropy:        0.6895
+    95 percentile entropy:    0.00045
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0381
+    Policy pseudo loss:       -0.13556
+    Policy Total grad norm:   6.03968
+    Solved trajectories:      998 / 1024
+    Avg steps to disentangle: 30.438
+    Median steps to disent.:  30.0
+    
+Iteration (8000/20001) took 3.086 seconds.
+    Mean return:              68.1494
+    Mean episode entropy:     -26.9251
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0001
+    Max final entropy:        0.0261
+    95 percentile entropy:    0.00052
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9815
+    Policy pseudo loss:       -0.20278
+    Policy Total grad norm:   5.76657
+    Solved trajectories:      998 / 1024
+    Avg steps to disentangle: 30.438
+    Median steps to disent.:  30.0
+    
+Iteration 8000
+Testing agent accuracy for 40 steps...
+Testing took 8.300 seconds.
+    Solved states:            4298 / 10240 = 41.973%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0709
+    95 percentile entropy:    0.59356
+    Max entropy:              0.69302
+    Mean return:              8.0761
+    Avg steps to disentangle: 34.445
+    Median steps to disent.:  40.0
+    
+Iteration (8100/20001) took 2.858 seconds.
+    Mean return:              69.6445
+    Mean episode entropy:     -25.8922
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0001
+    Max final entropy:        0.0267
+    95 percentile entropy:    0.00046
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9905
+    Policy pseudo loss:       -0.12523
+    Policy Total grad norm:   5.65066
+    Solved trajectories:      1009 / 1024
+    Avg steps to disentangle: 30.226
+    Median steps to disent.:  30.0
+    
+Iteration (8200/20001) took 3.255 seconds.
+    Mean return:              68.3408
+    Mean episode entropy:     -27.7423
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.5077
+    95 percentile entropy:    0.00052
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0195
+    Policy pseudo loss:       -0.23181
+    Policy Total grad norm:   4.85045
+    Solved trajectories:      1000 / 1024
+    Avg steps to disentangle: 30.463
+    Median steps to disent.:  30.0
+    
+Iteration (8300/20001) took 3.141 seconds.
+    Mean return:              69.3428
+    Mean episode entropy:     -26.8257
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0001
+    Max final entropy:        0.6843
+    95 percentile entropy:    0.00043
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0210
+    Policy pseudo loss:       0.09631
+    Policy Total grad norm:   4.82967
+    Solved trajectories:      1006 / 1024
+    Avg steps to disentangle: 30.002
+    Median steps to disent.:  30.0
+    
+Iteration (8400/20001) took 2.747 seconds.
+    Mean return:              70.0605
+    Mean episode entropy:     -25.0448
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0021
+    95 percentile entropy:    0.00044
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9596
+    Policy pseudo loss:       -0.06501
+    Policy Total grad norm:   3.01355
+    Solved trajectories:      1012 / 1024
+    Avg steps to disentangle: 29.934
+    Median steps to disent.:  30.0
+    
+Iteration (8500/20001) took 3.115 seconds.
+    Mean return:              67.6875
+    Mean episode entropy:     -27.4860
+    Mean final entropy:       0.0005
+    Median final entropy:     0.0001
+    Max final entropy:        0.3974
+    95 percentile entropy:    0.00047
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           1.0262
+    Policy pseudo loss:       -0.05263
+    Policy Total grad norm:   7.37128
+    Solved trajectories:      993 / 1024
+    Avg steps to disentangle: 30.154
+    Median steps to disent.:  30.0
+    
+Iteration (8600/20001) took 3.318 seconds.
+    Mean return:              70.0547
+    Mean episode entropy:     -24.7289
+    Mean final entropy:       0.0016
+    Median final entropy:     0.0001
+    Max final entropy:        0.6865
+    95 percentile entropy:    0.00046
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9577
+    Policy pseudo loss:       0.00746
+    Policy Total grad norm:   4.17549
+    Solved trajectories:      1010 / 1024
+    Avg steps to disentangle: 30.020
+    Median steps to disent.:  30.0
+    
+Iteration (8700/20001) took 2.685 seconds.
+    Mean return:              70.1738
+    Mean episode entropy:     -24.1228
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0191
+    95 percentile entropy:    0.00045
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9316
+    Policy pseudo loss:       -0.29661
+    Policy Total grad norm:   4.64621
+    Solved trajectories:      1007 / 1024
+    Avg steps to disentangle: 29.769
+    Median steps to disent.:  29.0
+    
+Iteration (8800/20001) took 3.186 seconds.
+    Mean return:              69.9111
+    Mean episode entropy:     -24.7351
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.3726
+    95 percentile entropy:    0.00041
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9643
+    Policy pseudo loss:       -0.04476
+    Policy Total grad norm:   3.86196
+    Solved trajectories:      1011 / 1024
+    Avg steps to disentangle: 29.775
+    Median steps to disent.:  29.0
+    
+Iteration (8900/20001) took 2.676 seconds.
+    Mean return:              70.5508
+    Mean episode entropy:     -24.1360
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0001
+    Max final entropy:        0.6711
+    95 percentile entropy:    0.00040
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9610
+    Policy pseudo loss:       -0.00211
+    Policy Total grad norm:   5.93338
+    Solved trajectories:      1012 / 1024
+    Avg steps to disentangle: 29.538
+    Median steps to disent.:  29.0
+    
+Iteration (9000/20001) took 3.093 seconds.
+    Mean return:              70.7070
+    Mean episode entropy:     -23.4341
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0001
+    Max final entropy:        0.0875
+    95 percentile entropy:    0.00036
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9539
+    Policy pseudo loss:       -0.22286
+    Policy Total grad norm:   3.24262
+    Solved trajectories:      1011 / 1024
+    Avg steps to disentangle: 29.269
+    Median steps to disent.:  29.0
+    
+Iteration 9000
+Testing agent accuracy for 40 steps...
+Testing took 8.339 seconds.
+    Solved states:            6590 / 10240 = 64.355%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0741
+    95 percentile entropy:    0.58817
+    Max entropy:              0.69276
+    Mean return:              34.0200
+    Avg steps to disentangle: 31.058
+    Median steps to disent.:  28.0
+    
+Iteration (9100/20001) took 3.171 seconds.
+    Mean return:              70.9336
+    Mean episode entropy:     -24.7754
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0001
+    Max final entropy:        0.6512
+    95 percentile entropy:    0.00036
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9900
+    Policy pseudo loss:       0.06198
+    Policy Total grad norm:   4.30372
+    Solved trajectories:      1013 / 1024
+    Avg steps to disentangle: 29.360
+    Median steps to disent.:  29.0
+    
+Iteration (9200/20001) took 3.063 seconds.
+    Mean return:              70.4404
+    Mean episode entropy:     -23.5945
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0001
+    Max final entropy:        0.6880
+    95 percentile entropy:    0.00043
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9372
+    Policy pseudo loss:       -0.12030
+    Policy Total grad norm:   4.05962
+    Solved trajectories:      1012 / 1024
+    Avg steps to disentangle: 29.450
+    Median steps to disent.:  29.0
+    
+Iteration (9300/20001) took 3.140 seconds.
+    Mean return:              71.5791
+    Mean episode entropy:     -22.7268
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0001
+    Max final entropy:        0.4557
+    95 percentile entropy:    0.00035
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9338
+    Policy pseudo loss:       -0.11090
+    Policy Total grad norm:   3.75445
+    Solved trajectories:      1014 / 1024
+    Avg steps to disentangle: 28.918
+    Median steps to disent.:  29.0
+    
+Iteration (9400/20001) took 3.081 seconds.
+    Mean return:              70.1104
+    Mean episode entropy:     -23.3678
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0025
+    95 percentile entropy:    0.00036
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9458
+    Policy pseudo loss:       -0.05056
+    Policy Total grad norm:   4.32502
+    Solved trajectories:      1010 / 1024
+    Avg steps to disentangle: 29.363
+    Median steps to disent.:  29.0
+    
+Iteration (9500/20001) took 3.920 seconds.
+    Mean return:              70.7549
+    Mean episode entropy:     -24.5239
+    Mean final entropy:       0.0011
+    Median final entropy:     0.0001
+    Max final entropy:        0.6671
+    95 percentile entropy:    0.00035
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9799
+    Policy pseudo loss:       -0.08573
+    Policy Total grad norm:   4.77413
+    Solved trajectories:      1014 / 1024
+    Avg steps to disentangle: 29.252
+    Median steps to disent.:  29.0
+    
+Iteration (9600/20001) took 3.198 seconds.
+    Mean return:              70.9893
+    Mean episode entropy:     -21.4777
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0001
+    Max final entropy:        0.6804
+    95 percentile entropy:    0.00040
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8797
+    Policy pseudo loss:       0.08498
+    Policy Total grad norm:   3.74795
+    Solved trajectories:      1015 / 1024
+    Avg steps to disentangle: 29.325
+    Median steps to disent.:  29.0
+    
+Iteration (9700/20001) took 2.970 seconds.
+    Mean return:              70.1133
+    Mean episode entropy:     -24.6064
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0001
+    Max final entropy:        0.6823
+    95 percentile entropy:    0.00040
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9522
+    Policy pseudo loss:       -0.15047
+    Policy Total grad norm:   7.51340
+    Solved trajectories:      1007 / 1024
+    Avg steps to disentangle: 29.429
+    Median steps to disent.:  29.0
+    
+Iteration (9800/20001) took 2.594 seconds.
+    Mean return:              71.1289
+    Mean episode entropy:     -23.4253
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0001
+    Max final entropy:        0.2477
+    95 percentile entropy:    0.00034
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9566
+    Policy pseudo loss:       -0.09307
+    Policy Total grad norm:   3.00186
+    Solved trajectories:      1015 / 1024
+    Avg steps to disentangle: 28.985
+    Median steps to disent.:  29.0
+    
+Iteration (9900/20001) took 3.905 seconds.
+    Mean return:              71.5684
+    Mean episode entropy:     -21.8490
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0028
+    95 percentile entropy:    0.00036
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9155
+    Policy pseudo loss:       -0.25470
+    Policy Total grad norm:   4.41289
+    Solved trajectories:      1014 / 1024
+    Avg steps to disentangle: 28.730
+    Median steps to disent.:  28.0
+    
+Iteration (10000/20001) took 4.077 seconds.
+    Mean return:              71.5645
+    Mean episode entropy:     -21.5564
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0001
+    Max final entropy:        0.6641
+    95 percentile entropy:    0.00039
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8676
+    Policy pseudo loss:       0.01217
+    Policy Total grad norm:   3.15479
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 29.185
+    Median steps to disent.:  29.0
+    
+Iteration 10000
+Testing agent accuracy for 40 steps...
+Testing took 8.752 seconds.
+    Solved states:            6267 / 10240 = 61.201%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0499
+    95 percentile entropy:    0.57473
+    Max entropy:              0.69295
+    Mean return:              30.4321
+    Avg steps to disentangle: 31.519
+    Median steps to disent.:  29.0
+    
+Iteration (10100/20001) took 2.905 seconds.
+    Mean return:              72.0752
+    Mean episode entropy:     -21.7466
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0001
+    Max final entropy:        0.4462
+    95 percentile entropy:    0.00029
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9404
+    Policy pseudo loss:       -0.15022
+    Policy Total grad norm:   2.90974
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 28.573
+    Median steps to disent.:  28.0
+    
+Iteration (10200/20001) took 3.581 seconds.
+    Mean return:              73.0078
+    Mean episode entropy:     -20.5771
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0001
+    Max final entropy:        0.6435
+    95 percentile entropy:    0.00032
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8960
+    Policy pseudo loss:       -0.00401
+    Policy Total grad norm:   2.84463
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 28.353
+    Median steps to disent.:  28.0
+    
+Iteration (10300/20001) took 3.059 seconds.
+    Mean return:              71.5811
+    Mean episode entropy:     -21.1502
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0001
+    Max final entropy:        0.6672
+    95 percentile entropy:    0.00033
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9258
+    Policy pseudo loss:       0.25083
+    Policy Total grad norm:   4.47009
+    Solved trajectories:      1013 / 1024
+    Avg steps to disentangle: 28.307
+    Median steps to disent.:  28.0
+    
+Iteration (10400/20001) took 2.620 seconds.
+    Mean return:              71.6074
+    Mean episode entropy:     -22.6836
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0001
+    Max final entropy:        0.6483
+    95 percentile entropy:    0.00034
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9540
+    Policy pseudo loss:       -0.09192
+    Policy Total grad norm:   3.76634
+    Solved trajectories:      1014 / 1024
+    Avg steps to disentangle: 28.690
+    Median steps to disent.:  29.0
+    
+Iteration (10500/20001) took 3.111 seconds.
+    Mean return:              72.0869
+    Mean episode entropy:     -21.3286
+    Mean final entropy:       0.0011
+    Median final entropy:     0.0001
+    Max final entropy:        0.6824
+    95 percentile entropy:    0.00031
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9189
+    Policy pseudo loss:       0.10946
+    Policy Total grad norm:   4.28076
+    Solved trajectories:      1016 / 1024
+    Avg steps to disentangle: 28.329
+    Median steps to disent.:  28.0
+    
+Iteration (10600/20001) took 3.103 seconds.
+    Mean return:              72.0850
+    Mean episode entropy:     -19.6730
+    Mean final entropy:       0.0011
+    Median final entropy:     0.0001
+    Max final entropy:        0.6466
+    95 percentile entropy:    0.00030
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8642
+    Policy pseudo loss:       0.09452
+    Policy Total grad norm:   2.41995
+    Solved trajectories:      1016 / 1024
+    Avg steps to disentangle: 28.231
+    Median steps to disent.:  28.0
+    
+Iteration (10700/20001) took 3.089 seconds.
+    Mean return:              73.0605
+    Mean episode entropy:     -20.1205
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0001
+    Max final entropy:        0.6780
+    95 percentile entropy:    0.00029
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8883
+    Policy pseudo loss:       0.03031
+    Policy Total grad norm:   3.73078
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 28.079
+    Median steps to disent.:  28.0
+    
+Iteration (10800/20001) took 3.142 seconds.
+    Mean return:              72.5020
+    Mean episode entropy:     -20.9644
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0001
+    Max final entropy:        0.3616
+    95 percentile entropy:    0.00033
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9050
+    Policy pseudo loss:       -0.08730
+    Policy Total grad norm:   2.75851
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 28.255
+    Median steps to disent.:  28.0
+    
+Iteration (10900/20001) took 3.338 seconds.
+    Mean return:              72.8477
+    Mean episode entropy:     -19.6010
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.4472
+    95 percentile entropy:    0.00028
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8791
+    Policy pseudo loss:       0.13205
+    Policy Total grad norm:   3.16750
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 28.094
+    Median steps to disent.:  28.0
+    
+Iteration (11000/20001) took 3.286 seconds.
+    Mean return:              71.9395
+    Mean episode entropy:     -20.2314
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0001
+    Max final entropy:        0.5484
+    95 percentile entropy:    0.00033
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8663
+    Policy pseudo loss:       -0.28541
+    Policy Total grad norm:   3.16472
+    Solved trajectories:      1015 / 1024
+    Avg steps to disentangle: 28.267
+    Median steps to disent.:  28.0
+    
+Iteration 11000
+Testing agent accuracy for 40 steps...
+Testing took 8.507 seconds.
+    Solved states:            6030 / 10240 = 58.887%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0587
+    95 percentile entropy:    0.56617
+    Max entropy:              0.69264
+    Mean return:              28.1213
+    Avg steps to disentangle: 31.413
+    Median steps to disent.:  28.0
+    
+Iteration (11100/20001) took 2.685 seconds.
+    Mean return:              72.3701
+    Mean episode entropy:     -21.7732
+    Mean final entropy:       0.0013
+    Median final entropy:     0.0000
+    Max final entropy:        0.6864
+    95 percentile entropy:    0.00025
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9521
+    Policy pseudo loss:       0.07154
+    Policy Total grad norm:   3.45449
+    Solved trajectories:      1015 / 1024
+    Avg steps to disentangle: 27.932
+    Median steps to disent.:  28.0
+    
+Iteration (11200/20001) took 3.086 seconds.
+    Mean return:              73.3643
+    Mean episode entropy:     -19.1788
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0073
+    95 percentile entropy:    0.00026
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8645
+    Policy pseudo loss:       -0.13591
+    Policy Total grad norm:   5.02536
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 27.698
+    Median steps to disent.:  27.0
+    
+Iteration (11300/20001) took 3.118 seconds.
+    Mean return:              72.1494
+    Mean episode entropy:     -20.4230
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0001
+    Max final entropy:        0.6887
+    95 percentile entropy:    0.00031
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9027
+    Policy pseudo loss:       -0.03975
+    Policy Total grad norm:   3.62536
+    Solved trajectories:      1017 / 1024
+    Avg steps to disentangle: 28.178
+    Median steps to disent.:  28.0
+    
+Iteration (11400/20001) took 3.170 seconds.
+    Mean return:              73.3301
+    Mean episode entropy:     -20.1402
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0020
+    95 percentile entropy:    0.00027
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.9146
+    Policy pseudo loss:       -0.17339
+    Policy Total grad norm:   2.59625
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 27.733
+    Median steps to disent.:  27.0
+    
+Iteration (11500/20001) took 2.871 seconds.
+    Mean return:              72.1572
+    Mean episode entropy:     -19.0719
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0001
+    Max final entropy:        0.6714
+    95 percentile entropy:    0.00032
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8356
+    Policy pseudo loss:       -0.03894
+    Policy Total grad norm:   3.10243
+    Solved trajectories:      1018 / 1024
+    Avg steps to disentangle: 28.380
+    Median steps to disent.:  28.0
+    
+Iteration (11600/20001) took 2.912 seconds.
+    Mean return:              72.5020
+    Mean episode entropy:     -19.9477
+    Mean final entropy:       0.0005
+    Median final entropy:     0.0001
+    Max final entropy:        0.6380
+    95 percentile entropy:    0.00034
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8549
+    Policy pseudo loss:       -0.13707
+    Policy Total grad norm:   4.96577
+    Solved trajectories:      1017 / 1024
+    Avg steps to disentangle: 28.220
+    Median steps to disent.:  28.0
+    
+Iteration (11700/20001) took 3.702 seconds.
+    Mean return:              72.7969
+    Mean episode entropy:     -19.2806
+    Mean final entropy:       0.0013
+    Median final entropy:     0.0000
+    Max final entropy:        0.6873
+    95 percentile entropy:    0.00026
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8661
+    Policy pseudo loss:       0.05320
+    Policy Total grad norm:   1.73060
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 27.971
+    Median steps to disent.:  28.0
+    
+Iteration (11800/20001) took 3.144 seconds.
+    Mean return:              73.0068
+    Mean episode entropy:     -19.4402
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0000
+    Max final entropy:        0.5076
+    95 percentile entropy:    0.00026
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8689
+    Policy pseudo loss:       0.01117
+    Policy Total grad norm:   2.60759
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 27.748
+    Median steps to disent.:  27.0
+    
+Iteration (11900/20001) took 2.760 seconds.
+    Mean return:              73.5195
+    Mean episode entropy:     -17.8627
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0000
+    Max final entropy:        0.5263
+    95 percentile entropy:    0.00026
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8519
+    Policy pseudo loss:       -0.11682
+    Policy Total grad norm:   2.02270
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 27.567
+    Median steps to disent.:  27.0
+    
+Iteration (12000/20001) took 3.165 seconds.
+    Mean return:              72.5566
+    Mean episode entropy:     -18.6702
+    Mean final entropy:       0.0011
+    Median final entropy:     0.0001
+    Max final entropy:        0.6702
+    95 percentile entropy:    0.00030
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8130
+    Policy pseudo loss:       -0.14700
+    Policy Total grad norm:   4.75297
+    Solved trajectories:      1014 / 1024
+    Avg steps to disentangle: 27.632
+    Median steps to disent.:  27.0
+    
+Iteration 12000
+Testing agent accuracy for 40 steps...
+Testing took 8.415 seconds.
+    Solved states:            6331 / 10240 = 61.826%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0443
+    95 percentile entropy:    0.55898
+    Max entropy:              0.69297
+    Mean return:              31.8207
+    Avg steps to disentangle: 30.782
+    Median steps to disent.:  27.0
+    
+Iteration (12100/20001) took 3.155 seconds.
+    Mean return:              73.2637
+    Mean episode entropy:     -17.8489
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0001
+    Max final entropy:        0.6739
+    95 percentile entropy:    0.00028
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8092
+    Policy pseudo loss:       -0.05800
+    Policy Total grad norm:   3.19391
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 27.589
+    Median steps to disent.:  27.0
+    
+Iteration (12200/20001) took 3.797 seconds.
+    Mean return:              73.5195
+    Mean episode entropy:     -17.6581
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0042
+    95 percentile entropy:    0.00025
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8382
+    Policy pseudo loss:       -0.04822
+    Policy Total grad norm:   1.49943
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 27.555
+    Median steps to disent.:  27.0
+    
+Iteration (12300/20001) took 2.837 seconds.
+    Mean return:              72.1504
+    Mean episode entropy:     -18.3748
+    Mean final entropy:       0.0013
+    Median final entropy:     0.0001
+    Max final entropy:        0.6903
+    95 percentile entropy:    0.00032
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8433
+    Policy pseudo loss:       0.10404
+    Policy Total grad norm:   3.23431
+    Solved trajectories:      1015 / 1024
+    Avg steps to disentangle: 27.955
+    Median steps to disent.:  28.0
+    
+Iteration (12400/20001) took 3.122 seconds.
+    Mean return:              72.7930
+    Mean episode entropy:     -19.6164
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0000
+    Max final entropy:        0.3044
+    95 percentile entropy:    0.00026
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8730
+    Policy pseudo loss:       -0.06263
+    Policy Total grad norm:   3.32484
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 27.765
+    Median steps to disent.:  27.0
+    
+Iteration (12500/20001) took 3.316 seconds.
+    Mean return:              72.9199
+    Mean episode entropy:     -19.3809
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.1623
+    95 percentile entropy:    0.00029
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8816
+    Policy pseudo loss:       -0.07289
+    Policy Total grad norm:   3.58491
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 27.823
+    Median steps to disent.:  27.0
+    
+Iteration (12600/20001) took 2.929 seconds.
+    Mean return:              72.9746
+    Mean episode entropy:     -16.6965
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0001
+    Max final entropy:        0.0021
+    95 percentile entropy:    0.00028
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8152
+    Policy pseudo loss:       -0.11870
+    Policy Total grad norm:   2.20824
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 27.693
+    Median steps to disent.:  27.0
+    
+Iteration (12700/20001) took 3.068 seconds.
+    Mean return:              73.6719
+    Mean episode entropy:     -17.3382
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0012
+    95 percentile entropy:    0.00024
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8448
+    Policy pseudo loss:       -0.16656
+    Policy Total grad norm:   1.65717
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 27.316
+    Median steps to disent.:  27.0
+    
+Iteration (12800/20001) took 3.164 seconds.
+    Mean return:              73.8066
+    Mean episode entropy:     -16.4360
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6798
+    95 percentile entropy:    0.00022
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8151
+    Policy pseudo loss:       -0.01805
+    Policy Total grad norm:   1.32115
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 27.280
+    Median steps to disent.:  27.0
+    
+Iteration (12900/20001) took 3.699 seconds.
+    Mean return:              73.6211
+    Mean episode entropy:     -17.5447
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0057
+    95 percentile entropy:    0.00029
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8454
+    Policy pseudo loss:       -0.25900
+    Policy Total grad norm:   3.28582
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 27.441
+    Median steps to disent.:  27.0
+    
+Iteration (13000/20001) took 2.581 seconds.
+    Mean return:              74.0654
+    Mean episode entropy:     -17.2442
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0013
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8394
+    Policy pseudo loss:       -0.17556
+    Policy Total grad norm:   1.84104
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 27.021
+    Median steps to disent.:  27.0
+    
+Iteration 13000
+Testing agent accuracy for 40 steps...
+Testing took 8.093 seconds.
+    Solved states:            8584 / 10240 = 83.828%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0514
+    95 percentile entropy:    0.56953
+    Max entropy:              0.69312
+    Mean return:              57.3524
+    Avg steps to disentangle: 27.334
+    Median steps to disent.:  25.0
+    
+Iteration (13100/20001) took 3.510 seconds.
+    Mean return:              73.9287
+    Mean episode entropy:     -16.0573
+    Mean final entropy:       0.0010
+    Median final entropy:     0.0000
+    Max final entropy:        0.6822
+    95 percentile entropy:    0.00021
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8164
+    Policy pseudo loss:       0.10868
+    Policy Total grad norm:   2.24896
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 26.909
+    Median steps to disent.:  27.0
+    
+Iteration (13200/20001) took 3.247 seconds.
+    Mean return:              74.3291
+    Mean episode entropy:     -16.0272
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0014
+    95 percentile entropy:    0.00024
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7795
+    Policy pseudo loss:       -0.20641
+    Policy Total grad norm:   2.33162
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 27.053
+    Median steps to disent.:  27.0
+    
+Iteration (13300/20001) took 3.292 seconds.
+    Mean return:              73.2314
+    Mean episode entropy:     -17.8183
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0645
+    95 percentile entropy:    0.00030
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8247
+    Policy pseudo loss:       -0.03109
+    Policy Total grad norm:   3.24754
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 27.510
+    Median steps to disent.:  27.0
+    
+Iteration (13400/20001) took 2.712 seconds.
+    Mean return:              72.8691
+    Mean episode entropy:     -18.2679
+    Mean final entropy:       0.0013
+    Median final entropy:     0.0001
+    Max final entropy:        0.6893
+    95 percentile entropy:    0.00029
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8509
+    Policy pseudo loss:       0.19607
+    Policy Total grad norm:   2.85358
+    Solved trajectories:      1018 / 1024
+    Avg steps to disentangle: 27.763
+    Median steps to disent.:  27.0
+    
+Iteration (13500/20001) took 3.239 seconds.
+    Mean return:              74.2695
+    Mean episode entropy:     -16.3345
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0008
+    95 percentile entropy:    0.00022
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8148
+    Policy pseudo loss:       -0.16933
+    Policy Total grad norm:   1.30803
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 27.125
+    Median steps to disent.:  27.0
+    
+Iteration (13600/20001) took 3.432 seconds.
+    Mean return:              74.2148
+    Mean episode entropy:     -17.0258
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0008
+    95 percentile entropy:    0.00022
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8505
+    Policy pseudo loss:       -0.05740
+    Policy Total grad norm:   1.55792
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 26.982
+    Median steps to disent.:  27.0
+    
+Iteration (13700/20001) took 3.042 seconds.
+    Mean return:              73.8359
+    Mean episode entropy:     -18.4797
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6925
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8826
+    Policy pseudo loss:       -0.01893
+    Policy Total grad norm:   1.77352
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 27.139
+    Median steps to disent.:  27.0
+    
+Iteration (13800/20001) took 2.828 seconds.
+    Mean return:              73.9219
+    Mean episode entropy:     -16.4709
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0000
+    Max final entropy:        0.3499
+    95 percentile entropy:    0.00023
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8121
+    Policy pseudo loss:       -0.07082
+    Policy Total grad norm:   3.27498
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 26.928
+    Median steps to disent.:  27.0
+    
+Iteration (13900/20001) took 3.135 seconds.
+    Mean return:              73.3809
+    Mean episode entropy:     -16.4574
+    Mean final entropy:       0.0010
+    Median final entropy:     0.0001
+    Max final entropy:        0.6868
+    95 percentile entropy:    0.00031
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7792
+    Policy pseudo loss:       -0.03213
+    Policy Total grad norm:   5.25274
+    Solved trajectories:      1018 / 1024
+    Avg steps to disentangle: 27.348
+    Median steps to disent.:  27.0
+    
+Iteration (14000/20001) took 3.126 seconds.
+    Mean return:              74.0879
+    Mean episode entropy:     -15.3696
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6809
+    95 percentile entropy:    0.00022
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7962
+    Policy pseudo loss:       -0.09827
+    Policy Total grad norm:   2.03230
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 26.663
+    Median steps to disent.:  26.0
+    
+Iteration 14000
+Testing agent accuracy for 40 steps...
+Testing took 8.544 seconds.
+    Solved states:            7917 / 10240 = 77.314%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0526
+    95 percentile entropy:    0.57784
+    Max entropy:              0.69294
+    Mean return:              49.9681
+    Avg steps to disentangle: 28.258
+    Median steps to disent.:  26.0
+    
+Iteration (14100/20001) took 2.970 seconds.
+    Mean return:              74.2822
+    Mean episode entropy:     -16.1156
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0604
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8273
+    Policy pseudo loss:       -0.09151
+    Policy Total grad norm:   2.13409
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 26.705
+    Median steps to disent.:  26.0
+    
+Iteration (14200/20001) took 2.782 seconds.
+    Mean return:              74.5479
+    Mean episode entropy:     -16.3685
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0029
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8178
+    Policy pseudo loss:       -0.08296
+    Policy Total grad norm:   2.01914
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 26.636
+    Median steps to disent.:  26.0
+    
+Iteration (14300/20001) took 2.576 seconds.
+    Mean return:              74.1387
+    Mean episode entropy:     -15.9442
+    Mean final entropy:       0.0019
+    Median final entropy:     0.0000
+    Max final entropy:        0.6873
+    95 percentile entropy:    0.00021
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8079
+    Policy pseudo loss:       0.30662
+    Policy Total grad norm:   2.65423
+    Solved trajectories:      1018 / 1024
+    Avg steps to disentangle: 26.685
+    Median steps to disent.:  26.0
+    
+Iteration (14400/20001) took 2.867 seconds.
+    Mean return:              73.8809
+    Mean episode entropy:     -15.7591
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6812
+    95 percentile entropy:    0.00023
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8004
+    Policy pseudo loss:       0.06570
+    Policy Total grad norm:   2.73209
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 26.772
+    Median steps to disent.:  26.0
+    
+Iteration (14500/20001) took 3.307 seconds.
+    Mean return:              74.8525
+    Mean episode entropy:     -15.4455
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0020
+    95 percentile entropy:    0.00018
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8092
+    Policy pseudo loss:       -0.10858
+    Policy Total grad norm:   2.16477
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 26.529
+    Median steps to disent.:  26.0
+    
+Iteration (14600/20001) took 3.121 seconds.
+    Mean return:              74.8398
+    Mean episode entropy:     -15.5201
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.4068
+    95 percentile entropy:    0.00018
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8040
+    Policy pseudo loss:       -0.12153
+    Policy Total grad norm:   2.47908
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 26.344
+    Median steps to disent.:  26.0
+    
+Iteration (14700/20001) took 3.163 seconds.
+    Mean return:              74.5410
+    Mean episode entropy:     -15.9801
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0007
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8066
+    Policy pseudo loss:       -0.12485
+    Policy Total grad norm:   1.25970
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 26.459
+    Median steps to disent.:  26.0
+    
+Iteration (14800/20001) took 3.290 seconds.
+    Mean return:              74.4326
+    Mean episode entropy:     -16.0723
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0918
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8072
+    Policy pseudo loss:       -0.16212
+    Policy Total grad norm:   3.00565
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 26.541
+    Median steps to disent.:  26.0
+    
+Iteration (14900/20001) took 3.037 seconds.
+    Mean return:              74.7432
+    Mean episode entropy:     -15.6655
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0008
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8217
+    Policy pseudo loss:       -0.11236
+    Policy Total grad norm:   1.28194
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 26.454
+    Median steps to disent.:  26.0
+    
+Iteration (15000/20001) took 3.186 seconds.
+    Mean return:              73.7695
+    Mean episode entropy:     -16.9259
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0000
+    Max final entropy:        0.4987
+    95 percentile entropy:    0.00022
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8308
+    Policy pseudo loss:       -0.12256
+    Policy Total grad norm:   2.46584
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 27.081
+    Median steps to disent.:  27.0
+    
+Iteration 15000
+Testing agent accuracy for 40 steps...
+Testing took 8.495 seconds.
+    Solved states:            7242 / 10240 = 70.723%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0779
+    95 percentile entropy:    0.59564
+    Max entropy:              0.69305
+    Mean return:              42.3413
+    Avg steps to disentangle: 29.138
+    Median steps to disent.:  26.0
+    
+Iteration (15100/20001) took 3.005 seconds.
+    Mean return:              73.9707
+    Mean episode entropy:     -16.1117
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0502
+    95 percentile entropy:    0.00023
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7976
+    Policy pseudo loss:       0.04370
+    Policy Total grad norm:   3.80686
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 26.780
+    Median steps to disent.:  27.0
+    
+Iteration (15200/20001) took 3.608 seconds.
+    Mean return:              74.5000
+    Mean episode entropy:     -15.7233
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6751
+    95 percentile entropy:    0.00021
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7938
+    Policy pseudo loss:       -0.12203
+    Policy Total grad norm:   2.76206
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 26.361
+    Median steps to disent.:  26.0
+    
+Iteration (15300/20001) took 3.083 seconds.
+    Mean return:              73.9424
+    Mean episode entropy:     -16.3687
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0000
+    Max final entropy:        0.6901
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8181
+    Policy pseudo loss:       0.07756
+    Policy Total grad norm:   2.29715
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 26.598
+    Median steps to disent.:  26.0
+    
+Iteration (15400/20001) took 2.767 seconds.
+    Mean return:              75.0127
+    Mean episode entropy:     -14.9850
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0120
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7814
+    Policy pseudo loss:       -0.17264
+    Policy Total grad norm:   1.60397
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 26.171
+    Median steps to disent.:  26.0
+    
+Iteration (15500/20001) took 2.576 seconds.
+    Mean return:              74.8984
+    Mean episode entropy:     -15.7232
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0008
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8031
+    Policy pseudo loss:       -0.17383
+    Policy Total grad norm:   1.21872
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 26.200
+    Median steps to disent.:  26.0
+    
+Iteration (15600/20001) took 3.142 seconds.
+    Mean return:              74.7803
+    Mean episode entropy:     -15.2634
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0137
+    95 percentile entropy:    0.00022
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7855
+    Policy pseudo loss:       -0.22169
+    Policy Total grad norm:   2.56779
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 26.080
+    Median steps to disent.:  26.0
+    
+Iteration (15700/20001) took 3.402 seconds.
+    Mean return:              75.3213
+    Mean episode entropy:     -13.8012
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6901
+    95 percentile entropy:    0.00017
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7798
+    Policy pseudo loss:       -0.05802
+    Policy Total grad norm:   1.76583
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.961
+    Median steps to disent.:  26.0
+    
+Iteration (15800/20001) took 3.453 seconds.
+    Mean return:              74.8857
+    Mean episode entropy:     -15.5364
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0000
+    Max final entropy:        0.6827
+    95 percentile entropy:    0.00018
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7980
+    Policy pseudo loss:       -0.12360
+    Policy Total grad norm:   2.01879
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 25.876
+    Median steps to disent.:  26.0
+    
+Iteration (15900/20001) took 3.261 seconds.
+    Mean return:              74.9053
+    Mean episode entropy:     -14.5754
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0015
+    95 percentile entropy:    0.00017
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7625
+    Policy pseudo loss:       -0.17531
+    Policy Total grad norm:   1.33956
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 26.081
+    Median steps to disent.:  26.0
+    
+Iteration (16000/20001) took 3.412 seconds.
+    Mean return:              74.7373
+    Mean episode entropy:     -16.2389
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0000
+    Max final entropy:        0.6783
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8537
+    Policy pseudo loss:       0.02156
+    Policy Total grad norm:   3.22262
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 26.420
+    Median steps to disent.:  26.0
+    
+Iteration 16000
+Testing agent accuracy for 40 steps...
+Testing took 8.962 seconds.
+    Solved states:            7391 / 10240 = 72.178%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0631
+    95 percentile entropy:    0.57847
+    Max entropy:              0.69299
+    Mean return:              44.4814
+    Avg steps to disentangle: 28.477
+    Median steps to disent.:  25.0
+    
+Iteration (16100/20001) took 3.278 seconds.
+    Mean return:              74.2412
+    Mean episode entropy:     -16.6772
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6709
+    95 percentile entropy:    0.00023
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8337
+    Policy pseudo loss:       0.00010
+    Policy Total grad norm:   2.43229
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 26.410
+    Median steps to disent.:  26.0
+    
+Iteration (16200/20001) took 2.880 seconds.
+    Mean return:              75.2666
+    Mean episode entropy:     -15.0604
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6912
+    95 percentile entropy:    0.00017
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8083
+    Policy pseudo loss:       -0.09951
+    Policy Total grad norm:   1.45972
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.818
+    Median steps to disent.:  26.0
+    
+Iteration (16300/20001) took 2.868 seconds.
+    Mean return:              74.8232
+    Mean episode entropy:     -14.4737
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0199
+    95 percentile entropy:    0.00017
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7948
+    Policy pseudo loss:       -0.11988
+    Policy Total grad norm:   1.76563
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 26.051
+    Median steps to disent.:  26.0
+    
+Iteration (16400/20001) took 2.686 seconds.
+    Mean return:              74.5156
+    Mean episode entropy:     -14.1402
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0000
+    Max final entropy:        0.6665
+    95 percentile entropy:    0.00018
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7832
+    Policy pseudo loss:       0.05100
+    Policy Total grad norm:   1.69646
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 26.134
+    Median steps to disent.:  26.0
+    
+Iteration (16500/20001) took 2.807 seconds.
+    Mean return:              75.5127
+    Mean episode entropy:     -14.3865
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0007
+    95 percentile entropy:    0.00015
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7939
+    Policy pseudo loss:       -0.14499
+    Policy Total grad norm:   1.73575
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 25.685
+    Median steps to disent.:  25.0
+    
+Iteration (16600/20001) took 3.223 seconds.
+    Mean return:              75.2500
+    Mean episode entropy:     -14.2456
+    Mean final entropy:       0.0004
+    Median final entropy:     0.0000
+    Max final entropy:        0.5509
+    95 percentile entropy:    0.00014
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8033
+    Policy pseudo loss:       -0.20886
+    Policy Total grad norm:   1.83622
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 25.609
+    Median steps to disent.:  25.0
+    
+Iteration (16700/20001) took 2.890 seconds.
+    Mean return:              75.0039
+    Mean episode entropy:     -14.5956
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0012
+    95 percentile entropy:    0.00016
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7993
+    Policy pseudo loss:       -0.31824
+    Policy Total grad norm:   2.75712
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.870
+    Median steps to disent.:  26.0
+    
+Iteration (16800/20001) took 2.987 seconds.
+    Mean return:              75.7070
+    Mean episode entropy:     -13.5533
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.3914
+    95 percentile entropy:    0.00016
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7678
+    Policy pseudo loss:       -0.12916
+    Policy Total grad norm:   1.34857
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.476
+    Median steps to disent.:  25.0
+    
+Iteration (16900/20001) took 3.072 seconds.
+    Mean return:              75.6836
+    Mean episode entropy:     -14.3666
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.3598
+    95 percentile entropy:    0.00014
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8163
+    Policy pseudo loss:       -0.10321
+    Policy Total grad norm:   2.19043
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.485
+    Median steps to disent.:  25.0
+    
+Iteration (17000/20001) took 3.252 seconds.
+    Mean return:              75.4629
+    Mean episode entropy:     -13.0087
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0235
+    95 percentile entropy:    0.00016
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7559
+    Policy pseudo loss:       -0.11425
+    Policy Total grad norm:   1.59106
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.509
+    Median steps to disent.:  25.0
+    
+Iteration 17000
+Testing agent accuracy for 40 steps...
+Testing took 8.521 seconds.
+    Solved states:            8408 / 10240 = 82.109%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0563
+    95 percentile entropy:    0.57847
+    Max entropy:              0.69302
+    Mean return:              56.2323
+    Avg steps to disentangle: 26.718
+    Median steps to disent.:  24.0
+    
+Iteration (17100/20001) took 3.808 seconds.
+    Mean return:              75.6387
+    Mean episode entropy:     -13.4826
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0011
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7125
+    Policy pseudo loss:       -0.19147
+    Policy Total grad norm:   2.04064
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.347
+    Median steps to disent.:  25.0
+    
+Iteration (17200/20001) took 3.418 seconds.
+    Mean return:              76.1133
+    Mean episode entropy:     -13.6117
+    Mean final entropy:       0.0006
+    Median final entropy:     0.0000
+    Max final entropy:        0.6747
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7427
+    Policy pseudo loss:       -0.14463
+    Policy Total grad norm:   2.37792
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.464
+    Median steps to disent.:  25.0
+    
+Iteration (17300/20001) took 3.180 seconds.
+    Mean return:              75.6348
+    Mean episode entropy:     -12.9893
+    Mean final entropy:       0.0012
+    Median final entropy:     0.0000
+    Max final entropy:        0.6748
+    95 percentile entropy:    0.00016
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7427
+    Policy pseudo loss:       -0.05256
+    Policy Total grad norm:   2.41443
+    Solved trajectories:      1020 / 1024
+    Avg steps to disentangle: 25.308
+    Median steps to disent.:  25.0
+    
+Iteration (17400/20001) took 2.654 seconds.
+    Mean return:              75.7559
+    Mean episode entropy:     -13.0819
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0016
+    95 percentile entropy:    0.00018
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7483
+    Policy pseudo loss:       -0.13181
+    Policy Total grad norm:   1.82628
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.427
+    Median steps to disent.:  25.0
+    
+Iteration (17500/20001) took 3.063 seconds.
+    Mean return:              75.4092
+    Mean episode entropy:     -13.2000
+    Mean final entropy:       0.0008
+    Median final entropy:     0.0000
+    Max final entropy:        0.6682
+    95 percentile entropy:    0.00017
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7630
+    Policy pseudo loss:       -0.06330
+    Policy Total grad norm:   1.73684
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.563
+    Median steps to disent.:  25.0
+    
+Iteration (17600/20001) took 2.970 seconds.
+    Mean return:              75.3838
+    Mean episode entropy:     -13.9136
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0000
+    Max final entropy:        0.3549
+    95 percentile entropy:    0.00015
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8157
+    Policy pseudo loss:       -0.14733
+    Policy Total grad norm:   1.14166
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.503
+    Median steps to disent.:  25.0
+    
+Iteration (17700/20001) took 3.063 seconds.
+    Mean return:              75.4922
+    Mean episode entropy:     -13.2947
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6030
+    95 percentile entropy:    0.00018
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7729
+    Policy pseudo loss:       -0.18141
+    Policy Total grad norm:   2.30634
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.776
+    Median steps to disent.:  25.0
+    
+Iteration (17800/20001) took 3.023 seconds.
+    Mean return:              75.4502
+    Mean episode entropy:     -13.6011
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6642
+    95 percentile entropy:    0.00020
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7511
+    Policy pseudo loss:       -0.06159
+    Policy Total grad norm:   2.62209
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 25.408
+    Median steps to disent.:  25.0
+    
+Iteration (17900/20001) took 2.876 seconds.
+    Mean return:              76.4688
+    Mean episode entropy:     -13.2390
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0006
+    95 percentile entropy:    0.00012
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8101
+    Policy pseudo loss:       -0.22222
+    Policy Total grad norm:   1.79655
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 24.926
+    Median steps to disent.:  25.0
+    
+Iteration (18000/20001) took 3.079 seconds.
+    Mean return:              75.6328
+    Mean episode entropy:     -13.5561
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.3027
+    95 percentile entropy:    0.00014
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.8068
+    Policy pseudo loss:       -0.14747
+    Policy Total grad norm:   1.82855
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.353
+    Median steps to disent.:  25.0
+    
+Iteration 18000
+Testing agent accuracy for 40 steps...
+Testing took 8.330 seconds.
+    Solved states:            8770 / 10240 = 85.645%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0550
+    95 percentile entropy:    0.57435
+    Max entropy:              0.69287
+    Mean return:              60.5292
+    Avg steps to disentangle: 26.001
+    Median steps to disent.:  24.0
+    
+Iteration (18100/20001) took 3.053 seconds.
+    Mean return:              75.6699
+    Mean episode entropy:     -13.7042
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0008
+    95 percentile entropy:    0.00015
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7895
+    Policy pseudo loss:       -0.20070
+    Policy Total grad norm:   1.28489
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 25.429
+    Median steps to disent.:  25.0
+    
+Iteration (18200/20001) took 2.731 seconds.
+    Mean return:              76.1357
+    Mean episode entropy:     -12.1646
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0008
+    95 percentile entropy:    0.00016
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7393
+    Policy pseudo loss:       -0.16266
+    Policy Total grad norm:   1.48329
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 25.062
+    Median steps to disent.:  25.0
+    
+Iteration (18300/20001) took 3.820 seconds.
+    Mean return:              76.0469
+    Mean episode entropy:     -12.3876
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0019
+    95 percentile entropy:    0.00013
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7545
+    Policy pseudo loss:       -0.15262
+    Policy Total grad norm:   1.17783
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 24.938
+    Median steps to disent.:  25.0
+    
+Iteration (18400/20001) took 3.129 seconds.
+    Mean return:              76.1094
+    Mean episode entropy:     -11.7358
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0010
+    95 percentile entropy:    0.00013
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7320
+    Policy pseudo loss:       -0.16795
+    Policy Total grad norm:   1.04394
+    Solved trajectories:      1024 / 1024
+    Avg steps to disentangle: 24.989
+    Median steps to disent.:  25.0
+    
+Iteration (18500/20001) took 3.129 seconds.
+    Mean return:              75.4062
+    Mean episode entropy:     -13.7183
+    Mean final entropy:       0.0001
+    Median final entropy:     0.0000
+    Max final entropy:        0.0332
+    95 percentile entropy:    0.00019
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7582
+    Policy pseudo loss:       -0.13905
+    Policy Total grad norm:   1.32944
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.678
+    Median steps to disent.:  25.0
+    
+Iteration (18600/20001) took 3.135 seconds.
+    Mean return:              76.0312
+    Mean episode entropy:     -12.3524
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0000
+    Max final entropy:        0.3837
+    95 percentile entropy:    0.00013
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7771
+    Policy pseudo loss:       -0.19384
+    Policy Total grad norm:   1.53643
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 24.841
+    Median steps to disent.:  24.0
+    
+Iteration (18700/20001) took 3.215 seconds.
+    Mean return:              74.8467
+    Mean episode entropy:     -12.1458
+    Mean final entropy:       0.0005
+    Median final entropy:     0.0000
+    Max final entropy:        0.5230
+    95 percentile entropy:    0.00025
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.6695
+    Policy pseudo loss:       -0.15136
+    Policy Total grad norm:   4.97639
+    Solved trajectories:      1018 / 1024
+    Avg steps to disentangle: 25.476
+    Median steps to disent.:  25.0
+    
+Iteration (18800/20001) took 2.809 seconds.
+    Mean return:              76.0322
+    Mean episode entropy:     -11.2403
+    Mean final entropy:       0.0011
+    Median final entropy:     0.0000
+    Max final entropy:        0.6845
+    95 percentile entropy:    0.00011
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7406
+    Policy pseudo loss:       -0.07094
+    Policy Total grad norm:   2.56465
+    Solved trajectories:      1021 / 1024
+    Avg steps to disentangle: 24.627
+    Median steps to disent.:  24.0
+    
+Iteration (18900/20001) took 3.192 seconds.
+    Mean return:              76.1982
+    Mean episode entropy:     -11.5226
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.4186
+    95 percentile entropy:    0.00013
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7342
+    Policy pseudo loss:       -0.16441
+    Policy Total grad norm:   1.53016
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 24.886
+    Median steps to disent.:  25.0
+    
+Iteration (19000/20001) took 3.776 seconds.
+    Mean return:              75.9834
+    Mean episode entropy:     -11.6874
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0073
+    95 percentile entropy:    0.00014
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7228
+    Policy pseudo loss:       -0.19368
+    Policy Total grad norm:   1.42775
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 24.790
+    Median steps to disent.:  25.0
+    
+Iteration 19000
+Testing agent accuracy for 40 steps...
+Testing took 8.289 seconds.
+    Solved states:            8632 / 10240 = 84.297%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0516
+    95 percentile entropy:    0.57179
+    Max entropy:              0.69282
+    Mean return:              59.0885
+    Avg steps to disentangle: 26.160
+    Median steps to disent.:  24.0
+    
+Iteration (19100/20001) took 3.245 seconds.
+    Mean return:              75.8594
+    Mean episode entropy:     -12.9157
+    Mean final entropy:       0.0007
+    Median final entropy:     0.0000
+    Max final entropy:        0.6886
+    95 percentile entropy:    0.00015
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7577
+    Policy pseudo loss:       -0.23037
+    Policy Total grad norm:   2.96004
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.112
+    Median steps to disent.:  25.0
+    
+Iteration (19200/20001) took 2.901 seconds.
+    Mean return:              75.6777
+    Mean episode entropy:     -11.5391
+    Mean final entropy:       0.0017
+    Median final entropy:     0.0000
+    Max final entropy:        0.6766
+    95 percentile entropy:    0.00014
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7154
+    Policy pseudo loss:       -0.07754
+    Policy Total grad norm:   2.15266
+    Solved trajectories:      1019 / 1024
+    Avg steps to disentangle: 24.953
+    Median steps to disent.:  25.0
+    
+Iteration (19300/20001) took 3.130 seconds.
+    Mean return:              75.8682
+    Mean episode entropy:     -12.1688
+    Mean final entropy:       0.0003
+    Median final entropy:     0.0000
+    Max final entropy:        0.3942
+    95 percentile entropy:    0.00014
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7355
+    Policy pseudo loss:       -0.05018
+    Policy Total grad norm:   1.97445
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.103
+    Median steps to disent.:  25.0
+    
+Iteration (19400/20001) took 3.019 seconds.
+    Mean return:              76.1035
+    Mean episode entropy:     -13.2549
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0038
+    95 percentile entropy:    0.00015
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7357
+    Policy pseudo loss:       -0.26649
+    Policy Total grad norm:   2.53579
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 25.277
+    Median steps to disent.:  25.0
+    
+Iteration (19500/20001) took 4.014 seconds.
+    Mean return:              75.7930
+    Mean episode entropy:     -11.2935
+    Mean final entropy:       0.0002
+    Median final entropy:     0.0000
+    Max final entropy:        0.3420
+    95 percentile entropy:    0.00021
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.6638
+    Policy pseudo loss:       -0.19132
+    Policy Total grad norm:   3.40613
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 25.178
+    Median steps to disent.:  25.0
+    
+Iteration (19600/20001) took 3.050 seconds.
+    Mean return:              76.1670
+    Mean episode entropy:     -11.0905
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0019
+    95 percentile entropy:    0.00013
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7282
+    Policy pseudo loss:       -0.11375
+    Policy Total grad norm:   1.36202
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 24.818
+    Median steps to disent.:  25.0
+    
+Iteration (19700/20001) took 3.274 seconds.
+    Mean return:              76.1719
+    Mean episode entropy:     -12.1133
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0012
+    95 percentile entropy:    0.00011
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7625
+    Policy pseudo loss:       -0.17769
+    Policy Total grad norm:   1.49680
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 24.813
+    Median steps to disent.:  24.0
+    
+Iteration (19800/20001) took 3.446 seconds.
+    Mean return:              76.5107
+    Mean episode entropy:     -10.6007
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0010
+    95 percentile entropy:    0.00011
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7228
+    Policy pseudo loss:       -0.09003
+    Policy Total grad norm:   1.99733
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 24.573
+    Median steps to disent.:  24.0
+    
+Iteration (19900/20001) took 2.547 seconds.
+    Mean return:              76.3877
+    Mean episode entropy:     -11.3737
+    Mean final entropy:       0.0009
+    Median final entropy:     0.0000
+    Max final entropy:        0.6858
+    95 percentile entropy:    0.00011
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7354
+    Policy pseudo loss:       -0.15642
+    Policy Total grad norm:   1.76622
+    Solved trajectories:      1022 / 1024
+    Avg steps to disentangle: 24.483
+    Median steps to disent.:  24.0
+    
+Iteration (20000/20001) took 2.805 seconds.
+    Mean return:              76.4902
+    Mean episode entropy:     -11.4091
+    Mean final entropy:       0.0000
+    Median final entropy:     0.0000
+    Max final entropy:        0.0294
+    95 percentile entropy:    0.00012
+    Value loss:               nan
+    Value Total grad norm     nan
+    Policy entropy:           0.7374
+    Policy pseudo loss:       -0.18287
+    Policy Total grad norm:   2.13699
+    Solved trajectories:      1023 / 1024
+    Avg steps to disentangle: 24.692
+    Median steps to disent.:  24.0
+    
+Iteration 20000
+Testing agent accuracy for 40 steps...
+Testing took 8.303 seconds.
+    Solved states:            9212 / 10240 = 89.961%
+    Min entropy:              -0.00000
+    Mean final entropy:       0.0470
+    95 percentile entropy:    0.56666
+    Max entropy:              0.69302
+    Mean return:              65.7926
+    Avg steps to disentangle: 25.088
+    Median steps to disent.:  24.0
+    
+Training took 62775.082 seconds.

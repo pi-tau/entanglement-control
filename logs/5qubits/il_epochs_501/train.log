@@ -1,0 +1,2848 @@
+##############################
+Training parameters:
+    Dataset size:                   1817675
+    Minimum system entropy (epsi):  0.001
+    Number of epochs:               501
+    Batch size:                     2048
+    Learning rate:                  0.0001
+    Learning rate decay:            1.0
+    Final learning rate:            0.0001
+    Weight regularization:          0.0001
+    Grad clipping threshold:        10.0
+    Neural network dropout:         0.0
+##############################
+
+Using device: cuda
+
+Using optimizer:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    initial_lr: 0.0001
+    lr: 0.0001
+    weight_decay: 0.0001
+)
+
+Epoch (0/501) took 50.875 seconds.
+  Avg Loss:           1.90666
+  Avg Grad norm:      0.40580
+  Avg policy entropy: 0.64856
+Epoch 0
+Testing agent accuracy for 30 steps...
+Testing took 170.300 seconds.
+    True classification took: 143.921 seconds
+    True action classification: 0.510
+    In sample classification accuracy: 0.368
+    Out of sample classification accuracy: 0.360
+    Solved states:            1 / 1000 = 0.100%
+    Min entropy:              0.00005
+    Mean final entropy:       0.1015
+    95 percentile entropy:    0.43702
+    Max entropy:              0.69095
+    Mean return:              -29.8990
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (1/501) took 52.963 seconds.
+  Avg Loss:           1.75425
+  Avg Grad norm:      0.39858
+  Avg policy entropy: 0.59872
+Epoch (2/501) took 105.076 seconds.
+  Avg Loss:           1.70242
+  Avg Grad norm:      0.43801
+  Avg policy entropy: 0.58108
+Epoch (3/501) took 144.340 seconds.
+  Avg Loss:           1.67464
+  Avg Grad norm:      0.47835
+  Avg policy entropy: 0.57160
+Epoch (4/501) took 167.804 seconds.
+  Avg Loss:           1.65597
+  Avg Grad norm:      0.52539
+  Avg policy entropy: 0.56507
+Epoch (5/501) took 156.430 seconds.
+  Avg Loss:           1.64237
+  Avg Grad norm:      0.56029
+  Avg policy entropy: 0.56050
+Epoch (6/501) took 152.831 seconds.
+  Avg Loss:           1.63188
+  Avg Grad norm:      0.57503
+  Avg policy entropy: 0.55686
+Epoch (7/501) took 167.240 seconds.
+  Avg Loss:           1.62273
+  Avg Grad norm:      0.59319
+  Avg policy entropy: 0.55386
+Epoch (8/501) took 136.404 seconds.
+  Avg Loss:           1.61688
+  Avg Grad norm:      0.65584
+  Avg policy entropy: 0.55161
+Epoch (9/501) took 167.580 seconds.
+  Avg Loss:           1.61117
+  Avg Grad norm:      0.63745
+  Avg policy entropy: 0.54957
+Epoch (10/501) took 161.743 seconds.
+  Avg Loss:           1.60720
+  Avg Grad norm:      0.69420
+  Avg policy entropy: 0.54803
+Epoch 10
+Testing agent accuracy for 30 steps...
+Testing took 170.654 seconds.
+    True classification took: 137.771 seconds
+    True action classification: 0.467
+    In sample classification accuracy: 0.435
+    Out of sample classification accuracy: 0.409
+    Solved states:            0 / 1000 = 0.000%
+    Min entropy:              0.00045
+    Mean final entropy:       0.0554
+    95 percentile entropy:    0.16629
+    Max entropy:              0.68908
+    Mean return:              -30.0000
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (11/501) took 59.410 seconds.
+  Avg Loss:           1.60327
+  Avg Grad norm:      0.71556
+  Avg policy entropy: 0.54667
+Epoch (12/501) took 130.338 seconds.
+  Avg Loss:           1.59992
+  Avg Grad norm:      0.71620
+  Avg policy entropy: 0.54562
+Epoch (13/501) took 160.576 seconds.
+  Avg Loss:           1.59709
+  Avg Grad norm:      0.73496
+  Avg policy entropy: 0.54452
+Epoch (14/501) took 172.521 seconds.
+  Avg Loss:           1.59446
+  Avg Grad norm:      0.78588
+  Avg policy entropy: 0.54363
+Epoch (15/501) took 163.164 seconds.
+  Avg Loss:           1.59140
+  Avg Grad norm:      0.74794
+  Avg policy entropy: 0.54277
+Epoch (16/501) took 151.370 seconds.
+  Avg Loss:           1.58933
+  Avg Grad norm:      0.75359
+  Avg policy entropy: 0.54203
+Epoch (17/501) took 153.653 seconds.
+  Avg Loss:           1.58746
+  Avg Grad norm:      0.82549
+  Avg policy entropy: 0.54129
+Epoch (18/501) took 147.883 seconds.
+  Avg Loss:           1.58513
+  Avg Grad norm:      0.81679
+  Avg policy entropy: 0.54067
+Epoch (19/501) took 158.454 seconds.
+  Avg Loss:           1.58309
+  Avg Grad norm:      0.81630
+  Avg policy entropy: 0.53999
+Epoch (20/501) took 155.723 seconds.
+  Avg Loss:           1.58122
+  Avg Grad norm:      0.81376
+  Avg policy entropy: 0.53956
+Epoch 20
+Testing agent accuracy for 30 steps...
+Testing took 166.559 seconds.
+    True classification took: 135.438 seconds
+    True action classification: 0.523
+    In sample classification accuracy: 0.390
+    Out of sample classification accuracy: 0.414
+    Solved states:            0 / 1000 = 0.000%
+    Min entropy:              0.00023
+    Mean final entropy:       0.0750
+    95 percentile entropy:    0.36347
+    Max entropy:              0.69304
+    Mean return:              -30.0000
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (21/501) took 53.658 seconds.
+  Avg Loss:           1.57963
+  Avg Grad norm:      0.83340
+  Avg policy entropy: 0.53890
+Epoch (22/501) took 94.022 seconds.
+  Avg Loss:           1.57773
+  Avg Grad norm:      0.87152
+  Avg policy entropy: 0.53827
+Epoch (23/501) took 114.361 seconds.
+  Avg Loss:           1.57573
+  Avg Grad norm:      0.80938
+  Avg policy entropy: 0.53783
+Epoch (24/501) took 115.041 seconds.
+  Avg Loss:           1.57503
+  Avg Grad norm:      0.87671
+  Avg policy entropy: 0.53735
+Epoch (25/501) took 116.994 seconds.
+  Avg Loss:           1.57330
+  Avg Grad norm:      0.87522
+  Avg policy entropy: 0.53682
+Epoch (26/501) took 118.843 seconds.
+  Avg Loss:           1.57183
+  Avg Grad norm:      0.86759
+  Avg policy entropy: 0.53645
+Epoch (27/501) took 116.164 seconds.
+  Avg Loss:           1.57001
+  Avg Grad norm:      0.86579
+  Avg policy entropy: 0.53595
+Epoch (28/501) took 115.852 seconds.
+  Avg Loss:           1.56948
+  Avg Grad norm:      0.92766
+  Avg policy entropy: 0.53562
+Epoch (29/501) took 117.112 seconds.
+  Avg Loss:           1.56806
+  Avg Grad norm:      0.92142
+  Avg policy entropy: 0.53519
+Epoch (30/501) took 115.480 seconds.
+  Avg Loss:           1.56675
+  Avg Grad norm:      0.92780
+  Avg policy entropy: 0.53479
+Epoch 30
+Testing agent accuracy for 30 steps...
+Testing took 182.901 seconds.
+    True classification took: 153.617 seconds
+    True action classification: 0.570
+    In sample classification accuracy: 0.444
+    Out of sample classification accuracy: 0.416
+    Solved states:            0 / 1000 = 0.000%
+    Min entropy:              0.00011
+    Mean final entropy:       0.0767
+    95 percentile entropy:    0.43851
+    Max entropy:              0.68770
+    Mean return:              -30.0000
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (31/501) took 53.555 seconds.
+  Avg Loss:           1.56527
+  Avg Grad norm:      0.92753
+  Avg policy entropy: 0.53437
+Epoch (32/501) took 98.878 seconds.
+  Avg Loss:           1.56451
+  Avg Grad norm:      0.96511
+  Avg policy entropy: 0.53410
+Epoch (33/501) took 127.892 seconds.
+  Avg Loss:           1.56287
+  Avg Grad norm:      0.92084
+  Avg policy entropy: 0.53366
+Epoch (34/501) took 129.339 seconds.
+  Avg Loss:           1.56259
+  Avg Grad norm:      0.99834
+  Avg policy entropy: 0.53336
+Epoch (35/501) took 128.958 seconds.
+  Avg Loss:           1.56093
+  Avg Grad norm:      0.97215
+  Avg policy entropy: 0.53302
+Epoch (36/501) took 129.876 seconds.
+  Avg Loss:           1.56040
+  Avg Grad norm:      0.99641
+  Avg policy entropy: 0.53272
+Epoch (37/501) took 128.288 seconds.
+  Avg Loss:           1.55917
+  Avg Grad norm:      0.97638
+  Avg policy entropy: 0.53243
+Epoch (38/501) took 130.251 seconds.
+  Avg Loss:           1.55823
+  Avg Grad norm:      0.98808
+  Avg policy entropy: 0.53208
+Epoch (39/501) took 129.911 seconds.
+  Avg Loss:           1.55765
+  Avg Grad norm:      1.04668
+  Avg policy entropy: 0.53187
+Epoch (40/501) took 129.427 seconds.
+  Avg Loss:           1.55653
+  Avg Grad norm:      1.02408
+  Avg policy entropy: 0.53159
+Epoch 40
+Testing agent accuracy for 30 steps...
+Testing took 180.445 seconds.
+    True classification took: 151.929 seconds
+    True action classification: 0.407
+    In sample classification accuracy: 0.452
+    Out of sample classification accuracy: 0.416
+    Solved states:            0 / 1000 = 0.000%
+    Min entropy:              0.00008
+    Mean final entropy:       0.0866
+    95 percentile entropy:    0.51445
+    Max entropy:              0.69064
+    Mean return:              -30.0000
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (41/501) took 53.560 seconds.
+  Avg Loss:           1.55527
+  Avg Grad norm:      1.01707
+  Avg policy entropy: 0.53115
+Epoch (42/501) took 100.227 seconds.
+  Avg Loss:           1.55522
+  Avg Grad norm:      1.10123
+  Avg policy entropy: 0.53105
+Epoch (43/501) took 125.414 seconds.
+  Avg Loss:           1.55365
+  Avg Grad norm:      1.04745
+  Avg policy entropy: 0.53078
+Epoch (44/501) took 129.270 seconds.
+  Avg Loss:           1.55280
+  Avg Grad norm:      1.03633
+  Avg policy entropy: 0.53040
+Epoch (45/501) took 129.165 seconds.
+  Avg Loss:           1.55197
+  Avg Grad norm:      1.05150
+  Avg policy entropy: 0.53028
+Epoch (46/501) took 128.784 seconds.
+  Avg Loss:           1.55142
+  Avg Grad norm:      1.07247
+  Avg policy entropy: 0.52997
+Epoch (47/501) took 129.961 seconds.
+  Avg Loss:           1.55048
+  Avg Grad norm:      1.09492
+  Avg policy entropy: 0.52967
+Epoch (48/501) took 128.250 seconds.
+  Avg Loss:           1.54974
+  Avg Grad norm:      1.08789
+  Avg policy entropy: 0.52945
+Epoch (49/501) took 129.475 seconds.
+  Avg Loss:           1.54965
+  Avg Grad norm:      1.18165
+  Avg policy entropy: 0.52931
+Epoch (50/501) took 128.123 seconds.
+  Avg Loss:           1.54768
+  Avg Grad norm:      1.07611
+  Avg policy entropy: 0.52901
+Epoch 50
+Testing agent accuracy for 30 steps...
+Testing took 167.044 seconds.
+    True classification took: 136.764 seconds
+    True action classification: 0.497
+    In sample classification accuracy: 0.407
+    Out of sample classification accuracy: 0.418
+    Solved states:            0 / 1000 = 0.000%
+    Min entropy:              0.00011
+    Mean final entropy:       0.0881
+    95 percentile entropy:    0.50804
+    Max entropy:              0.68685
+    Mean return:              -30.0000
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (51/501) took 55.940 seconds.
+  Avg Loss:           1.54716
+  Avg Grad norm:      1.10641
+  Avg policy entropy: 0.52862
+Epoch (52/501) took 125.451 seconds.
+  Avg Loss:           1.54643
+  Avg Grad norm:      1.21342
+  Avg policy entropy: 0.52837
+Epoch (53/501) took 140.385 seconds.
+  Avg Loss:           1.54430
+  Avg Grad norm:      1.12191
+  Avg policy entropy: 0.52800
+Epoch (54/501) took 141.601 seconds.
+  Avg Loss:           1.54345
+  Avg Grad norm:      1.19850
+  Avg policy entropy: 0.52765
+Epoch (55/501) took 148.220 seconds.
+  Avg Loss:           1.54253
+  Avg Grad norm:      1.23778
+  Avg policy entropy: 0.52735
+Epoch (56/501) took 153.131 seconds.
+  Avg Loss:           1.54058
+  Avg Grad norm:      1.26934
+  Avg policy entropy: 0.52675
+Epoch (57/501) took 151.134 seconds.
+  Avg Loss:           1.53914
+  Avg Grad norm:      1.32086
+  Avg policy entropy: 0.52638
+Epoch (58/501) took 150.705 seconds.
+  Avg Loss:           1.53751
+  Avg Grad norm:      1.31930
+  Avg policy entropy: 0.52591
+Epoch (59/501) took 150.318 seconds.
+  Avg Loss:           1.53573
+  Avg Grad norm:      1.39431
+  Avg policy entropy: 0.52547
+Epoch (60/501) took 149.604 seconds.
+  Avg Loss:           1.53392
+  Avg Grad norm:      1.44767
+  Avg policy entropy: 0.52479
+Epoch 60
+Testing agent accuracy for 30 steps...
+Testing took 159.524 seconds.
+    True classification took: 130.010 seconds
+    True action classification: 0.450
+    In sample classification accuracy: 0.455
+    Out of sample classification accuracy: 0.421
+    Solved states:            0 / 1000 = 0.000%
+    Min entropy:              0.00005
+    Mean final entropy:       0.0774
+    95 percentile entropy:    0.47454
+    Max entropy:              0.69222
+    Mean return:              -30.0000
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (61/501) took 55.715 seconds.
+  Avg Loss:           1.53252
+  Avg Grad norm:      1.50160
+  Avg policy entropy: 0.52442
+Epoch (62/501) took 115.285 seconds.
+  Avg Loss:           1.53028
+  Avg Grad norm:      1.57111
+  Avg policy entropy: 0.52382
+Epoch (63/501) took 136.396 seconds.
+  Avg Loss:           1.52764
+  Avg Grad norm:      1.53982
+  Avg policy entropy: 0.52317
+Epoch (64/501) took 152.583 seconds.
+  Avg Loss:           1.52559
+  Avg Grad norm:      1.62327
+  Avg policy entropy: 0.52252
+Epoch (65/501) took 156.996 seconds.
+  Avg Loss:           1.52324
+  Avg Grad norm:      1.70675
+  Avg policy entropy: 0.52182
+Epoch (66/501) took 137.060 seconds.
+  Avg Loss:           1.52093
+  Avg Grad norm:      1.84206
+  Avg policy entropy: 0.52117
+Epoch (67/501) took 132.836 seconds.
+  Avg Loss:           1.51796
+  Avg Grad norm:      1.78975
+  Avg policy entropy: 0.52036
+Epoch (68/501) took 133.186 seconds.
+  Avg Loss:           1.51573
+  Avg Grad norm:      1.87863
+  Avg policy entropy: 0.51966
+Epoch (69/501) took 132.783 seconds.
+  Avg Loss:           1.51325
+  Avg Grad norm:      1.94734
+  Avg policy entropy: 0.51886
+Epoch (70/501) took 133.914 seconds.
+  Avg Loss:           1.51074
+  Avg Grad norm:      2.02733
+  Avg policy entropy: 0.51829
+Epoch 70
+Testing agent accuracy for 30 steps...
+Testing took 149.663 seconds.
+    True classification took: 120.810 seconds
+    True action classification: 0.530
+    In sample classification accuracy: 0.418
+    Out of sample classification accuracy: 0.425
+    Solved states:            2 / 1000 = 0.200%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0448
+    95 percentile entropy:    0.27017
+    Max entropy:              0.68720
+    Mean return:              -29.7980
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (71/501) took 56.955 seconds.
+  Avg Loss:           1.50862
+  Avg Grad norm:      2.07836
+  Avg policy entropy: 0.51752
+Epoch (72/501) took 116.140 seconds.
+  Avg Loss:           1.50599
+  Avg Grad norm:      2.25211
+  Avg policy entropy: 0.51673
+Epoch (73/501) took 133.443 seconds.
+  Avg Loss:           1.50430
+  Avg Grad norm:      2.28202
+  Avg policy entropy: 0.51626
+Epoch (74/501) took 133.006 seconds.
+  Avg Loss:           1.50163
+  Avg Grad norm:      2.20705
+  Avg policy entropy: 0.51556
+Epoch (75/501) took 130.486 seconds.
+  Avg Loss:           1.49865
+  Avg Grad norm:      2.33539
+  Avg policy entropy: 0.51471
+Epoch (76/501) took 129.138 seconds.
+  Avg Loss:           1.49549
+  Avg Grad norm:      2.26110
+  Avg policy entropy: 0.51395
+Epoch (77/501) took 131.699 seconds.
+  Avg Loss:           1.49124
+  Avg Grad norm:      2.26869
+  Avg policy entropy: 0.51311
+Epoch (78/501) took 127.053 seconds.
+  Avg Loss:           1.48469
+  Avg Grad norm:      2.53393
+  Avg policy entropy: 0.51163
+Epoch (79/501) took 131.447 seconds.
+  Avg Loss:           1.47539
+  Avg Grad norm:      2.60492
+  Avg policy entropy: 0.50945
+Epoch (80/501) took 130.018 seconds.
+  Avg Loss:           1.46407
+  Avg Grad norm:      2.56563
+  Avg policy entropy: 0.50671
+Epoch 80
+Testing agent accuracy for 30 steps...
+Testing took 156.437 seconds.
+    True classification took: 124.736 seconds
+    True action classification: 0.567
+    In sample classification accuracy: 0.471
+    Out of sample classification accuracy: 0.462
+    Solved states:            2 / 1000 = 0.200%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0625
+    95 percentile entropy:    0.36359
+    Max entropy:              0.68891
+    Mean return:              -29.7980
+    Avg steps to disentangle: 30.000
+    Median steps to disent.:  30.0
+    
+Epoch (81/501) took 56.930 seconds.
+  Avg Loss:           1.45391
+  Avg Grad norm:      2.67764
+  Avg policy entropy: 0.50360
+Epoch (82/501) took 115.273 seconds.
+  Avg Loss:           1.44518
+  Avg Grad norm:      2.57641
+  Avg policy entropy: 0.50091
+Epoch (83/501) took 134.307 seconds.
+  Avg Loss:           1.43867
+  Avg Grad norm:      2.81458
+  Avg policy entropy: 0.49857
+Epoch (84/501) took 138.067 seconds.
+  Avg Loss:           1.43192
+  Avg Grad norm:      2.75992
+  Avg policy entropy: 0.49642
+Epoch (85/501) took 136.028 seconds.
+  Avg Loss:           1.42670
+  Avg Grad norm:      2.98876
+  Avg policy entropy: 0.49452
+Epoch (86/501) took 136.051 seconds.
+  Avg Loss:           1.42097
+  Avg Grad norm:      2.95224
+  Avg policy entropy: 0.49280
+Epoch (87/501) took 131.482 seconds.
+  Avg Loss:           1.41521
+  Avg Grad norm:      2.88228
+  Avg policy entropy: 0.49107
+Epoch (88/501) took 132.497 seconds.
+  Avg Loss:           1.40916
+  Avg Grad norm:      2.98419
+  Avg policy entropy: 0.48923
+Epoch (89/501) took 132.846 seconds.
+  Avg Loss:           1.40213
+  Avg Grad norm:      3.14669
+  Avg policy entropy: 0.48721
+Epoch (90/501) took 136.087 seconds.
+  Avg Loss:           1.39366
+  Avg Grad norm:      3.03967
+  Avg policy entropy: 0.48509
+Epoch 90
+Testing agent accuracy for 30 steps...
+Testing took 155.009 seconds.
+    True classification took: 124.332 seconds
+    True action classification: 0.567
+    In sample classification accuracy: 0.535
+    Out of sample classification accuracy: 0.501
+    Solved states:            6 / 1000 = 0.600%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0759
+    95 percentile entropy:    0.40997
+    Max entropy:              0.69191
+    Mean return:              -29.3850
+    Avg steps to disentangle: 29.991
+    Median steps to disent.:  30.0
+    
+Epoch (91/501) took 66.856 seconds.
+  Avg Loss:           1.38342
+  Avg Grad norm:      3.23488
+  Avg policy entropy: 0.48242
+Epoch (92/501) took 142.909 seconds.
+  Avg Loss:           1.37274
+  Avg Grad norm:      3.23347
+  Avg policy entropy: 0.47945
+Epoch (93/501) took 150.573 seconds.
+  Avg Loss:           1.36262
+  Avg Grad norm:      3.27031
+  Avg policy entropy: 0.47627
+Epoch (94/501) took 151.096 seconds.
+  Avg Loss:           1.35187
+  Avg Grad norm:      3.23277
+  Avg policy entropy: 0.47312
+Epoch (95/501) took 151.790 seconds.
+  Avg Loss:           1.34010
+  Avg Grad norm:      3.40718
+  Avg policy entropy: 0.46975
+Epoch (96/501) took 151.246 seconds.
+  Avg Loss:           1.32712
+  Avg Grad norm:      3.29960
+  Avg policy entropy: 0.46610
+Epoch (97/501) took 152.497 seconds.
+  Avg Loss:           1.31511
+  Avg Grad norm:      3.37160
+  Avg policy entropy: 0.46239
+Epoch (98/501) took 160.306 seconds.
+  Avg Loss:           1.30369
+  Avg Grad norm:      3.41220
+  Avg policy entropy: 0.45864
+Epoch (99/501) took 140.892 seconds.
+  Avg Loss:           1.29337
+  Avg Grad norm:      3.40113
+  Avg policy entropy: 0.45534
+Epoch (100/501) took 136.484 seconds.
+  Avg Loss:           1.28610
+  Avg Grad norm:      3.68519
+  Avg policy entropy: 0.45237
+Epoch 100
+Testing agent accuracy for 30 steps...
+Testing took 142.509 seconds.
+    True classification took: 110.483 seconds
+    True action classification: 0.522
+    In sample classification accuracy: 0.589
+    Out of sample classification accuracy: 0.559
+    Solved states:            35 / 1000 = 3.500%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0450
+    95 percentile entropy:    0.35408
+    Max entropy:              0.68107
+    Mean return:              -26.3720
+    Avg steps to disentangle: 29.907
+    Median steps to disent.:  30.0
+    
+Epoch (101/501) took 59.636 seconds.
+  Avg Loss:           1.27887
+  Avg Grad norm:      3.63467
+  Avg policy entropy: 0.44966
+Epoch (102/501) took 120.389 seconds.
+  Avg Loss:           1.27209
+  Avg Grad norm:      3.71293
+  Avg policy entropy: 0.44733
+Epoch (103/501) took 135.776 seconds.
+  Avg Loss:           1.26645
+  Avg Grad norm:      3.76120
+  Avg policy entropy: 0.44534
+Epoch (104/501) took 138.925 seconds.
+  Avg Loss:           1.26036
+  Avg Grad norm:      3.69300
+  Avg policy entropy: 0.44329
+Epoch (105/501) took 136.516 seconds.
+  Avg Loss:           1.25556
+  Avg Grad norm:      3.78033
+  Avg policy entropy: 0.44142
+Epoch (106/501) took 135.770 seconds.
+  Avg Loss:           1.25052
+  Avg Grad norm:      3.71845
+  Avg policy entropy: 0.43966
+Epoch (107/501) took 134.921 seconds.
+  Avg Loss:           1.24621
+  Avg Grad norm:      3.91553
+  Avg policy entropy: 0.43826
+Epoch (108/501) took 171.757 seconds.
+  Avg Loss:           1.24206
+  Avg Grad norm:      3.90619
+  Avg policy entropy: 0.43675
+Epoch (109/501) took 136.242 seconds.
+  Avg Loss:           1.23797
+  Avg Grad norm:      3.92500
+  Avg policy entropy: 0.43532
+Epoch (110/501) took 132.522 seconds.
+  Avg Loss:           1.23383
+  Avg Grad norm:      3.96275
+  Avg policy entropy: 0.43394
+Epoch 110
+Testing agent accuracy for 30 steps...
+Testing took 137.182 seconds.
+    True classification took: 107.772 seconds
+    True action classification: 0.538
+    In sample classification accuracy: 0.609
+    Out of sample classification accuracy: 0.568
+    Solved states:            130 / 1000 = 13.000%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0774
+    95 percentile entropy:    0.39698
+    Max entropy:              0.69122
+    Mean return:              -16.5570
+    Avg steps to disentangle: 29.687
+    Median steps to disent.:  30.0
+    
+Epoch (111/501) took 61.041 seconds.
+  Avg Loss:           1.22997
+  Avg Grad norm:      3.96258
+  Avg policy entropy: 0.43257
+Epoch (112/501) took 122.357 seconds.
+  Avg Loss:           1.22666
+  Avg Grad norm:      4.13424
+  Avg policy entropy: 0.43142
+Epoch (113/501) took 136.433 seconds.
+  Avg Loss:           1.22291
+  Avg Grad norm:      4.05924
+  Avg policy entropy: 0.43026
+Epoch (114/501) took 144.178 seconds.
+  Avg Loss:           1.22039
+  Avg Grad norm:      4.07531
+  Avg policy entropy: 0.42935
+Epoch (115/501) took 138.013 seconds.
+  Avg Loss:           1.21746
+  Avg Grad norm:      4.15633
+  Avg policy entropy: 0.42838
+Epoch (116/501) took 138.465 seconds.
+  Avg Loss:           1.21380
+  Avg Grad norm:      3.99652
+  Avg policy entropy: 0.42741
+Epoch (117/501) took 133.198 seconds.
+  Avg Loss:           1.21178
+  Avg Grad norm:      4.04696
+  Avg policy entropy: 0.42649
+Epoch (118/501) took 134.006 seconds.
+  Avg Loss:           1.20970
+  Avg Grad norm:      4.09660
+  Avg policy entropy: 0.42583
+Epoch (119/501) took 134.166 seconds.
+  Avg Loss:           1.20725
+  Avg Grad norm:      4.13029
+  Avg policy entropy: 0.42499
+Epoch (120/501) took 137.721 seconds.
+  Avg Loss:           1.20455
+  Avg Grad norm:      3.96787
+  Avg policy entropy: 0.42426
+Epoch 120
+Testing agent accuracy for 30 steps...
+Testing took 134.999 seconds.
+    True classification took: 102.226 seconds
+    True action classification: 0.564
+    In sample classification accuracy: 0.598
+    Out of sample classification accuracy: 0.580
+    Solved states:            139 / 1000 = 13.900%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0658
+    95 percentile entropy:    0.38398
+    Max entropy:              0.68940
+    Mean return:              -15.6290
+    Avg steps to disentangle: 29.668
+    Median steps to disent.:  30.0
+    
+Epoch (121/501) took 79.474 seconds.
+  Avg Loss:           1.20303
+  Avg Grad norm:      4.04072
+  Avg policy entropy: 0.42357
+Epoch (122/501) took 154.429 seconds.
+  Avg Loss:           1.20064
+  Avg Grad norm:      4.19287
+  Avg policy entropy: 0.42284
+Epoch (123/501) took 167.312 seconds.
+  Avg Loss:           1.19940
+  Avg Grad norm:      4.25731
+  Avg policy entropy: 0.42231
+Epoch (124/501) took 163.800 seconds.
+  Avg Loss:           1.19625
+  Avg Grad norm:      4.02433
+  Avg policy entropy: 0.42169
+Epoch (125/501) took 165.944 seconds.
+  Avg Loss:           1.19515
+  Avg Grad norm:      4.24804
+  Avg policy entropy: 0.42106
+Epoch (126/501) took 166.992 seconds.
+  Avg Loss:           1.19312
+  Avg Grad norm:      4.21831
+  Avg policy entropy: 0.42051
+Epoch (127/501) took 165.930 seconds.
+  Avg Loss:           1.19103
+  Avg Grad norm:      4.21658
+  Avg policy entropy: 0.42000
+Epoch (128/501) took 144.904 seconds.
+  Avg Loss:           1.18858
+  Avg Grad norm:      3.99901
+  Avg policy entropy: 0.41926
+Epoch (129/501) took 144.864 seconds.
+  Avg Loss:           1.18746
+  Avg Grad norm:      4.17779
+  Avg policy entropy: 0.41880
+Epoch (130/501) took 142.651 seconds.
+  Avg Loss:           1.18640
+  Avg Grad norm:      4.27562
+  Avg policy entropy: 0.41841
+Epoch 130
+Testing agent accuracy for 30 steps...
+Testing took 143.370 seconds.
+    True classification took: 110.851 seconds
+    True action classification: 0.573
+    In sample classification accuracy: 0.610
+    Out of sample classification accuracy: 0.586
+    Solved states:            164 / 1000 = 16.400%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0544
+    95 percentile entropy:    0.34598
+    Max entropy:              0.69101
+    Mean return:              -12.9330
+    Avg steps to disentangle: 29.497
+    Median steps to disent.:  30.0
+    
+Epoch (131/501) took 73.255 seconds.
+  Avg Loss:           1.18400
+  Avg Grad norm:      4.13345
+  Avg policy entropy: 0.41771
+Epoch (132/501) took 134.825 seconds.
+  Avg Loss:           1.18233
+  Avg Grad norm:      4.28881
+  Avg policy entropy: 0.41732
+Epoch (133/501) took 139.860 seconds.
+  Avg Loss:           1.18172
+  Avg Grad norm:      4.34453
+  Avg policy entropy: 0.41691
+Epoch (134/501) took 142.587 seconds.
+  Avg Loss:           1.17918
+  Avg Grad norm:      4.20599
+  Avg policy entropy: 0.41635
+Epoch (135/501) took 139.923 seconds.
+  Avg Loss:           1.17853
+  Avg Grad norm:      4.31796
+  Avg policy entropy: 0.41596
+Epoch (136/501) took 138.951 seconds.
+  Avg Loss:           1.17641
+  Avg Grad norm:      4.18153
+  Avg policy entropy: 0.41544
+Epoch (137/501) took 142.746 seconds.
+  Avg Loss:           1.17447
+  Avg Grad norm:      4.04031
+  Avg policy entropy: 0.41513
+Epoch (138/501) took 140.868 seconds.
+  Avg Loss:           1.17390
+  Avg Grad norm:      4.35396
+  Avg policy entropy: 0.41456
+Epoch (139/501) took 144.158 seconds.
+  Avg Loss:           1.17162
+  Avg Grad norm:      4.17042
+  Avg policy entropy: 0.41416
+Epoch (140/501) took 142.344 seconds.
+  Avg Loss:           1.17086
+  Avg Grad norm:      4.25428
+  Avg policy entropy: 0.41379
+Epoch 140
+Testing agent accuracy for 30 steps...
+Testing took 134.759 seconds.
+    True classification took: 106.645 seconds
+    True action classification: 0.537
+    In sample classification accuracy: 0.615
+    Out of sample classification accuracy: 0.585
+    Solved states:            213 / 1000 = 21.300%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0614
+    95 percentile entropy:    0.39324
+    Max entropy:              0.69180
+    Mean return:              -7.9110
+    Avg steps to disentangle: 29.424
+    Median steps to disent.:  30.0
+    
+Epoch (141/501) took 65.508 seconds.
+  Avg Loss:           1.16931
+  Avg Grad norm:      4.27515
+  Avg policy entropy: 0.41344
+Epoch (142/501) took 132.232 seconds.
+  Avg Loss:           1.16762
+  Avg Grad norm:      4.17776
+  Avg policy entropy: 0.41296
+Epoch (143/501) took 139.877 seconds.
+  Avg Loss:           1.16623
+  Avg Grad norm:      4.14020
+  Avg policy entropy: 0.41269
+Epoch (144/501) took 142.150 seconds.
+  Avg Loss:           1.16508
+  Avg Grad norm:      4.20856
+  Avg policy entropy: 0.41210
+Epoch (145/501) took 140.014 seconds.
+  Avg Loss:           1.16391
+  Avg Grad norm:      4.19297
+  Avg policy entropy: 0.41189
+Epoch (146/501) took 141.917 seconds.
+  Avg Loss:           1.16236
+  Avg Grad norm:      4.31859
+  Avg policy entropy: 0.41140
+Epoch (147/501) took 140.055 seconds.
+  Avg Loss:           1.16150
+  Avg Grad norm:      4.23118
+  Avg policy entropy: 0.41112
+Epoch (148/501) took 137.922 seconds.
+  Avg Loss:           1.15899
+  Avg Grad norm:      4.12533
+  Avg policy entropy: 0.41061
+Epoch (149/501) took 140.749 seconds.
+  Avg Loss:           1.15800
+  Avg Grad norm:      4.13835
+  Avg policy entropy: 0.41031
+Epoch (150/501) took 141.450 seconds.
+  Avg Loss:           1.15661
+  Avg Grad norm:      4.10169
+  Avg policy entropy: 0.40983
+Epoch 150
+Testing agent accuracy for 30 steps...
+Testing took 130.837 seconds.
+    True classification took: 99.872 seconds
+    True action classification: 0.571
+    In sample classification accuracy: 0.642
+    Out of sample classification accuracy: 0.583
+    Solved states:            128 / 1000 = 12.800%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0488
+    95 percentile entropy:    0.34883
+    Max entropy:              0.68969
+    Mean return:              -16.6950
+    Avg steps to disentangle: 29.623
+    Median steps to disent.:  30.0
+    
+Epoch (151/501) took 79.755 seconds.
+  Avg Loss:           1.15617
+  Avg Grad norm:      4.30295
+  Avg policy entropy: 0.40960
+Epoch (152/501) took 136.886 seconds.
+  Avg Loss:           1.15448
+  Avg Grad norm:      4.16471
+  Avg policy entropy: 0.40916
+Epoch (153/501) took 141.113 seconds.
+  Avg Loss:           1.15342
+  Avg Grad norm:      4.20663
+  Avg policy entropy: 0.40882
+Epoch (154/501) took 141.595 seconds.
+  Avg Loss:           1.15191
+  Avg Grad norm:      4.29482
+  Avg policy entropy: 0.40846
+Epoch (155/501) took 140.997 seconds.
+  Avg Loss:           1.15003
+  Avg Grad norm:      4.19685
+  Avg policy entropy: 0.40805
+Epoch (156/501) took 142.000 seconds.
+  Avg Loss:           1.14882
+  Avg Grad norm:      4.17084
+  Avg policy entropy: 0.40779
+Epoch (157/501) took 138.011 seconds.
+  Avg Loss:           1.14778
+  Avg Grad norm:      4.30320
+  Avg policy entropy: 0.40738
+Epoch (158/501) took 143.179 seconds.
+  Avg Loss:           1.14583
+  Avg Grad norm:      4.11479
+  Avg policy entropy: 0.40702
+Epoch (159/501) took 141.248 seconds.
+  Avg Loss:           1.14552
+  Avg Grad norm:      4.19442
+  Avg policy entropy: 0.40673
+Epoch (160/501) took 139.617 seconds.
+  Avg Loss:           1.14305
+  Avg Grad norm:      4.05722
+  Avg policy entropy: 0.40630
+Epoch 160
+Testing agent accuracy for 30 steps...
+Testing took 131.366 seconds.
+    True classification took: 100.287 seconds
+    True action classification: 0.526
+    In sample classification accuracy: 0.610
+    Out of sample classification accuracy: 0.590
+    Solved states:            141 / 1000 = 14.100%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0493
+    95 percentile entropy:    0.34989
+    Max entropy:              0.69214
+    Mean return:              -15.3290
+    Avg steps to disentangle: 29.570
+    Median steps to disent.:  30.0
+    
+Epoch (161/501) took 58.848 seconds.
+  Avg Loss:           1.14332
+  Avg Grad norm:      4.33796
+  Avg policy entropy: 0.40603
+Epoch (162/501) took 109.322 seconds.
+  Avg Loss:           1.14163
+  Avg Grad norm:      4.22161
+  Avg policy entropy: 0.40559
+Epoch (163/501) took 119.684 seconds.
+  Avg Loss:           1.14078
+  Avg Grad norm:      4.48320
+  Avg policy entropy: 0.40537
+Epoch (164/501) took 121.279 seconds.
+  Avg Loss:           1.13891
+  Avg Grad norm:      4.25529
+  Avg policy entropy: 0.40502
+Epoch (165/501) took 136.172 seconds.
+  Avg Loss:           1.13777
+  Avg Grad norm:      4.30038
+  Avg policy entropy: 0.40478
+Epoch (166/501) took 139.278 seconds.
+  Avg Loss:           1.13603
+  Avg Grad norm:      4.07141
+  Avg policy entropy: 0.40430
+Epoch (167/501) took 137.908 seconds.
+  Avg Loss:           1.13501
+  Avg Grad norm:      4.23691
+  Avg policy entropy: 0.40399
+Epoch (168/501) took 139.409 seconds.
+  Avg Loss:           1.13401
+  Avg Grad norm:      4.40642
+  Avg policy entropy: 0.40360
+Epoch (169/501) took 141.087 seconds.
+  Avg Loss:           1.13213
+  Avg Grad norm:      4.26903
+  Avg policy entropy: 0.40321
+Epoch (170/501) took 139.526 seconds.
+  Avg Loss:           1.13000
+  Avg Grad norm:      4.13908
+  Avg policy entropy: 0.40293
+Epoch 170
+Testing agent accuracy for 30 steps...
+Testing took 136.074 seconds.
+    True classification took: 102.843 seconds
+    True action classification: 0.533
+    In sample classification accuracy: 0.644
+    Out of sample classification accuracy: 0.589
+    Solved states:            173 / 1000 = 17.300%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0447
+    95 percentile entropy:    0.33932
+    Max entropy:              0.68875
+    Mean return:              -12.0000
+    Avg steps to disentangle: 29.473
+    Median steps to disent.:  30.0
+    
+Epoch (171/501) took 79.540 seconds.
+  Avg Loss:           1.12972
+  Avg Grad norm:      4.28592
+  Avg policy entropy: 0.40251
+Epoch (172/501) took 140.070 seconds.
+  Avg Loss:           1.12831
+  Avg Grad norm:      4.22147
+  Avg policy entropy: 0.40211
+Epoch (173/501) took 141.388 seconds.
+  Avg Loss:           1.12717
+  Avg Grad norm:      4.24000
+  Avg policy entropy: 0.40197
+Epoch (174/501) took 139.875 seconds.
+  Avg Loss:           1.12534
+  Avg Grad norm:      4.25484
+  Avg policy entropy: 0.40140
+Epoch (175/501) took 139.813 seconds.
+  Avg Loss:           1.12385
+  Avg Grad norm:      4.02283
+  Avg policy entropy: 0.40109
+Epoch (176/501) took 139.382 seconds.
+  Avg Loss:           1.12258
+  Avg Grad norm:      4.23387
+  Avg policy entropy: 0.40079
+Epoch (177/501) took 140.542 seconds.
+  Avg Loss:           1.12155
+  Avg Grad norm:      4.23885
+  Avg policy entropy: 0.40050
+Epoch (178/501) took 139.742 seconds.
+  Avg Loss:           1.12018
+  Avg Grad norm:      4.28100
+  Avg policy entropy: 0.39998
+Epoch (179/501) took 140.814 seconds.
+  Avg Loss:           1.11792
+  Avg Grad norm:      4.10482
+  Avg policy entropy: 0.39957
+Epoch (180/501) took 139.966 seconds.
+  Avg Loss:           1.11788
+  Avg Grad norm:      4.32140
+  Avg policy entropy: 0.39925
+Epoch 180
+Testing agent accuracy for 30 steps...
+Testing took 136.621 seconds.
+    True classification took: 104.618 seconds
+    True action classification: 0.493
+    In sample classification accuracy: 0.619
+    Out of sample classification accuracy: 0.588
+    Solved states:            215 / 1000 = 21.500%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0404
+    95 percentile entropy:    0.28158
+    Max entropy:              0.68471
+    Mean return:              -7.6470
+    Avg steps to disentangle: 29.362
+    Median steps to disent.:  30.0
+    
+Epoch (181/501) took 77.551 seconds.
+  Avg Loss:           1.11611
+  Avg Grad norm:      4.29632
+  Avg policy entropy: 0.39896
+Epoch (182/501) took 146.772 seconds.
+  Avg Loss:           1.11410
+  Avg Grad norm:      4.18642
+  Avg policy entropy: 0.39848
+Epoch (183/501) took 142.276 seconds.
+  Avg Loss:           1.11329
+  Avg Grad norm:      4.27557
+  Avg policy entropy: 0.39818
+Epoch (184/501) took 141.452 seconds.
+  Avg Loss:           1.11154
+  Avg Grad norm:      4.28626
+  Avg policy entropy: 0.39788
+Epoch (185/501) took 139.367 seconds.
+  Avg Loss:           1.11021
+  Avg Grad norm:      4.32518
+  Avg policy entropy: 0.39734
+Epoch (186/501) took 140.536 seconds.
+  Avg Loss:           1.10853
+  Avg Grad norm:      4.26877
+  Avg policy entropy: 0.39702
+Epoch (187/501) took 143.745 seconds.
+  Avg Loss:           1.10698
+  Avg Grad norm:      4.21682
+  Avg policy entropy: 0.39658
+Epoch (188/501) took 138.598 seconds.
+  Avg Loss:           1.10626
+  Avg Grad norm:      4.31176
+  Avg policy entropy: 0.39630
+Epoch (189/501) took 143.871 seconds.
+  Avg Loss:           1.10505
+  Avg Grad norm:      4.42197
+  Avg policy entropy: 0.39589
+Epoch (190/501) took 140.629 seconds.
+  Avg Loss:           1.10325
+  Avg Grad norm:      4.31345
+  Avg policy entropy: 0.39554
+Epoch 190
+Testing agent accuracy for 30 steps...
+Testing took 133.576 seconds.
+    True classification took: 101.089 seconds
+    True action classification: 0.540
+    In sample classification accuracy: 0.646
+    Out of sample classification accuracy: 0.591
+    Solved states:            185 / 1000 = 18.500%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0497
+    95 percentile entropy:    0.34857
+    Max entropy:              0.68833
+    Mean return:              -10.7590
+    Avg steps to disentangle: 29.444
+    Median steps to disent.:  30.0
+    
+Epoch (191/501) took 59.090 seconds.
+  Avg Loss:           1.10169
+  Avg Grad norm:      4.33813
+  Avg policy entropy: 0.39520
+Epoch (192/501) took 112.217 seconds.
+  Avg Loss:           1.09985
+  Avg Grad norm:      4.15397
+  Avg policy entropy: 0.39474
+Epoch (193/501) took 119.576 seconds.
+  Avg Loss:           1.09814
+  Avg Grad norm:      4.22247
+  Avg policy entropy: 0.39439
+Epoch (194/501) took 123.010 seconds.
+  Avg Loss:           1.09806
+  Avg Grad norm:      4.35559
+  Avg policy entropy: 0.39394
+Epoch (195/501) took 122.770 seconds.
+  Avg Loss:           1.09641
+  Avg Grad norm:      4.35559
+  Avg policy entropy: 0.39367
+Epoch (196/501) took 122.620 seconds.
+  Avg Loss:           1.09462
+  Avg Grad norm:      4.44942
+  Avg policy entropy: 0.39327
+Epoch (197/501) took 123.185 seconds.
+  Avg Loss:           1.09330
+  Avg Grad norm:      4.33085
+  Avg policy entropy: 0.39294
+Epoch (198/501) took 121.638 seconds.
+  Avg Loss:           1.09207
+  Avg Grad norm:      4.27403
+  Avg policy entropy: 0.39253
+Epoch (199/501) took 121.833 seconds.
+  Avg Loss:           1.09044
+  Avg Grad norm:      4.34680
+  Avg policy entropy: 0.39207
+Epoch (200/501) took 123.600 seconds.
+  Avg Loss:           1.08870
+  Avg Grad norm:      4.31159
+  Avg policy entropy: 0.39170
+Epoch 200
+Testing agent accuracy for 30 steps...
+Testing took 135.507 seconds.
+    True classification took: 107.061 seconds
+    True action classification: 0.580
+    In sample classification accuracy: 0.646
+    Out of sample classification accuracy: 0.590
+    Solved states:            175 / 1000 = 17.500%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0409
+    95 percentile entropy:    0.29799
+    Max entropy:              0.68550
+    Mean return:              -11.7390
+    Avg steps to disentangle: 29.414
+    Median steps to disent.:  30.0
+    
+Epoch (201/501) took 56.068 seconds.
+  Avg Loss:           1.08769
+  Avg Grad norm:      4.28279
+  Avg policy entropy: 0.39133
+Epoch (202/501) took 104.346 seconds.
+  Avg Loss:           1.08610
+  Avg Grad norm:      4.48712
+  Avg policy entropy: 0.39082
+Epoch (203/501) took 119.518 seconds.
+  Avg Loss:           1.08523
+  Avg Grad norm:      4.37992
+  Avg policy entropy: 0.39054
+Epoch (204/501) took 119.988 seconds.
+  Avg Loss:           1.08293
+  Avg Grad norm:      4.28684
+  Avg policy entropy: 0.39014
+Epoch (205/501) took 121.056 seconds.
+  Avg Loss:           1.08194
+  Avg Grad norm:      4.47139
+  Avg policy entropy: 0.38989
+Epoch (206/501) took 123.547 seconds.
+  Avg Loss:           1.08023
+  Avg Grad norm:      4.35604
+  Avg policy entropy: 0.38932
+Epoch (207/501) took 121.453 seconds.
+  Avg Loss:           1.07907
+  Avg Grad norm:      4.42061
+  Avg policy entropy: 0.38902
+Epoch (208/501) took 120.926 seconds.
+  Avg Loss:           1.07778
+  Avg Grad norm:      4.47804
+  Avg policy entropy: 0.38860
+Epoch (209/501) took 122.551 seconds.
+  Avg Loss:           1.07627
+  Avg Grad norm:      4.39463
+  Avg policy entropy: 0.38834
+Epoch (210/501) took 123.593 seconds.
+  Avg Loss:           1.07525
+  Avg Grad norm:      4.49986
+  Avg policy entropy: 0.38784
+Epoch 210
+Testing agent accuracy for 30 steps...
+Testing took 132.325 seconds.
+    True classification took: 104.054 seconds
+    True action classification: 0.586
+    In sample classification accuracy: 0.667
+    Out of sample classification accuracy: 0.590
+    Solved states:            175 / 1000 = 17.500%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0405
+    95 percentile entropy:    0.30394
+    Max entropy:              0.68740
+    Mean return:              -11.7720
+    Avg steps to disentangle: 29.447
+    Median steps to disent.:  30.0
+    
+Epoch (211/501) took 53.969 seconds.
+  Avg Loss:           1.07364
+  Avg Grad norm:      4.57892
+  Avg policy entropy: 0.38748
+Epoch (212/501) took 94.468 seconds.
+  Avg Loss:           1.07201
+  Avg Grad norm:      4.47115
+  Avg policy entropy: 0.38710
+Epoch (213/501) took 109.799 seconds.
+  Avg Loss:           1.07146
+  Avg Grad norm:      4.51389
+  Avg policy entropy: 0.38677
+Epoch (214/501) took 106.936 seconds.
+  Avg Loss:           1.06961
+  Avg Grad norm:      4.56632
+  Avg policy entropy: 0.38640
+Epoch (215/501) took 107.972 seconds.
+  Avg Loss:           1.06751
+  Avg Grad norm:      4.42404
+  Avg policy entropy: 0.38601
+Epoch (216/501) took 108.175 seconds.
+  Avg Loss:           1.06597
+  Avg Grad norm:      4.52529
+  Avg policy entropy: 0.38559
+Epoch (217/501) took 108.004 seconds.
+  Avg Loss:           1.06520
+  Avg Grad norm:      4.50584
+  Avg policy entropy: 0.38523
+Epoch (218/501) took 108.194 seconds.
+  Avg Loss:           1.06313
+  Avg Grad norm:      4.25938
+  Avg policy entropy: 0.38478
+Epoch (219/501) took 108.171 seconds.
+  Avg Loss:           1.06230
+  Avg Grad norm:      4.42722
+  Avg policy entropy: 0.38445
+Epoch (220/501) took 108.175 seconds.
+  Avg Loss:           1.06154
+  Avg Grad norm:      4.60659
+  Avg policy entropy: 0.38400
+Epoch 220
+Testing agent accuracy for 30 steps...
+Testing took 133.106 seconds.
+    True classification took: 105.514 seconds
+    True action classification: 0.582
+    In sample classification accuracy: 0.660
+    Out of sample classification accuracy: 0.590
+    Solved states:            229 / 1000 = 22.900%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0583
+    95 percentile entropy:    0.37456
+    Max entropy:              0.68706
+    Mean return:              -6.2580
+    Avg steps to disentangle: 29.387
+    Median steps to disent.:  30.0
+    
+Epoch (221/501) took 56.421 seconds.
+  Avg Loss:           1.05971
+  Avg Grad norm:      4.54489
+  Avg policy entropy: 0.38386
+Epoch (222/501) took 106.901 seconds.
+  Avg Loss:           1.05756
+  Avg Grad norm:      4.46929
+  Avg policy entropy: 0.38321
+Epoch (223/501) took 119.079 seconds.
+  Avg Loss:           1.05690
+  Avg Grad norm:      4.63337
+  Avg policy entropy: 0.38286
+Epoch (224/501) took 121.245 seconds.
+  Avg Loss:           1.05514
+  Avg Grad norm:      4.55578
+  Avg policy entropy: 0.38249
+Epoch (225/501) took 121.875 seconds.
+  Avg Loss:           1.05406
+  Avg Grad norm:      4.63631
+  Avg policy entropy: 0.38205
+Epoch (226/501) took 121.300 seconds.
+  Avg Loss:           1.05233
+  Avg Grad norm:      4.53783
+  Avg policy entropy: 0.38178
+Epoch (227/501) took 122.948 seconds.
+  Avg Loss:           1.05172
+  Avg Grad norm:      4.63776
+  Avg policy entropy: 0.38134
+Epoch (228/501) took 121.662 seconds.
+  Avg Loss:           1.04955
+  Avg Grad norm:      4.64888
+  Avg policy entropy: 0.38097
+Epoch (229/501) took 121.651 seconds.
+  Avg Loss:           1.04801
+  Avg Grad norm:      4.53199
+  Avg policy entropy: 0.38053
+Epoch (230/501) took 123.158 seconds.
+  Avg Loss:           1.04564
+  Avg Grad norm:      4.35893
+  Avg policy entropy: 0.38023
+Epoch 230
+Testing agent accuracy for 30 steps...
+Testing took 126.142 seconds.
+    True classification took: 96.057 seconds
+    True action classification: 0.528
+    In sample classification accuracy: 0.619
+    Out of sample classification accuracy: 0.585
+    Solved states:            245 / 1000 = 24.500%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0558
+    95 percentile entropy:    0.37384
+    Max entropy:              0.68586
+    Mean return:              -4.5780
+    Avg steps to disentangle: 29.323
+    Median steps to disent.:  30.0
+    
+Epoch (231/501) took 68.762 seconds.
+  Avg Loss:           1.04586
+  Avg Grad norm:      4.60135
+  Avg policy entropy: 0.37977
+Epoch (232/501) took 128.754 seconds.
+  Avg Loss:           1.04449
+  Avg Grad norm:      4.71248
+  Avg policy entropy: 0.37952
+Epoch (233/501) took 135.306 seconds.
+  Avg Loss:           1.04336
+  Avg Grad norm:      4.74045
+  Avg policy entropy: 0.37892
+Epoch (234/501) took 115.219 seconds.
+  Avg Loss:           1.04109
+  Avg Grad norm:      4.71288
+  Avg policy entropy: 0.37894
+Epoch (235/501) took 108.330 seconds.
+  Avg Loss:           1.04068
+  Avg Grad norm:      4.67717
+  Avg policy entropy: 0.37829
+Epoch (236/501) took 107.726 seconds.
+  Avg Loss:           1.03814
+  Avg Grad norm:      4.51980
+  Avg policy entropy: 0.37793
+Epoch (237/501) took 109.738 seconds.
+  Avg Loss:           1.03751
+  Avg Grad norm:      4.60258
+  Avg policy entropy: 0.37758
+Epoch (238/501) took 108.329 seconds.
+  Avg Loss:           1.03550
+  Avg Grad norm:      4.55189
+  Avg policy entropy: 0.37722
+Epoch (239/501) took 108.359 seconds.
+  Avg Loss:           1.03495
+  Avg Grad norm:      4.84077
+  Avg policy entropy: 0.37681
+Epoch (240/501) took 108.360 seconds.
+  Avg Loss:           1.03260
+  Avg Grad norm:      4.70012
+  Avg policy entropy: 0.37643
+Epoch 240
+Testing agent accuracy for 30 steps...
+Testing took 123.005 seconds.
+    True classification took: 95.086 seconds
+    True action classification: 0.570
+    In sample classification accuracy: 0.685
+    Out of sample classification accuracy: 0.587
+    Solved states:            207 / 1000 = 20.700%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0344
+    95 percentile entropy:    0.28214
+    Max entropy:              0.68939
+    Mean return:              -8.4670
+    Avg steps to disentangle: 29.374
+    Median steps to disent.:  30.0
+    
+Epoch (241/501) took 54.027 seconds.
+  Avg Loss:           1.03168
+  Avg Grad norm:      4.69292
+  Avg policy entropy: 0.37605
+Epoch (242/501) took 93.786 seconds.
+  Avg Loss:           1.03040
+  Avg Grad norm:      4.81247
+  Avg policy entropy: 0.37571
+Epoch (243/501) took 106.593 seconds.
+  Avg Loss:           1.02864
+  Avg Grad norm:      4.80354
+  Avg policy entropy: 0.37525
+Epoch (244/501) took 107.109 seconds.
+  Avg Loss:           1.02749
+  Avg Grad norm:      4.75308
+  Avg policy entropy: 0.37496
+Epoch (245/501) took 107.068 seconds.
+  Avg Loss:           1.02596
+  Avg Grad norm:      4.60803
+  Avg policy entropy: 0.37457
+Epoch (246/501) took 107.059 seconds.
+  Avg Loss:           1.02486
+  Avg Grad norm:      4.73187
+  Avg policy entropy: 0.37422
+Epoch (247/501) took 107.108 seconds.
+  Avg Loss:           1.02348
+  Avg Grad norm:      4.79365
+  Avg policy entropy: 0.37387
+Epoch (248/501) took 107.058 seconds.
+  Avg Loss:           1.02168
+  Avg Grad norm:      4.69976
+  Avg policy entropy: 0.37334
+Epoch (249/501) took 107.083 seconds.
+  Avg Loss:           1.02178
+  Avg Grad norm:      4.93588
+  Avg policy entropy: 0.37308
+Epoch (250/501) took 106.980 seconds.
+  Avg Loss:           1.01883
+  Avg Grad norm:      4.58897
+  Avg policy entropy: 0.37266
+Epoch 250
+Testing agent accuracy for 30 steps...
+Testing took 118.107 seconds.
+    True classification took: 88.137 seconds
+    True action classification: 0.539
+    In sample classification accuracy: 0.667
+    Out of sample classification accuracy: 0.585
+    Solved states:            181 / 1000 = 18.100%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0438
+    95 percentile entropy:    0.30756
+    Max entropy:              0.69038
+    Mean return:              -11.1950
+    Avg steps to disentangle: 29.476
+    Median steps to disent.:  30.0
+    
+Epoch (251/501) took 68.633 seconds.
+  Avg Loss:           1.01889
+  Avg Grad norm:      4.97220
+  Avg policy entropy: 0.37237
+Epoch (252/501) took 130.078 seconds.
+  Avg Loss:           1.01573
+  Avg Grad norm:      4.74389
+  Avg policy entropy: 0.37194
+Epoch (253/501) took 137.549 seconds.
+  Avg Loss:           1.01544
+  Avg Grad norm:      4.77343
+  Avg policy entropy: 0.37161
+Epoch (254/501) took 141.394 seconds.
+  Avg Loss:           1.01335
+  Avg Grad norm:      4.67904
+  Avg policy entropy: 0.37121
+Epoch (255/501) took 140.138 seconds.
+  Avg Loss:           1.01243
+  Avg Grad norm:      4.83807
+  Avg policy entropy: 0.37090
+Epoch (256/501) took 138.636 seconds.
+  Avg Loss:           1.01168
+  Avg Grad norm:      4.89576
+  Avg policy entropy: 0.37046
+Epoch (257/501) took 139.872 seconds.
+  Avg Loss:           1.00978
+  Avg Grad norm:      4.87252
+  Avg policy entropy: 0.37015
+Epoch (258/501) took 140.779 seconds.
+  Avg Loss:           1.00825
+  Avg Grad norm:      4.80594
+  Avg policy entropy: 0.36970
+Epoch (259/501) took 139.348 seconds.
+  Avg Loss:           1.00776
+  Avg Grad norm:      4.94429
+  Avg policy entropy: 0.36930
+Epoch (260/501) took 142.057 seconds.
+  Avg Loss:           1.00510
+  Avg Grad norm:      4.76343
+  Avg policy entropy: 0.36895
+Epoch 260
+Testing agent accuracy for 30 steps...
+Testing took 128.411 seconds.
+    True classification took: 98.557 seconds
+    True action classification: 0.588
+    In sample classification accuracy: 0.652
+    Out of sample classification accuracy: 0.578
+    Solved states:            214 / 1000 = 21.400%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0594
+    95 percentile entropy:    0.37944
+    Max entropy:              0.69148
+    Mean return:              -7.7210
+    Avg steps to disentangle: 29.335
+    Median steps to disent.:  30.0
+    
+Epoch (261/501) took 59.652 seconds.
+  Avg Loss:           1.00409
+  Avg Grad norm:      4.80587
+  Avg policy entropy: 0.36865
+Epoch (262/501) took 111.694 seconds.
+  Avg Loss:           1.00294
+  Avg Grad norm:      4.77620
+  Avg policy entropy: 0.36809
+Epoch (263/501) took 116.092 seconds.
+  Avg Loss:           1.00175
+  Avg Grad norm:      4.99935
+  Avg policy entropy: 0.36788
+Epoch (264/501) took 122.798 seconds.
+  Avg Loss:           1.00048
+  Avg Grad norm:      4.86147
+  Avg policy entropy: 0.36754
+Epoch (265/501) took 120.279 seconds.
+  Avg Loss:           0.99925
+  Avg Grad norm:      4.83212
+  Avg policy entropy: 0.36713
+Epoch (266/501) took 120.447 seconds.
+  Avg Loss:           0.99885
+  Avg Grad norm:      5.09976
+  Avg policy entropy: 0.36679
+Epoch (267/501) took 118.366 seconds.
+  Avg Loss:           0.99707
+  Avg Grad norm:      4.90195
+  Avg policy entropy: 0.36644
+Epoch (268/501) took 122.808 seconds.
+  Avg Loss:           0.99553
+  Avg Grad norm:      4.95626
+  Avg policy entropy: 0.36611
+Epoch (269/501) took 118.854 seconds.
+  Avg Loss:           0.99392
+  Avg Grad norm:      4.99714
+  Avg policy entropy: 0.36574
+Epoch (270/501) took 120.342 seconds.
+  Avg Loss:           0.99287
+  Avg Grad norm:      4.83260
+  Avg policy entropy: 0.36542
+Epoch 270
+Testing agent accuracy for 30 steps...
+Testing took 131.340 seconds.
+    True classification took: 100.683 seconds
+    True action classification: 0.519
+    In sample classification accuracy: 0.662
+    Out of sample classification accuracy: 0.585
+    Solved states:            258 / 1000 = 25.800%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0464
+    95 percentile entropy:    0.31526
+    Max entropy:              0.68487
+    Mean return:              -3.1890
+    Avg steps to disentangle: 29.247
+    Median steps to disent.:  30.0
+    
+Epoch (271/501) took 65.248 seconds.
+  Avg Loss:           0.99041
+  Avg Grad norm:      4.88902
+  Avg policy entropy: 0.36502
+Epoch (272/501) took 129.677 seconds.
+  Avg Loss:           0.99020
+  Avg Grad norm:      4.99956
+  Avg policy entropy: 0.36456
+Epoch (273/501) took 135.830 seconds.
+  Avg Loss:           0.98871
+  Avg Grad norm:      4.91567
+  Avg policy entropy: 0.36420
+Epoch (274/501) took 141.269 seconds.
+  Avg Loss:           0.98789
+  Avg Grad norm:      5.07276
+  Avg policy entropy: 0.36396
+Epoch (275/501) took 136.388 seconds.
+  Avg Loss:           0.98632
+  Avg Grad norm:      5.03348
+  Avg policy entropy: 0.36354
+Epoch (276/501) took 140.913 seconds.
+  Avg Loss:           0.98397
+  Avg Grad norm:      4.94406
+  Avg policy entropy: 0.36317
+Epoch (277/501) took 136.668 seconds.
+  Avg Loss:           0.98313
+  Avg Grad norm:      4.85279
+  Avg policy entropy: 0.36282
+Epoch (278/501) took 139.003 seconds.
+  Avg Loss:           0.98211
+  Avg Grad norm:      4.84524
+  Avg policy entropy: 0.36244
+Epoch (279/501) took 142.143 seconds.
+  Avg Loss:           0.98168
+  Avg Grad norm:      5.03910
+  Avg policy entropy: 0.36206
+Epoch (280/501) took 140.714 seconds.
+  Avg Loss:           0.97967
+  Avg Grad norm:      5.07764
+  Avg policy entropy: 0.36175
+Epoch 280
+Testing agent accuracy for 30 steps...
+Testing took 131.366 seconds.
+    True classification took: 100.992 seconds
+    True action classification: 0.553
+    In sample classification accuracy: 0.687
+    Out of sample classification accuracy: 0.585
+    Solved states:            237 / 1000 = 23.700%
+    Min entropy:              0.00003
+    Mean final entropy:       0.0590
+    95 percentile entropy:    0.40733
+    Max entropy:              0.69000
+    Mean return:              -5.3370
+    Avg steps to disentangle: 29.274
+    Median steps to disent.:  30.0
+    
+Epoch (281/501) took 59.651 seconds.
+  Avg Loss:           0.97774
+  Avg Grad norm:      4.95422
+  Avg policy entropy: 0.36134
+Epoch (282/501) took 110.429 seconds.
+  Avg Loss:           0.97719
+  Avg Grad norm:      5.10887
+  Avg policy entropy: 0.36106
+Epoch (283/501) took 122.039 seconds.
+  Avg Loss:           0.97547
+  Avg Grad norm:      5.07421
+  Avg policy entropy: 0.36064
+Epoch (284/501) took 123.637 seconds.
+  Avg Loss:           0.97509
+  Avg Grad norm:      5.18787
+  Avg policy entropy: 0.36037
+Epoch (285/501) took 122.898 seconds.
+  Avg Loss:           0.97418
+  Avg Grad norm:      5.24323
+  Avg policy entropy: 0.35995
+Epoch (286/501) took 124.522 seconds.
+  Avg Loss:           0.97160
+  Avg Grad norm:      5.03777
+  Avg policy entropy: 0.35969
+Epoch (287/501) took 123.276 seconds.
+  Avg Loss:           0.97074
+  Avg Grad norm:      5.14382
+  Avg policy entropy: 0.35919
+Epoch (288/501) took 124.321 seconds.
+  Avg Loss:           0.96909
+  Avg Grad norm:      5.03481
+  Avg policy entropy: 0.35893
+Epoch (289/501) took 122.327 seconds.
+  Avg Loss:           0.96767
+  Avg Grad norm:      5.13434
+  Avg policy entropy: 0.35860
+Epoch (290/501) took 124.416 seconds.
+  Avg Loss:           0.96713
+  Avg Grad norm:      5.21412
+  Avg policy entropy: 0.35820
+Epoch 290
+Testing agent accuracy for 30 steps...
+Testing took 126.461 seconds.
+    True classification took: 97.530 seconds
+    True action classification: 0.527
+    In sample classification accuracy: 0.691
+    Out of sample classification accuracy: 0.578
+    Solved states:            206 / 1000 = 20.600%
+    Min entropy:              0.00003
+    Mean final entropy:       0.0394
+    95 percentile entropy:    0.28906
+    Max entropy:              0.69067
+    Mean return:              -8.5820
+    Avg steps to disentangle: 29.388
+    Median steps to disent.:  30.0
+    
+Epoch (291/501) took 58.852 seconds.
+  Avg Loss:           0.96529
+  Avg Grad norm:      4.93144
+  Avg policy entropy: 0.35785
+Epoch (292/501) took 111.489 seconds.
+  Avg Loss:           0.96486
+  Avg Grad norm:      5.21146
+  Avg policy entropy: 0.35753
+Epoch (293/501) took 122.043 seconds.
+  Avg Loss:           0.96172
+  Avg Grad norm:      4.89768
+  Avg policy entropy: 0.35718
+Epoch (294/501) took 123.293 seconds.
+  Avg Loss:           0.96219
+  Avg Grad norm:      5.16861
+  Avg policy entropy: 0.35680
+Epoch (295/501) took 122.408 seconds.
+  Avg Loss:           0.96078
+  Avg Grad norm:      5.16914
+  Avg policy entropy: 0.35641
+Epoch (296/501) took 123.932 seconds.
+  Avg Loss:           0.95964
+  Avg Grad norm:      5.26287
+  Avg policy entropy: 0.35608
+Epoch (297/501) took 124.320 seconds.
+  Avg Loss:           0.95779
+  Avg Grad norm:      5.15227
+  Avg policy entropy: 0.35579
+Epoch (298/501) took 122.906 seconds.
+  Avg Loss:           0.95645
+  Avg Grad norm:      5.24742
+  Avg policy entropy: 0.35532
+Epoch (299/501) took 124.289 seconds.
+  Avg Loss:           0.95507
+  Avg Grad norm:      5.11044
+  Avg policy entropy: 0.35505
+Epoch (300/501) took 121.573 seconds.
+  Avg Loss:           0.95462
+  Avg Grad norm:      5.26861
+  Avg policy entropy: 0.35473
+Epoch 300
+Testing agent accuracy for 30 steps...
+Testing took 126.413 seconds.
+    True classification took: 96.385 seconds
+    True action classification: 0.526
+    In sample classification accuracy: 0.693
+    Out of sample classification accuracy: 0.583
+    Solved states:            227 / 1000 = 22.700%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0460
+    95 percentile entropy:    0.30572
+    Max entropy:              0.68695
+    Mean return:              -6.3770
+    Avg steps to disentangle: 29.304
+    Median steps to disent.:  30.0
+    
+Epoch (301/501) took 68.746 seconds.
+  Avg Loss:           0.95292
+  Avg Grad norm:      5.27643
+  Avg policy entropy: 0.35441
+Epoch (302/501) took 132.391 seconds.
+  Avg Loss:           0.95152
+  Avg Grad norm:      5.20353
+  Avg policy entropy: 0.35415
+Epoch (303/501) took 139.744 seconds.
+  Avg Loss:           0.95042
+  Avg Grad norm:      5.24326
+  Avg policy entropy: 0.35369
+Epoch (304/501) took 138.696 seconds.
+  Avg Loss:           0.94904
+  Avg Grad norm:      5.18144
+  Avg policy entropy: 0.35333
+Epoch (305/501) took 140.714 seconds.
+  Avg Loss:           0.94778
+  Avg Grad norm:      5.35353
+  Avg policy entropy: 0.35302
+Epoch (306/501) took 137.568 seconds.
+  Avg Loss:           0.94658
+  Avg Grad norm:      5.19754
+  Avg policy entropy: 0.35261
+Epoch (307/501) took 139.812 seconds.
+  Avg Loss:           0.94573
+  Avg Grad norm:      5.28522
+  Avg policy entropy: 0.35230
+Epoch (308/501) took 139.741 seconds.
+  Avg Loss:           0.94473
+  Avg Grad norm:      5.38046
+  Avg policy entropy: 0.35196
+Epoch (309/501) took 140.603 seconds.
+  Avg Loss:           0.94418
+  Avg Grad norm:      5.38057
+  Avg policy entropy: 0.35165
+Epoch (310/501) took 140.000 seconds.
+  Avg Loss:           0.94137
+  Avg Grad norm:      5.32111
+  Avg policy entropy: 0.35125
+Epoch 310
+Testing agent accuracy for 30 steps...
+Testing took 124.948 seconds.
+    True classification took: 94.600 seconds
+    True action classification: 0.507
+    In sample classification accuracy: 0.679
+    Out of sample classification accuracy: 0.581
+    Solved states:            243 / 1000 = 24.300%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0471
+    95 percentile entropy:    0.34617
+    Max entropy:              0.68871
+    Mean return:              -4.6790
+    Avg steps to disentangle: 29.222
+    Median steps to disent.:  30.0
+    
+Epoch (311/501) took 69.237 seconds.
+  Avg Loss:           0.94083
+  Avg Grad norm:      5.31342
+  Avg policy entropy: 0.35100
+Epoch (312/501) took 129.365 seconds.
+  Avg Loss:           0.93915
+  Avg Grad norm:      5.18476
+  Avg policy entropy: 0.35064
+Epoch (313/501) took 136.080 seconds.
+  Avg Loss:           0.93822
+  Avg Grad norm:      5.31460
+  Avg policy entropy: 0.35034
+Epoch (314/501) took 138.395 seconds.
+  Avg Loss:           0.93770
+  Avg Grad norm:      5.40309
+  Avg policy entropy: 0.34994
+Epoch (315/501) took 137.415 seconds.
+  Avg Loss:           0.93576
+  Avg Grad norm:      5.30352
+  Avg policy entropy: 0.34967
+Epoch (316/501) took 137.927 seconds.
+  Avg Loss:           0.93443
+  Avg Grad norm:      5.37016
+  Avg policy entropy: 0.34928
+Epoch (317/501) took 138.188 seconds.
+  Avg Loss:           0.93376
+  Avg Grad norm:      5.37524
+  Avg policy entropy: 0.34885
+Epoch (318/501) took 138.767 seconds.
+  Avg Loss:           0.93188
+  Avg Grad norm:      5.33192
+  Avg policy entropy: 0.34861
+Epoch (319/501) took 137.189 seconds.
+  Avg Loss:           0.93154
+  Avg Grad norm:      5.46740
+  Avg policy entropy: 0.34834
+Epoch (320/501) took 134.664 seconds.
+  Avg Loss:           0.92997
+  Avg Grad norm:      5.32970
+  Avg policy entropy: 0.34803
+Epoch 320
+Testing agent accuracy for 30 steps...
+Testing took 130.147 seconds.
+    True classification took: 101.446 seconds
+    True action classification: 0.550
+    In sample classification accuracy: 0.698
+    Out of sample classification accuracy: 0.579
+    Solved states:            250 / 1000 = 25.000%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0590
+    95 percentile entropy:    0.37793
+    Max entropy:              0.68694
+    Mean return:              -3.8660
+    Avg steps to disentangle: 29.217
+    Median steps to disent.:  30.0
+    
+Epoch (321/501) took 66.315 seconds.
+  Avg Loss:           0.92858
+  Avg Grad norm:      5.40663
+  Avg policy entropy: 0.34757
+Epoch (322/501) took 125.392 seconds.
+  Avg Loss:           0.92789
+  Avg Grad norm:      5.35137
+  Avg policy entropy: 0.34734
+Epoch (323/501) took 134.840 seconds.
+  Avg Loss:           0.92635
+  Avg Grad norm:      5.43705
+  Avg policy entropy: 0.34711
+Epoch (324/501) took 135.645 seconds.
+  Avg Loss:           0.92538
+  Avg Grad norm:      5.51391
+  Avg policy entropy: 0.34655
+Epoch (325/501) took 135.542 seconds.
+  Avg Loss:           0.92404
+  Avg Grad norm:      5.54679
+  Avg policy entropy: 0.34624
+Epoch (326/501) took 130.581 seconds.
+  Avg Loss:           0.92228
+  Avg Grad norm:      5.34398
+  Avg policy entropy: 0.34596
+Epoch (327/501) took 120.726 seconds.
+  Avg Loss:           0.92161
+  Avg Grad norm:      5.36386
+  Avg policy entropy: 0.34572
+Epoch (328/501) took 119.936 seconds.
+  Avg Loss:           0.92087
+  Avg Grad norm:      5.49985
+  Avg policy entropy: 0.34527
+Epoch (329/501) took 121.229 seconds.
+  Avg Loss:           0.91966
+  Avg Grad norm:      5.43589
+  Avg policy entropy: 0.34508
+Epoch (330/501) took 121.347 seconds.
+  Avg Loss:           0.91771
+  Avg Grad norm:      5.34870
+  Avg policy entropy: 0.34475
+Epoch 330
+Testing agent accuracy for 30 steps...
+Testing took 149.690 seconds.
+    True classification took: 112.782 seconds
+    True action classification: 0.497
+    In sample classification accuracy: 0.729
+    Out of sample classification accuracy: 0.578
+    Solved states:            232 / 1000 = 23.200%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0794
+    95 percentile entropy:    0.42853
+    Max entropy:              0.68946
+    Mean return:              -5.8940
+    Avg steps to disentangle: 29.326
+    Median steps to disent.:  30.0
+    
+Epoch (331/501) took 68.739 seconds.
+  Avg Loss:           0.91725
+  Avg Grad norm:      5.46242
+  Avg policy entropy: 0.34433
+Epoch (332/501) took 124.881 seconds.
+  Avg Loss:           0.91637
+  Avg Grad norm:      5.59464
+  Avg policy entropy: 0.34418
+Epoch (333/501) took 134.904 seconds.
+  Avg Loss:           0.91395
+  Avg Grad norm:      5.43112
+  Avg policy entropy: 0.34365
+Epoch (334/501) took 147.507 seconds.
+  Avg Loss:           0.91330
+  Avg Grad norm:      5.47068
+  Avg policy entropy: 0.34342
+Epoch (335/501) took 161.157 seconds.
+  Avg Loss:           0.91250
+  Avg Grad norm:      5.43168
+  Avg policy entropy: 0.34308
+Epoch (336/501) took 144.308 seconds.
+  Avg Loss:           0.91161
+  Avg Grad norm:      5.41130
+  Avg policy entropy: 0.34282
+Epoch (337/501) took 140.194 seconds.
+  Avg Loss:           0.91007
+  Avg Grad norm:      5.53965
+  Avg policy entropy: 0.34249
+Epoch (338/501) took 136.233 seconds.
+  Avg Loss:           0.90930
+  Avg Grad norm:      5.68000
+  Avg policy entropy: 0.34210
+Epoch (339/501) took 138.611 seconds.
+  Avg Loss:           0.90840
+  Avg Grad norm:      5.78342
+  Avg policy entropy: 0.34177
+Epoch (340/501) took 138.876 seconds.
+  Avg Loss:           0.90637
+  Avg Grad norm:      5.54556
+  Avg policy entropy: 0.34161
+Epoch 340
+Testing agent accuracy for 30 steps...
+Testing took 127.494 seconds.
+    True classification took: 96.867 seconds
+    True action classification: 0.556
+    In sample classification accuracy: 0.718
+    Out of sample classification accuracy: 0.576
+    Solved states:            270 / 1000 = 27.000%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0350
+    95 percentile entropy:    0.27530
+    Max entropy:              0.68707
+    Mean return:              -1.8320
+    Avg steps to disentangle: 29.102
+    Median steps to disent.:  30.0
+    
+Epoch (341/501) took 61.031 seconds.
+  Avg Loss:           0.90537
+  Avg Grad norm:      5.50266
+  Avg policy entropy: 0.34132
+Epoch (342/501) took 108.849 seconds.
+  Avg Loss:           0.90386
+  Avg Grad norm:      5.58121
+  Avg policy entropy: 0.34076
+Epoch (343/501) took 119.107 seconds.
+  Avg Loss:           0.90258
+  Avg Grad norm:      5.56675
+  Avg policy entropy: 0.34061
+Epoch (344/501) took 121.679 seconds.
+  Avg Loss:           0.90261
+  Avg Grad norm:      5.63198
+  Avg policy entropy: 0.34020
+Epoch (345/501) took 119.650 seconds.
+  Avg Loss:           0.90090
+  Avg Grad norm:      5.66810
+  Avg policy entropy: 0.33993
+Epoch (346/501) took 119.468 seconds.
+  Avg Loss:           0.89907
+  Avg Grad norm:      5.50904
+  Avg policy entropy: 0.33961
+Epoch (347/501) took 121.415 seconds.
+  Avg Loss:           0.89924
+  Avg Grad norm:      5.80512
+  Avg policy entropy: 0.33927
+Epoch (348/501) took 120.756 seconds.
+  Avg Loss:           0.89731
+  Avg Grad norm:      5.80463
+  Avg policy entropy: 0.33898
+Epoch (349/501) took 117.644 seconds.
+  Avg Loss:           0.89667
+  Avg Grad norm:      5.73191
+  Avg policy entropy: 0.33863
+Epoch (350/501) took 121.221 seconds.
+  Avg Loss:           0.89375
+  Avg Grad norm:      5.38922
+  Avg policy entropy: 0.33837
+Epoch 350
+Testing agent accuracy for 30 steps...
+Testing took 119.930 seconds.
+    True classification took: 91.967 seconds
+    True action classification: 0.514
+    In sample classification accuracy: 0.742
+    Out of sample classification accuracy: 0.577
+    Solved states:            231 / 1000 = 23.100%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0497
+    95 percentile entropy:    0.33888
+    Max entropy:              0.68572
+    Mean return:              -5.9100
+    Avg steps to disentangle: 29.241
+    Median steps to disent.:  30.0
+    
+Epoch (351/501) took 67.021 seconds.
+  Avg Loss:           0.89488
+  Avg Grad norm:      5.82725
+  Avg policy entropy: 0.33804
+Epoch (352/501) took 129.003 seconds.
+  Avg Loss:           0.89354
+  Avg Grad norm:      5.72390
+  Avg policy entropy: 0.33777
+Epoch (353/501) took 132.676 seconds.
+  Avg Loss:           0.89170
+  Avg Grad norm:      5.63673
+  Avg policy entropy: 0.33745
+Epoch (354/501) took 136.983 seconds.
+  Avg Loss:           0.89115
+  Avg Grad norm:      5.72130
+  Avg policy entropy: 0.33708
+Epoch (355/501) took 133.006 seconds.
+  Avg Loss:           0.88952
+  Avg Grad norm:      5.71716
+  Avg policy entropy: 0.33673
+Epoch (356/501) took 135.647 seconds.
+  Avg Loss:           0.88819
+  Avg Grad norm:      5.69001
+  Avg policy entropy: 0.33655
+Epoch (357/501) took 134.312 seconds.
+  Avg Loss:           0.88698
+  Avg Grad norm:      5.69918
+  Avg policy entropy: 0.33616
+Epoch (358/501) took 137.924 seconds.
+  Avg Loss:           0.88643
+  Avg Grad norm:      5.65878
+  Avg policy entropy: 0.33594
+Epoch (359/501) took 134.287 seconds.
+  Avg Loss:           0.88544
+  Avg Grad norm:      5.71215
+  Avg policy entropy: 0.33551
+Epoch (360/501) took 135.040 seconds.
+  Avg Loss:           0.88387
+  Avg Grad norm:      5.70804
+  Avg policy entropy: 0.33525
+Epoch 360
+Testing agent accuracy for 30 steps...
+Testing took 131.170 seconds.
+    True classification took: 102.615 seconds
+    True action classification: 0.574
+    In sample classification accuracy: 0.750
+    Out of sample classification accuracy: 0.577
+    Solved states:            175 / 1000 = 17.500%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0423
+    95 percentile entropy:    0.29487
+    Max entropy:              0.68663
+    Mean return:              -11.7960
+    Avg steps to disentangle: 29.471
+    Median steps to disent.:  30.0
+    
+Epoch (361/501) took 64.957 seconds.
+  Avg Loss:           0.88286
+  Avg Grad norm:      5.72581
+  Avg policy entropy: 0.33495
+Epoch (362/501) took 123.178 seconds.
+  Avg Loss:           0.88228
+  Avg Grad norm:      5.74595
+  Avg policy entropy: 0.33460
+Epoch (363/501) took 134.413 seconds.
+  Avg Loss:           0.88181
+  Avg Grad norm:      5.90379
+  Avg policy entropy: 0.33439
+Epoch (364/501) took 133.845 seconds.
+  Avg Loss:           0.88184
+  Avg Grad norm:      6.13664
+  Avg policy entropy: 0.33409
+Epoch (365/501) took 136.046 seconds.
+  Avg Loss:           0.87719
+  Avg Grad norm:      5.66046
+  Avg policy entropy: 0.33379
+Epoch (366/501) took 134.194 seconds.
+  Avg Loss:           0.87761
+  Avg Grad norm:      5.85565
+  Avg policy entropy: 0.33344
+Epoch (367/501) took 136.122 seconds.
+  Avg Loss:           0.87742
+  Avg Grad norm:      6.02929
+  Avg policy entropy: 0.33314
+Epoch (368/501) took 132.289 seconds.
+  Avg Loss:           0.87538
+  Avg Grad norm:      5.87363
+  Avg policy entropy: 0.33288
+Epoch (369/501) took 121.393 seconds.
+  Avg Loss:           0.87499
+  Avg Grad norm:      6.01037
+  Avg policy entropy: 0.33258
+Epoch (370/501) took 121.666 seconds.
+  Avg Loss:           0.87298
+  Avg Grad norm:      5.80733
+  Avg policy entropy: 0.33221
+Epoch 370
+Testing agent accuracy for 30 steps...
+Testing took 126.228 seconds.
+    True classification took: 96.809 seconds
+    True action classification: 0.526
+    In sample classification accuracy: 0.729
+    Out of sample classification accuracy: 0.573
+    Solved states:            278 / 1000 = 27.800%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0576
+    95 percentile entropy:    0.37136
+    Max entropy:              0.69188
+    Mean return:              -1.0530
+    Avg steps to disentangle: 29.131
+    Median steps to disent.:  30.0
+    
+Epoch (371/501) took 55.432 seconds.
+  Avg Loss:           0.87205
+  Avg Grad norm:      5.78594
+  Avg policy entropy: 0.33197
+Epoch (372/501) took 104.049 seconds.
+  Avg Loss:           0.87170
+  Avg Grad norm:      5.96437
+  Avg policy entropy: 0.33162
+Epoch (373/501) took 120.220 seconds.
+  Avg Loss:           0.87070
+  Avg Grad norm:      5.93484
+  Avg policy entropy: 0.33134
+Epoch (374/501) took 118.154 seconds.
+  Avg Loss:           0.86812
+  Avg Grad norm:      5.78863
+  Avg policy entropy: 0.33107
+Epoch (375/501) took 120.777 seconds.
+  Avg Loss:           0.86805
+  Avg Grad norm:      5.93303
+  Avg policy entropy: 0.33077
+Epoch (376/501) took 119.651 seconds.
+  Avg Loss:           0.86702
+  Avg Grad norm:      5.92548
+  Avg policy entropy: 0.33042
+Epoch (377/501) took 120.038 seconds.
+  Avg Loss:           0.86585
+  Avg Grad norm:      5.90838
+  Avg policy entropy: 0.33023
+Epoch (378/501) took 120.107 seconds.
+  Avg Loss:           0.86483
+  Avg Grad norm:      5.92931
+  Avg policy entropy: 0.32988
+Epoch (379/501) took 121.794 seconds.
+  Avg Loss:           0.86440
+  Avg Grad norm:      6.13060
+  Avg policy entropy: 0.32949
+Epoch (380/501) took 120.544 seconds.
+  Avg Loss:           0.86250
+  Avg Grad norm:      5.81873
+  Avg policy entropy: 0.32935
+Epoch 380
+Testing agent accuracy for 30 steps...
+Testing took 139.764 seconds.
+    True classification took: 109.405 seconds
+    True action classification: 0.633
+    In sample classification accuracy: 0.744
+    Out of sample classification accuracy: 0.574
+    Solved states:            211 / 1000 = 21.100%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0760
+    95 percentile entropy:    0.43189
+    Max entropy:              0.68995
+    Mean return:              -8.0750
+    Avg steps to disentangle: 29.386
+    Median steps to disent.:  30.0
+    
+Epoch (381/501) took 62.867 seconds.
+  Avg Loss:           0.86210
+  Avg Grad norm:      6.13719
+  Avg policy entropy: 0.32897
+Epoch (382/501) took 113.299 seconds.
+  Avg Loss:           0.86143
+  Avg Grad norm:      6.10807
+  Avg policy entropy: 0.32862
+Epoch (383/501) took 120.256 seconds.
+  Avg Loss:           0.85919
+  Avg Grad norm:      6.01855
+  Avg policy entropy: 0.32852
+Epoch (384/501) took 120.569 seconds.
+  Avg Loss:           0.85832
+  Avg Grad norm:      5.88124
+  Avg policy entropy: 0.32808
+Epoch (385/501) took 120.968 seconds.
+  Avg Loss:           0.85864
+  Avg Grad norm:      6.16973
+  Avg policy entropy: 0.32795
+Epoch (386/501) took 120.805 seconds.
+  Avg Loss:           0.85666
+  Avg Grad norm:      6.00480
+  Avg policy entropy: 0.32746
+Epoch (387/501) took 119.482 seconds.
+  Avg Loss:           0.85603
+  Avg Grad norm:      6.07635
+  Avg policy entropy: 0.32729
+Epoch (388/501) took 118.746 seconds.
+  Avg Loss:           0.85392
+  Avg Grad norm:      5.89804
+  Avg policy entropy: 0.32699
+Epoch (389/501) took 120.308 seconds.
+  Avg Loss:           0.85444
+  Avg Grad norm:      6.15702
+  Avg policy entropy: 0.32666
+Epoch (390/501) took 120.529 seconds.
+  Avg Loss:           0.85230
+  Avg Grad norm:      6.11034
+  Avg policy entropy: 0.32640
+Epoch 390
+Testing agent accuracy for 30 steps...
+Testing took 130.648 seconds.
+    True classification took: 102.370 seconds
+    True action classification: 0.571
+    In sample classification accuracy: 0.724
+    Out of sample classification accuracy: 0.569
+    Solved states:            273 / 1000 = 27.300%
+    Min entropy:              0.00000
+    Mean final entropy:       0.0610
+    95 percentile entropy:    0.41404
+    Max entropy:              0.68938
+    Mean return:              -1.6610
+    Avg steps to disentangle: 29.234
+    Median steps to disent.:  30.0
+    
+Epoch (391/501) took 53.884 seconds.
+  Avg Loss:           0.85176
+  Avg Grad norm:      6.17013
+  Avg policy entropy: 0.32612
+Epoch (392/501) took 89.326 seconds.
+  Avg Loss:           0.85003
+  Avg Grad norm:      5.93108
+  Avg policy entropy: 0.32579
+Epoch (393/501) took 105.602 seconds.
+  Avg Loss:           0.84988
+  Avg Grad norm:      6.20911
+  Avg policy entropy: 0.32556
+Epoch (394/501) took 106.000 seconds.
+  Avg Loss:           0.84778
+  Avg Grad norm:      6.08634
+  Avg policy entropy: 0.32522
+Epoch (395/501) took 106.062 seconds.
+  Avg Loss:           0.84837
+  Avg Grad norm:      6.28011
+  Avg policy entropy: 0.32503
+Epoch (396/501) took 105.988 seconds.
+  Avg Loss:           0.84714
+  Avg Grad norm:      6.27704
+  Avg policy entropy: 0.32469
+Epoch (397/501) took 106.161 seconds.
+  Avg Loss:           0.84562
+  Avg Grad norm:      6.20524
+  Avg policy entropy: 0.32443
+Epoch (398/501) took 109.375 seconds.
+  Avg Loss:           0.84364
+  Avg Grad norm:      6.15572
+  Avg policy entropy: 0.32415
+Epoch (399/501) took 117.314 seconds.
+  Avg Loss:           0.84451
+  Avg Grad norm:      6.35259
+  Avg policy entropy: 0.32392
+Epoch (400/501) took 119.202 seconds.
+  Avg Loss:           0.84335
+  Avg Grad norm:      6.28413
+  Avg policy entropy: 0.32364
+Epoch 400
+Testing agent accuracy for 30 steps...
+Testing took 140.301 seconds.
+    True classification took: 110.668 seconds
+    True action classification: 0.552
+    In sample classification accuracy: 0.751
+    Out of sample classification accuracy: 0.573
+    Solved states:            246 / 1000 = 24.600%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0510
+    95 percentile entropy:    0.38394
+    Max entropy:              0.68750
+    Mean return:              -4.3980
+    Avg steps to disentangle: 29.244
+    Median steps to disent.:  30.0
+    
+Epoch (401/501) took 59.350 seconds.
+  Avg Loss:           0.84068
+  Avg Grad norm:      6.04969
+  Avg policy entropy: 0.32326
+Epoch (402/501) took 121.710 seconds.
+  Avg Loss:           0.84104
+  Avg Grad norm:      6.31369
+  Avg policy entropy: 0.32300
+Epoch (403/501) took 135.274 seconds.
+  Avg Loss:           0.83919
+  Avg Grad norm:      6.13017
+  Avg policy entropy: 0.32276
+Epoch (404/501) took 136.144 seconds.
+  Avg Loss:           0.83877
+  Avg Grad norm:      6.30904
+  Avg policy entropy: 0.32252
+Epoch (405/501) took 126.975 seconds.
+  Avg Loss:           0.83728
+  Avg Grad norm:      6.26470
+  Avg policy entropy: 0.32218
+Epoch (406/501) took 118.789 seconds.
+  Avg Loss:           0.83688
+  Avg Grad norm:      6.28639
+  Avg policy entropy: 0.32201
+Epoch (407/501) took 117.469 seconds.
+  Avg Loss:           0.83518
+  Avg Grad norm:      6.19625
+  Avg policy entropy: 0.32161
+Epoch (408/501) took 118.567 seconds.
+  Avg Loss:           0.83570
+  Avg Grad norm:      6.36840
+  Avg policy entropy: 0.32137
+Epoch (409/501) took 120.267 seconds.
+  Avg Loss:           0.83289
+  Avg Grad norm:      6.15725
+  Avg policy entropy: 0.32107
+Epoch (410/501) took 117.074 seconds.
+  Avg Loss:           0.83304
+  Avg Grad norm:      6.26782
+  Avg policy entropy: 0.32088
+Epoch 410
+Testing agent accuracy for 30 steps...
+Testing took 130.743 seconds.
+    True classification took: 99.290 seconds
+    True action classification: 0.550
+    In sample classification accuracy: 0.717
+    Out of sample classification accuracy: 0.572
+    Solved states:            148 / 1000 = 14.800%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0457
+    95 percentile entropy:    0.30633
+    Max entropy:              0.69033
+    Mean return:              -14.5320
+    Avg steps to disentangle: 29.480
+    Median steps to disent.:  30.0
+    
+Epoch (411/501) took 65.694 seconds.
+  Avg Loss:           0.83262
+  Avg Grad norm:      6.28991
+  Avg policy entropy: 0.32046
+Epoch (412/501) took 126.193 seconds.
+  Avg Loss:           0.83081
+  Avg Grad norm:      6.29429
+  Avg policy entropy: 0.32031
+Epoch (413/501) took 138.829 seconds.
+  Avg Loss:           0.82958
+  Avg Grad norm:      6.38021
+  Avg policy entropy: 0.32000
+Epoch (414/501) took 138.475 seconds.
+  Avg Loss:           0.82861
+  Avg Grad norm:      6.30424
+  Avg policy entropy: 0.31979
+Epoch (415/501) took 138.852 seconds.
+  Avg Loss:           0.82747
+  Avg Grad norm:      6.24773
+  Avg policy entropy: 0.31952
+Epoch (416/501) took 139.700 seconds.
+  Avg Loss:           0.82886
+  Avg Grad norm:      6.47751
+  Avg policy entropy: 0.31923
+Epoch (417/501) took 139.229 seconds.
+  Avg Loss:           0.82620
+  Avg Grad norm:      6.37658
+  Avg policy entropy: 0.31906
+Epoch (418/501) took 141.091 seconds.
+  Avg Loss:           0.82404
+  Avg Grad norm:      6.15674
+  Avg policy entropy: 0.31870
+Epoch (419/501) took 139.285 seconds.
+  Avg Loss:           0.82444
+  Avg Grad norm:      6.35282
+  Avg policy entropy: 0.31847
+Epoch (420/501) took 138.978 seconds.
+  Avg Loss:           0.82525
+  Avg Grad norm:      6.57645
+  Avg policy entropy: 0.31807
+Epoch 420
+Testing agent accuracy for 30 steps...
+Testing took 128.703 seconds.
+    True classification took: 99.818 seconds
+    True action classification: 0.557
+    In sample classification accuracy: 0.763
+    Out of sample classification accuracy: 0.570
+    Solved states:            249 / 1000 = 24.900%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0592
+    95 percentile entropy:    0.38868
+    Max entropy:              0.69073
+    Mean return:              -4.0860
+    Avg steps to disentangle: 29.235
+    Median steps to disent.:  30.0
+    
+Epoch (421/501) took 67.874 seconds.
+  Avg Loss:           0.82122
+  Avg Grad norm:      6.34045
+  Avg policy entropy: 0.31789
+Epoch (422/501) took 129.226 seconds.
+  Avg Loss:           0.82168
+  Avg Grad norm:      6.47674
+  Avg policy entropy: 0.31761
+Epoch (423/501) took 136.947 seconds.
+  Avg Loss:           0.82005
+  Avg Grad norm:      6.37829
+  Avg policy entropy: 0.31733
+Epoch (424/501) took 139.306 seconds.
+  Avg Loss:           0.81900
+  Avg Grad norm:      6.31846
+  Avg policy entropy: 0.31709
+Epoch (425/501) took 138.688 seconds.
+  Avg Loss:           0.81968
+  Avg Grad norm:      6.57776
+  Avg policy entropy: 0.31675
+Epoch (426/501) took 139.187 seconds.
+  Avg Loss:           0.81844
+  Avg Grad norm:      6.65552
+  Avg policy entropy: 0.31661
+Epoch (427/501) took 135.787 seconds.
+  Avg Loss:           0.81553
+  Avg Grad norm:      6.31076
+  Avg policy entropy: 0.31622
+Epoch (428/501) took 123.418 seconds.
+  Avg Loss:           0.81468
+  Avg Grad norm:      6.27814
+  Avg policy entropy: 0.31598
+Epoch (429/501) took 119.924 seconds.
+  Avg Loss:           0.81550
+  Avg Grad norm:      6.48637
+  Avg policy entropy: 0.31580
+Epoch (430/501) took 121.572 seconds.
+  Avg Loss:           0.81461
+  Avg Grad norm:      6.63775
+  Avg policy entropy: 0.31560
+Epoch 430
+Testing agent accuracy for 30 steps...
+Testing took 123.503 seconds.
+    True classification took: 93.123 seconds
+    True action classification: 0.522
+    In sample classification accuracy: 0.759
+    Out of sample classification accuracy: 0.571
+    Solved states:            232 / 1000 = 23.200%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0543
+    95 percentile entropy:    0.37037
+    Max entropy:              0.68923
+    Mean return:              -5.8680
+    Avg steps to disentangle: 29.300
+    Median steps to disent.:  30.0
+    
+Epoch (431/501) took 54.171 seconds.
+  Avg Loss:           0.81433
+  Avg Grad norm:      6.63001
+  Avg policy entropy: 0.31521
+Epoch (432/501) took 93.003 seconds.
+  Avg Loss:           0.81139
+  Avg Grad norm:      6.43883
+  Avg policy entropy: 0.31506
+Epoch (433/501) took 109.311 seconds.
+  Avg Loss:           0.81166
+  Avg Grad norm:      6.52591
+  Avg policy entropy: 0.31467
+Epoch (434/501) took 110.528 seconds.
+  Avg Loss:           0.80983
+  Avg Grad norm:      6.50506
+  Avg policy entropy: 0.31446
+Epoch (435/501) took 107.042 seconds.
+  Avg Loss:           0.80988
+  Avg Grad norm:      6.62077
+  Avg policy entropy: 0.31423
+Epoch (436/501) took 108.747 seconds.
+  Avg Loss:           0.80786
+  Avg Grad norm:      6.50405
+  Avg policy entropy: 0.31396
+Epoch (437/501) took 107.901 seconds.
+  Avg Loss:           0.80774
+  Avg Grad norm:      6.50653
+  Avg policy entropy: 0.31362
+Epoch (438/501) took 108.164 seconds.
+  Avg Loss:           0.80631
+  Avg Grad norm:      6.52077
+  Avg policy entropy: 0.31346
+Epoch (439/501) took 109.443 seconds.
+  Avg Loss:           0.80647
+  Avg Grad norm:      6.67586
+  Avg policy entropy: 0.31316
+Epoch (440/501) took 109.378 seconds.
+  Avg Loss:           0.80580
+  Avg Grad norm:      6.64882
+  Avg policy entropy: 0.31302
+Epoch 440
+Testing agent accuracy for 30 steps...
+Testing took 132.836 seconds.
+    True classification took: 104.146 seconds
+    True action classification: 0.565
+    In sample classification accuracy: 0.762
+    Out of sample classification accuracy: 0.569
+    Solved states:            225 / 1000 = 22.500%
+    Min entropy:              0.00003
+    Mean final entropy:       0.0716
+    95 percentile entropy:    0.42501
+    Max entropy:              0.69002
+    Mean return:              -6.5760
+    Avg steps to disentangle: 29.301
+    Median steps to disent.:  30.0
+    
+Epoch (441/501) took 65.873 seconds.
+  Avg Loss:           0.80361
+  Avg Grad norm:      6.66092
+  Avg policy entropy: 0.31259
+Epoch (442/501) took 126.872 seconds.
+  Avg Loss:           0.80326
+  Avg Grad norm:      6.70853
+  Avg policy entropy: 0.31247
+Epoch (443/501) took 138.711 seconds.
+  Avg Loss:           0.80317
+  Avg Grad norm:      6.79398
+  Avg policy entropy: 0.31220
+Epoch (444/501) took 140.705 seconds.
+  Avg Loss:           0.80036
+  Avg Grad norm:      6.69403
+  Avg policy entropy: 0.31192
+Epoch (445/501) took 139.729 seconds.
+  Avg Loss:           0.80064
+  Avg Grad norm:      6.66577
+  Avg policy entropy: 0.31164
+Epoch (446/501) took 143.608 seconds.
+  Avg Loss:           0.79979
+  Avg Grad norm:      6.66347
+  Avg policy entropy: 0.31156
+Epoch (447/501) took 141.623 seconds.
+  Avg Loss:           0.79854
+  Avg Grad norm:      6.75966
+  Avg policy entropy: 0.31110
+Epoch (448/501) took 139.145 seconds.
+  Avg Loss:           0.79866
+  Avg Grad norm:      6.85973
+  Avg policy entropy: 0.31099
+Epoch (449/501) took 142.977 seconds.
+  Avg Loss:           0.79568
+  Avg Grad norm:      6.68123
+  Avg policy entropy: 0.31085
+Epoch (450/501) took 139.906 seconds.
+  Avg Loss:           0.79549
+  Avg Grad norm:      6.70302
+  Avg policy entropy: 0.31030
+Epoch 450
+Testing agent accuracy for 30 steps...
+Testing took 127.943 seconds.
+    True classification took: 96.712 seconds
+    True action classification: 0.507
+    In sample classification accuracy: 0.764
+    Out of sample classification accuracy: 0.568
+    Solved states:            175 / 1000 = 17.500%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0528
+    95 percentile entropy:    0.37184
+    Max entropy:              0.68914
+    Mean return:              -11.7570
+    Avg steps to disentangle: 29.432
+    Median steps to disent.:  30.0
+    
+Epoch (451/501) took 69.354 seconds.
+  Avg Loss:           0.79513
+  Avg Grad norm:      6.86565
+  Avg policy entropy: 0.31014
+Epoch (452/501) took 142.994 seconds.
+  Avg Loss:           0.79509
+  Avg Grad norm:      6.88222
+  Avg policy entropy: 0.30992
+Epoch (453/501) took 151.786 seconds.
+  Avg Loss:           0.79225
+  Avg Grad norm:      6.79943
+  Avg policy entropy: 0.30966
+Epoch (454/501) took 138.043 seconds.
+  Avg Loss:           0.79230
+  Avg Grad norm:      6.76802
+  Avg policy entropy: 0.30949
+Epoch (455/501) took 136.171 seconds.
+  Avg Loss:           0.79203
+  Avg Grad norm:      6.92204
+  Avg policy entropy: 0.30920
+Epoch (456/501) took 139.064 seconds.
+  Avg Loss:           0.79122
+  Avg Grad norm:      6.75962
+  Avg policy entropy: 0.30890
+Epoch (457/501) took 138.195 seconds.
+  Avg Loss:           0.79017
+  Avg Grad norm:      6.80613
+  Avg policy entropy: 0.30867
+Epoch (458/501) took 137.122 seconds.
+  Avg Loss:           0.78977
+  Avg Grad norm:      6.88734
+  Avg policy entropy: 0.30843
+Epoch (459/501) took 138.528 seconds.
+  Avg Loss:           0.78957
+  Avg Grad norm:      7.16447
+  Avg policy entropy: 0.30828
+Epoch (460/501) took 138.167 seconds.
+  Avg Loss:           0.78772
+  Avg Grad norm:      6.99294
+  Avg policy entropy: 0.30803
+Epoch 460
+Testing agent accuracy for 30 steps...
+Testing took 163.146 seconds.
+    True classification took: 132.582 seconds
+    True action classification: 0.667
+    In sample classification accuracy: 0.752
+    Out of sample classification accuracy: 0.565
+    Solved states:            236 / 1000 = 23.600%
+    Min entropy:              0.00003
+    Mean final entropy:       0.0676
+    95 percentile entropy:    0.41567
+    Max entropy:              0.69240
+    Mean return:              -5.3850
+    Avg steps to disentangle: 29.221
+    Median steps to disent.:  30.0
+    
+Epoch (461/501) took 56.196 seconds.
+  Avg Loss:           0.78558
+  Avg Grad norm:      6.69079
+  Avg policy entropy: 0.30788
+Epoch (462/501) took 119.699 seconds.
+  Avg Loss:           0.78645
+  Avg Grad norm:      7.02707
+  Avg policy entropy: 0.30759
+Epoch (463/501) took 135.539 seconds.
+  Avg Loss:           0.78536
+  Avg Grad norm:      6.95327
+  Avg policy entropy: 0.30736
+Epoch (464/501) took 137.661 seconds.
+  Avg Loss:           0.78460
+  Avg Grad norm:      6.98625
+  Avg policy entropy: 0.30719
+Epoch (465/501) took 136.026 seconds.
+  Avg Loss:           0.78311
+  Avg Grad norm:      6.90282
+  Avg policy entropy: 0.30691
+Epoch (466/501) took 139.252 seconds.
+  Avg Loss:           0.78340
+  Avg Grad norm:      7.07685
+  Avg policy entropy: 0.30672
+Epoch (467/501) took 134.702 seconds.
+  Avg Loss:           0.78162
+  Avg Grad norm:      6.95204
+  Avg policy entropy: 0.30638
+Epoch (468/501) took 140.752 seconds.
+  Avg Loss:           0.78061
+  Avg Grad norm:      6.80964
+  Avg policy entropy: 0.30617
+Epoch (469/501) took 137.535 seconds.
+  Avg Loss:           0.78001
+  Avg Grad norm:      6.97300
+  Avg policy entropy: 0.30575
+Epoch (470/501) took 136.446 seconds.
+  Avg Loss:           0.77966
+  Avg Grad norm:      7.01500
+  Avg policy entropy: 0.30578
+Epoch 470
+Testing agent accuracy for 30 steps...
+Testing took 144.898 seconds.
+    True classification took: 113.557 seconds
+    True action classification: 0.488
+    In sample classification accuracy: 0.754
+    Out of sample classification accuracy: 0.565
+    Solved states:            223 / 1000 = 22.300%
+    Min entropy:              0.00003
+    Mean final entropy:       0.0568
+    95 percentile entropy:    0.38324
+    Max entropy:              0.69286
+    Mean return:              -6.7070
+    Avg steps to disentangle: 29.331
+    Median steps to disent.:  30.0
+    
+Epoch (471/501) took 60.695 seconds.
+  Avg Loss:           0.77719
+  Avg Grad norm:      6.93333
+  Avg policy entropy: 0.30553
+Epoch (472/501) took 124.959 seconds.
+  Avg Loss:           0.77837
+  Avg Grad norm:      7.11842
+  Avg policy entropy: 0.30524
+Epoch (473/501) took 136.157 seconds.
+  Avg Loss:           0.77765
+  Avg Grad norm:      7.20778
+  Avg policy entropy: 0.30492
+Epoch (474/501) took 136.533 seconds.
+  Avg Loss:           0.77568
+  Avg Grad norm:      7.03523
+  Avg policy entropy: 0.30473
+Epoch (475/501) took 134.617 seconds.
+  Avg Loss:           0.77313
+  Avg Grad norm:      6.72055
+  Avg policy entropy: 0.30449
+Epoch (476/501) took 137.169 seconds.
+  Avg Loss:           0.77564
+  Avg Grad norm:      7.39038
+  Avg policy entropy: 0.30428
+Epoch (477/501) took 135.783 seconds.
+  Avg Loss:           0.77315
+  Avg Grad norm:      6.92167
+  Avg policy entropy: 0.30397
+Epoch (478/501) took 136.619 seconds.
+  Avg Loss:           0.77255
+  Avg Grad norm:      6.92148
+  Avg policy entropy: 0.30386
+Epoch (479/501) took 138.932 seconds.
+  Avg Loss:           0.77203
+  Avg Grad norm:      6.98313
+  Avg policy entropy: 0.30366
+Epoch (480/501) took 135.932 seconds.
+  Avg Loss:           0.77206
+  Avg Grad norm:      7.15434
+  Avg policy entropy: 0.30340
+Epoch 480
+Testing agent accuracy for 30 steps...
+Testing took 131.065 seconds.
+    True classification took: 100.804 seconds
+    True action classification: 0.522
+    In sample classification accuracy: 0.771
+    Out of sample classification accuracy: 0.566
+    Solved states:            254 / 1000 = 25.400%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0693
+    95 percentile entropy:    0.42720
+    Max entropy:              0.69077
+    Mean return:              -3.5350
+    Avg steps to disentangle: 29.189
+    Median steps to disent.:  30.0
+    
+Epoch (481/501) took 66.243 seconds.
+  Avg Loss:           0.77074
+  Avg Grad norm:      7.14374
+  Avg policy entropy: 0.30317
+Epoch (482/501) took 128.305 seconds.
+  Avg Loss:           0.76885
+  Avg Grad norm:      6.94858
+  Avg policy entropy: 0.30292
+Epoch (483/501) took 138.499 seconds.
+  Avg Loss:           0.76937
+  Avg Grad norm:      7.20503
+  Avg policy entropy: 0.30272
+Epoch (484/501) took 136.302 seconds.
+  Avg Loss:           0.76776
+  Avg Grad norm:      7.01058
+  Avg policy entropy: 0.30246
+Epoch (485/501) took 140.646 seconds.
+  Avg Loss:           0.76839
+  Avg Grad norm:      7.18715
+  Avg policy entropy: 0.30225
+Epoch (486/501) took 134.945 seconds.
+  Avg Loss:           0.76654
+  Avg Grad norm:      7.22831
+  Avg policy entropy: 0.30196
+Epoch (487/501) took 138.954 seconds.
+  Avg Loss:           0.76474
+  Avg Grad norm:      7.06637
+  Avg policy entropy: 0.30181
+Epoch (488/501) took 137.963 seconds.
+  Avg Loss:           0.76562
+  Avg Grad norm:      7.25375
+  Avg policy entropy: 0.30156
+Epoch (489/501) took 144.544 seconds.
+  Avg Loss:           0.76353
+  Avg Grad norm:      7.07692
+  Avg policy entropy: 0.30141
+Epoch (490/501) took 148.013 seconds.
+  Avg Loss:           0.76391
+  Avg Grad norm:      7.24066
+  Avg policy entropy: 0.30116
+Epoch 490
+Testing agent accuracy for 30 steps...
+Testing took 136.061 seconds.
+    True classification took: 106.886 seconds
+    True action classification: 0.498
+    In sample classification accuracy: 0.762
+    Out of sample classification accuracy: 0.565
+    Solved states:            217 / 1000 = 21.700%
+    Min entropy:              0.00001
+    Mean final entropy:       0.0886
+    95 percentile entropy:    0.45954
+    Max entropy:              0.69067
+    Mean return:              -7.4560
+    Avg steps to disentangle: 29.373
+    Median steps to disent.:  30.0
+    
+Epoch (491/501) took 55.825 seconds.
+  Avg Loss:           0.76301
+  Avg Grad norm:      7.21357
+  Avg policy entropy: 0.30092
+Epoch (492/501) took 103.704 seconds.
+  Avg Loss:           0.76182
+  Avg Grad norm:      7.11077
+  Avg policy entropy: 0.30070
+Epoch (493/501) took 115.698 seconds.
+  Avg Loss:           0.76266
+  Avg Grad norm:      7.42973
+  Avg policy entropy: 0.30042
+Epoch (494/501) took 115.786 seconds.
+  Avg Loss:           0.76013
+  Avg Grad norm:      7.28795
+  Avg policy entropy: 0.30045
+Epoch (495/501) took 115.820 seconds.
+  Avg Loss:           0.75939
+  Avg Grad norm:      7.20263
+  Avg policy entropy: 0.30002
+Epoch (496/501) took 114.647 seconds.
+  Avg Loss:           0.75922
+  Avg Grad norm:      7.24024
+  Avg policy entropy: 0.29984
+Epoch (497/501) took 113.881 seconds.
+  Avg Loss:           0.75808
+  Avg Grad norm:      7.30762
+  Avg policy entropy: 0.29967
+Epoch (498/501) took 114.879 seconds.
+  Avg Loss:           0.75765
+  Avg Grad norm:      7.26399
+  Avg policy entropy: 0.29949
+Epoch (499/501) took 115.518 seconds.
+  Avg Loss:           0.75643
+  Avg Grad norm:      7.21938
+  Avg policy entropy: 0.29909
+Epoch (500/501) took 119.139 seconds.
+  Avg Loss:           0.75522
+  Avg Grad norm:      7.20183
+  Avg policy entropy: 0.29902
+Epoch 500
+Testing agent accuracy for 30 steps...
+Testing took 144.357 seconds.
+    True classification took: 115.030 seconds
+    True action classification: 0.503
+    In sample classification accuracy: 0.754
+    Out of sample classification accuracy: 0.563
+    Solved states:            289 / 1000 = 28.900%
+    Min entropy:              0.00002
+    Mean final entropy:       0.0816
+    95 percentile entropy:    0.44241
+    Max entropy:              0.69204
+    Mean return:              0.0320
+    Avg steps to disentangle: 29.157
+    Median steps to disent.:  30.0
+    
+Training took 69078.991 seconds.
