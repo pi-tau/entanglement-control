@@ -33,13 +33,15 @@ takes around 19 hours on a TeslaT4 GPU.
 
 ## How to read the code
 The code in the repository has to the following structure:
-  |- scripts
-  |--- ...      // scripts for running different simulations
-  |- src
-  |--- agents   // implementations of different RL agents
-  |--- envs     // implementation of a quantum simulator
-  |--- infrastructure // logging and utilities
-  |--- policies // implementations of policies using deep learning
+```bash
+  |--- scripts
+  |   |--- ...      # scripts for running different simulations
+  |--- src
+  |   |--- agents   # implementations of different RL agents
+  |   |--- envs     # implementation of a quantum simulator
+  |   |--- infrastructure # logging and utilities
+  |   |--- policies # implementations of policies using deep learning
+```
 
 
 The following agents for controlling entanglement are implemented:
